@@ -1,0 +1,13 @@
+OE layer for all stuff either temporary or without chance of being mainlined
+
+This layer depends on:
+
+URI: git://git.openembedded.org/openembedded-core
+branch: master
+revision: HEAD
+
+URI: git://github.com/openembedded/meta-oe.git
+branch: master
+revision: HEAD
+
+Layer maintainer: Andreas Müller <schnitzeltony@gmx.de>
