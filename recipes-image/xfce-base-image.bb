@@ -16,7 +16,7 @@ IMAGE_INSTALL += " \
     dconf \
     \
     consolekit \
-    upower udisks \
+    upower udisks-systemd \
     \
     gtk-xfce-engine \
     \
