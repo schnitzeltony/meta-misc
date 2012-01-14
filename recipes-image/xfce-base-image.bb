@@ -32,6 +32,8 @@ IMAGE_INSTALL += " \
     ntp-systemd \
 "
 
+#    firefox 
+
 #    clutter-1.8
 #    slim
 #    orage

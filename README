@@ -10,4 +10,8 @@ URI: git://github.com/openembedded/meta-oe.git
 branch: master
 revision: HEAD
 
+URI: git://github.com/OSSystems/meta-mozilla.git
+branch: master
+revision: HEAD
+
 Layer maintainer: Andreas Müller <schnitzeltony@gmx.de>
