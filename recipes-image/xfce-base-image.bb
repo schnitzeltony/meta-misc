@@ -23,8 +23,10 @@ IMAGE_INSTALL += " \
     midori \
     epdfview \
     evince \
+    firefox \
     gedit \
     gnome-bluetooth \
+    gnome-disk-utility \
     florence \
     \
     strace \
@@ -32,7 +34,6 @@ IMAGE_INSTALL += " \
     ntp-systemd \
 "
 
-#    firefox 
 
 #    clutter-1.8
 #    slim
