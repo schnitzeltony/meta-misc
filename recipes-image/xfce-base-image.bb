@@ -24,6 +24,7 @@ IMAGE_INSTALL += " \
     epdfview \
     evince \
     firefox \
+    gimp \
     gedit \
     gnome-bluetooth \
     gnome-disk-utility \
