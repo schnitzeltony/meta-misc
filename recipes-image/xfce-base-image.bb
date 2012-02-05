@@ -29,6 +29,7 @@ IMAGE_INSTALL += " \
     gnome-bluetooth \
     gnome-disk-utility \
     florence \
+    xarchiver \
     \
     strace \
     \
