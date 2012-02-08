@@ -4,6 +4,9 @@ CONMANPKGS = "networkmanager network-manager-applet"
 
 export IMAGE_BASENAME = "xfce-base-image"
 
+# to be removed again later?
+IMAGE_FEATURES += "package-management"
+
 IMAGE_INSTALL += " \
     task-gnome-xserver-base \
     task-xserver \
