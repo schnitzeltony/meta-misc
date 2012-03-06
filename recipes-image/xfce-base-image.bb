@@ -37,6 +37,8 @@ IMAGE_INSTALL += " \
     strace \
     \
     ntp-systemd \
+    dhcp-relay-systemd \
+    gateone \
 "
 
 
