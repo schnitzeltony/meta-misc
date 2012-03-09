@@ -39,6 +39,7 @@ IMAGE_INSTALL += " \
     ntp-systemd \
     dhcp-relay-systemd \
     gateone \
+    cherokee \
 "
 
 
