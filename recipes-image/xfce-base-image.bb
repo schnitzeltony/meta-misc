@@ -37,12 +37,12 @@ IMAGE_INSTALL += " \
     strace \
     \
     ntp-systemd \
-    dhcp-relay-systemd \
     gateone \
     cherokee \
 "
 
 
+#    dhcp-relay-systemd
 #    clutter-1.8
 #    slim
 #    orage
