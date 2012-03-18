@@ -1,0 +1,85 @@
+TopPrio:
+
+* mpc
+
+* systemd: *-systemd in tasks
+
+* udev 175 -> 180 WLAN error
+	1. Test on 175: (xfce4-power-manager) keep log
+	2. 180 keep log
+
+
+* xfce-panel: static libs
+
+
+* task-ti-drivers / omap3-sgx-modules
+
+* u-boot: 
+  fix overo revision 1 -> mainline
+  MMC patch
+
+* xfce4-icon-theme patch?
+
+* networkmanager fix: libnl-3 / wpa-supplicant / iw -> oe-core
+
+* gvfs: crash gvfsd-smb-browse on first thunar start
+
+* overo kernel (V3.2) sakoman:
+kobject (c05a3910): tried to init an initialized object, something is seriously wrong.
+
+* xfcfonf: panel error on 4.8.1
+
+* xfwm4 error on first start ( remove /home/root/.config )
+	S98configure[285]: //var/lib/opkg/info/xfwm4.postinst: line 2: update-alternatives: command not found
+
+* squeeze (xfce): needs thunar-vfs!! (git?)
+
+* linguas
+
+
+
+
+LowPrio
+
+TODO XFCE image:
+
+* https://launchpad.net/bamf/0.2/0.2.42
+
+* xfce4-xfapplet-plugin ?
+
+* xfce4-taskmanager
+
+* xfce-panel-plugins libxfce4ui port -> mainline 
+	cpufreq		https://bugzilla.xfce.org/show_bug.cgi?id=8051
+	cpugraph	https://bugzilla.xfce.org/show_bug.cgi?id=8052 ( OK -> mainline git )
+	datetime	https://bugzilla.xfce.org/show_bug.cgi?id=8064
+        eyes		https://bugzilla.xfce.org/show_bug.cgi?id=8074
+        weather		https://bugzilla.xfce.org/show_bug.cgi?id=7956 (foreign)
+	diskperf	https://bugzilla.xfce.org/show_bug.cgi?id=8099
+	genmon		https://bugzilla.xfce.org/show_bug.cgi?id=8406 ( OK -> mainline git )
+
+
+* xfdesktop: mainline patch wait for acceptance https://bugzilla.xfce.org/show_bug.cgi?id=7977
+
+* orage fix crash
+
+* tumbler: split packages
+
+
+
+TODO others:
+
+* libgles: PROVIDES virtual/libgl ?
+
+* evince: additional doctype support
+# configure option  ->    current configure result
+#-------------------------------------------------
+# --enable-ps       ->    PostScript Backend.:  no
+# --enable-djvu     ->    DJVU Backend.......:  no
+# --enable-impress  ->    Impress Backend....:  no
+
+* chromium / V8
+
+* gobject-introspection
+
+* mame
