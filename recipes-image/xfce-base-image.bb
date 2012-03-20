@@ -7,6 +7,8 @@ export IMAGE_BASENAME = "xfce-base-image"
 # to be removed again later?
 IMAGE_FEATURES += "package-management"
 
+IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
+
 IMAGE_INSTALL += " \
     task-gnome-xserver-base \
     task-xserver \
