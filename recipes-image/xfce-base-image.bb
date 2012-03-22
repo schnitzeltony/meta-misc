@@ -48,6 +48,3 @@ IMAGE_INSTALL += " \
 #    clutter-1.8
 #    slim
 #    orage
-
-inherit image
-
