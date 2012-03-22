@@ -1,6 +1,6 @@
 TopPrio:
 
-* mpc
+* mpc / http://ftp.de.debian.org/debian/pool/main/m/mpd/
 
 * systemd: *-systemd in tasks
 
@@ -16,7 +16,6 @@ TopPrio:
 
 * u-boot: 
   fix overo revision 1 -> mainline
-  MMC patch
 
 * xfce4-icon-theme patch?
 
