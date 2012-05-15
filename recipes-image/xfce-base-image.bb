@@ -20,7 +20,6 @@ IMAGE_INSTALL += " \
     gvfsd-ftp gvfsd-sftp gvfsd-trash \
     dconf \
     \
-    consolekit \
     upower udisks-systemd \
     \
     gtk-xfce-engine \
@@ -40,10 +39,13 @@ IMAGE_INSTALL += " \
     \
     ntp-systemd \
     gateone \
-    cherokee \
+    cherokee-systemd \
+    \
+    libgles-omap3-x11demos \
 "
 
 
+#    chromium
 #    dhcp-relay-systemd
 #    clutter-1.8
 #    slim
