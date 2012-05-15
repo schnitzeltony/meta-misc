@@ -54,7 +54,7 @@ TODO XFCE image:
 	datetime	https://bugzilla.xfce.org/show_bug.cgi?id=8064
         eyes		https://bugzilla.xfce.org/show_bug.cgi?id=8074
         weather		https://bugzilla.xfce.org/show_bug.cgi?id=7956 (foreign)
-	diskperf	https://bugzilla.xfce.org/show_bug.cgi?id=8099
+	diskperf	https://bugzilla.xfce.org/show_bug.cgi?id=8099 ( OK )
 	genmon		https://bugzilla.xfce.org/show_bug.cgi?id=8406 ( OK -> mainline git )
 
 
