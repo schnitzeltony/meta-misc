@@ -1,5 +1,12 @@
 TopPrio:
 
+* kernel: 1. kernel-mainline
+          2. failed to mount /sys/kernel/security: No such file or directory
+          3. libertas/udev > 178
+* networkmanager: Unit dbus-org.freedesktop.NetworkManager.service failed to load: No such file or directory
+* xfce-logoff: No shutdown (dbus?)
+
+
 * mpc / http://ftp.de.debian.org/debian/pool/main/m/mpd/
 
 * systemd: *-systemd in tasks
@@ -56,7 +63,6 @@ TODO XFCE image:
         weather		https://bugzilla.xfce.org/show_bug.cgi?id=7956 (foreign)
 	diskperf	https://bugzilla.xfce.org/show_bug.cgi?id=8099 ( OK )
 	genmon		https://bugzilla.xfce.org/show_bug.cgi?id=8406 ( OK -> mainline git )
-
 
 * xfdesktop: mainline patch wait for acceptance https://bugzilla.xfce.org/show_bug.cgi?id=7977
 
