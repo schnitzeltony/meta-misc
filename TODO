@@ -28,6 +28,8 @@ TopPrio:
 
 * linguas
 
+* kernel: PARALLEL_MAKEINST is ignored see oe-core kernel.bbclass & meta-ti linux.inc
+
 
 
 
