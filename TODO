@@ -5,8 +5,8 @@ TopPrio:
 		3. logoff-dlg: No shutdown (dbus?)
 		4. recipes-panel-plugins/datetime/ patches upstream
 		
-* networkmanager: Unit dbus-org.freedesktop.NetworkManager.service failed to load: No such file or directory
 
+* Networkmanager broken
 
 * mpc / http://ftp.de.debian.org/debian/pool/main/m/mpd/
 
