@@ -8,13 +8,36 @@ TopPrio:
 
 * Networkmanager broken
 	1. missing link in /etc/systemd/system/dbus-org.freedesktop.Networkmanager.service?
-
+		ln -s '/lib/systemd/system/NetworkManager.service' '/etc/systemd/system/dbus-org.freedesktop.NetworkManager.service'
+		ln -s '/lib/systemd/system/NetworkManager.service' '/etc/systemd/system/multi-user.target.wants/NetworkManager.service'
 * xfce-4.10: 	
 	1. No Background / no icons
 	2. xfce4-notifyd: gold linker problem
 	3. logoff-dlg: No shutdown (dbus?)
 	4. recipes-panel-plugins/datetime/ patches upstream
-		
+
+* systemd:
+	systemdctl-native:
+		- echo for debug
+		-
+	# create the required symbolic 'Alias' links
+	alias=$(grep Alias $ROOT/$service_file \
+		        | sed 's,Alias=,,g' \
+		        | tr ',' '\n' \
+		        | grep '\.service$')
+
+	for r in $alias; do
+		if [ "$action" = "enable" ]; then
+			mkdir -p $ROOT/etc/systemd/system
+			ln -s $service_file $ROOT/etc/systemd/$r
+			echo "Enabled $service for $alias."
+		else
+			rm -f $ROOT/etc/systemd/system/$r
+			echo "Disabled $service for $alias."
+		fi
+	done
+		- reverted patch
+		- meta-systemd
 
 	
 
