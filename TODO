@@ -1,12 +1,22 @@
 TopPrio:
 
-* xfce-4.10: 	1. No Background / no icons
-		2. xfce4-notifyd: gold linker problem
-		3. logoff-dlg: No shutdown (dbus?)
-		4. recipes-panel-plugins/datetime/ patches upstream
-		
+* kernel:
+	1. libertas 
+	2. error regulator
+	3. dsp
+	4. reduce modules
 
 * Networkmanager broken
+	1. missing link in /etc/systemd/system/dbus-org.freedesktop.Networkmanager.service?
+
+* xfce-4.10: 	
+	1. No Background / no icons
+	2. xfce4-notifyd: gold linker problem
+	3. logoff-dlg: No shutdown (dbus?)
+	4. recipes-panel-plugins/datetime/ patches upstream
+		
+
+	
 
 * mpc / http://ftp.de.debian.org/debian/pool/main/m/mpd/
 
@@ -25,8 +35,6 @@ TopPrio:
 	S98configure[285]: //var/lib/opkg/info/xfwm4.postinst: line 2: update-alternatives: command not found
 
 * squeeze (xfce): needs thunar-vfs!! (git?)
-
-* linguas
 
 * kernel: PARALLEL_MAKEINST is ignored see oe-core kernel.bbclass & meta-ti linux.inc
 
