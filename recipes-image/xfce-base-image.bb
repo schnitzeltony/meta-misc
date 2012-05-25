@@ -1,11 +1,6 @@
-require recipes-images/angstrom/systemd-image.bb
-
-CONMANPKGS = "networkmanager network-manager-applet"
+require console-base-image-nm.bb
 
 export IMAGE_BASENAME = "xfce-base-image"
-
-# to be removed again later?
-IMAGE_FEATURES += "package-management"
 
 IMAGE_INSTALL += " \
     task-gnome-xserver-base \
