@@ -1,13 +1,6 @@
-require recipes-images/angstrom/systemd-image.bb
-
-CONMANPKGS = "networkmanager network-manager-applet"
+require console-base-image-nm.bb
 
 export IMAGE_BASENAME = "xfce-base-image"
-
-# to be removed again later?
-IMAGE_FEATURES += "package-management"
-
-IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
 
 IMAGE_INSTALL += " \
     task-gnome-xserver-base \
@@ -23,30 +16,4 @@ IMAGE_INSTALL += " \
     upower udisks-systemd \
     \
     gtk-xfce-engine \
-    \
-    midori \
-    epdfview \
-    evince \
-    firefox \
-    gimp \
-    gedit \
-    gnome-bluetooth \
-    gnome-disk-utility \
-    florence \
-    xarchiver \
-    \
-    strace \
-    \
-    ntp-systemd \
-    gateone \
-    cherokee-systemd \
-    \
-    libgles-omap3-x11demos \
 "
-
-
-#    chromium
-#    dhcp-relay-systemd
-#    clutter-1.8
-#    slim
-#    orage
