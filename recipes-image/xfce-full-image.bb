@@ -1,6 +1,6 @@
 require xfce-base-image.bb
 
-export IMAGE_BASENAME = "xfce-fill-image"
+export IMAGE_BASENAME = "xfce-full-image"
 
 IMAGE_INSTALL += " \
     midori \
