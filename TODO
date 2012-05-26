@@ -3,10 +3,6 @@ TopPrio:
 * kernel:
 	1. error regulator (new OVERO?)
 
-* Networkmanager broken
-	1. missing link in /etc/systemd/system/dbus-org.freedesktop.Networkmanager.service?
-		ln -s '/lib/systemd/system/NetworkManager.service' '/etc/systemd/system/dbus-org.freedesktop.NetworkManager.service'
-		ln -s '/lib/systemd/system/NetworkManager.service' '/etc/systemd/system/multi-user.target.wants/NetworkManager.service'
 * xfce-4.10: 	
 	1. No Background / no icons
 	2. xfce4-notifyd: gold linker problem
@@ -14,9 +10,7 @@ TopPrio:
 	4. recipes-panel-plugins/datetime/ patches upstream
 
 * systemd:
-	systemdctl-native:
-		- echo for debug
-		-
+	1. alias links
 	# create the required symbolic 'Alias' links
 	alias=$(grep Alias $ROOT/$service_file \
 		        | sed 's,Alias=,,g' \
@@ -35,12 +29,13 @@ TopPrio:
 	done
 		- reverted patch
 		- meta-systemd
-
-	
+	--see
+		ln -s '/lib/systemd/system/NetworkManager.service' '/etc/systemd/system/dbus-org.freedesktop.NetworkManager.service'
+		OK ln -s '/lib/systemd/system/NetworkManager.service' '/etc/systemd/system/multi-user.target.wants/NetworkManager.service'
+	2. meta-system
 
 * mpc / http://ftp.de.debian.org/debian/pool/main/m/mpd/
 
-* systemd: *-systemd in tasks
 
 * xfce-panel: static libs
 
