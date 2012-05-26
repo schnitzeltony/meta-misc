@@ -1,10 +1,7 @@
 TopPrio:
 
 * kernel:
-	1. libertas 
-	2. error regulator
-	3. dsp
-	4. reduce modules
+	1. error regulator (new OVERO?)
 
 * Networkmanager broken
 	1. missing link in /etc/systemd/system/dbus-org.freedesktop.Networkmanager.service?
