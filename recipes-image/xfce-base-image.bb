@@ -2,6 +2,8 @@ require console-base-image-nm.bb
 
 export IMAGE_BASENAME = "xfce-base-image"
 
+IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
+
 IMAGE_INSTALL += " \
     task-gnome-xserver-base \
     task-xserver \
