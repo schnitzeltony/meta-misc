@@ -16,6 +16,4 @@ IMAGE_INSTALL += " \
     dconf \
     \
     upower udisks-systemd \
-    \
-    gtk-xfce-engine \
 "
