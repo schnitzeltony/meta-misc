@@ -8,6 +8,8 @@ TopPrio:
 	* OTG USB (temporary solution)
 	* TWL4030 Watchdog?
 
+libjpeg-turbo
+
 * xfce-4.8:
 OK	xfce4-xkb-plugin 0.5.4.3 inital add
 OK	xfce4-wavelan-plugin: initial add 0.5.10
