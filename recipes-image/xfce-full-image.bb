@@ -17,13 +17,13 @@ IMAGE_INSTALL += " \
     strace \
     \
     ntp-systemd \
-    gateone \
     cherokee-systemd \
     \
     libgles-omap3-x11demos \
 "
 
 
+#    gateone
 #    chromium
 #    dhcp-relay-systemd
 #    clutter-1.8
