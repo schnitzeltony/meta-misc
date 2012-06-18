@@ -1,10 +1,13 @@
-DESCRIPTION = "xdg-user-dirs is a tool to help manage user directories like the desktop folder and the music folder"
+DESCRIPTION = "LXDM is the lightweight display manager"
+HOMEPAGE = "http://wiki.lxde.org/en/LXDM"
 LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://COPYING;md5=d32239bcb673463ab874e80d47fae504"
 SRC_URI = " \
 	${SOURCEFORGE_MIRROR}/lxde/${PN}-${PV}.tar.gz \
 	file://lxdm.service.in \
 "
+
+DEPENDS = "virtual/libx11 glib-2.0 gtk+ consolekit libpam"
 
 inherit autotools gettext systemd
 
