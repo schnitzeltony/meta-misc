@@ -7,14 +7,15 @@ SRC_URI = " \
 	file://0001-data-Makefile.am-fix-typo-to-make-lxdm.conf-target-v.patch \
 	file://lxdm.service.in \
 "
+
 SRCREV = "7de2bf06f9c777d299e70e84ffd92d2e5f39d810"
 PV = "0.4.2+git${SRCPV}"
-
-S = "${WORKDIR}/git"
 
 DEPENDS = "virtual/libx11 glib-2.0 gtk+ consolekit libpam"
 
 inherit autotools gettext systemd
+
+S = "${WORKDIR}/git"
 
 do_compile_append() {
 	sed -i -e 's,bg=,# bg=,g' ${S}/data/lxdm.conf.in
@@ -30,6 +31,3 @@ do_install_append() {
 
 SYSTEMD_PACKAGES = "${PN}-systemd"
 SYSTEMD_SERVICE = "lxdm.service"
-
-SRC_URI[md5sum] = "8da1cfc2be6dc9217c85a7cf51e1e821"
-SRC_URI[sha256sum] = "9e0d0a5672fcf31a18de8178ce73eab1723d6ae7097dfe41e9fe2c46e180cf08"
