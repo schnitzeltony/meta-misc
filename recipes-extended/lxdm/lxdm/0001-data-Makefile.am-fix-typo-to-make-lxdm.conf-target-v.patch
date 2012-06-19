@@ -1,0 +1,29 @@
+From 8318a5d1012c1cec87f71ee1d1576c2dffa81ee8 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Andreas=20M=C3=BCller?= <schnitzeltony@googlemail.com>
+Date: Tue, 19 Jun 2012 11:04:53 +0200
+Subject: [PATCH] data/Makefile.am: fix typo to make lxdm.conf target valid
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Upstream-Status: TBD
+
+Signed-off-by: Andreas Müller <schnitzeltony@googlemail.com>
+---
+ data/Makefile.am |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/data/Makefile.am b/data/Makefile.am
+index 6d3fad6..9500da9 100644
+--- a/data/Makefile.am
++++ b/data/Makefile.am
+@@ -1,6 +1,6 @@
+ FULL_LIBEXECDIR=$(libexecdir)
+ 
+-lxdm.conf : lxdm.conf.in
++lxdm.conf: lxdm.conf.in
+ 	cat lxdm.conf.in | sed 's,@FULL_LIBEXECDIR@,$(FULL_LIBEXECDIR),' > $@
+ 
+ NULL=
+-- 
+1.7.6.5
+
