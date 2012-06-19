@@ -3,19 +3,22 @@ HOMEPAGE = "http://wiki.lxde.org/en/LXDM"
 LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://COPYING;md5=d32239bcb673463ab874e80d47fae504"
 SRC_URI = " \
-	${SOURCEFORGE_MIRROR}/lxde/${PN}-${PV}.tar.gz \
+	git://lxde.git.sourceforge.net/gitroot/lxde/${BPN};protocol=git;branch=master \
 	file://0001-data-Makefile.am-fix-typo-to-make-lxdm.conf-target-v.patch \
 	file://lxdm.service.in \
 "
+SRCREV = "7de2bf06f9c777d299e70e84ffd92d2e5f39d810"
+PV = "0.4.2+git${SRCPV}"
+
+S = "${WORKDIR}/git"
 
 DEPENDS = "virtual/libx11 glib-2.0 gtk+ consolekit libpam"
 
 inherit autotools gettext systemd
 
 do_compile_append() {
-	cd ${S}/data
-	touch lxdm.conf.in
-	oe_runmake lxdm.conf
+	sed -i -e 's,bg=,# bg=,g' ${S}/data/lxdm.conf.in
+	oe_runmake -C ${S}/data lxdm.conf
 }
 
 do_install_append() {
