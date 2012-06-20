@@ -5,6 +5,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=d32239bcb673463ab874e80d47fae504"
 SRC_URI = " \
 	git://lxde.git.sourceforge.net/gitroot/lxde/${BPN};protocol=git;branch=master \
 	file://0001-data-Makefile.am-fix-typo-to-make-lxdm.conf-target-v.patch \
+	file://0001-pam-use-common-instead-of-system-auth.patch \
 	file://lxdm.service.in \
 "
 
@@ -16,6 +17,8 @@ DEPENDS = "virtual/libx11 glib-2.0 gtk+ consolekit libpam"
 inherit autotools gettext systemd
 
 S = "${WORKDIR}/git"
+
+EXTRA_OECONF = "--enable-debug"
 
 do_compile_append() {
 	sed -i -e 's,bg=,# bg=,g' ${S}/data/lxdm.conf.in
@@ -31,3 +34,5 @@ do_install_append() {
 
 SYSTEMD_PACKAGES = "${PN}-systemd"
 SYSTEMD_SERVICE = "lxdm.service"
+
+RDEPENDS_${PN} = "librsvg pango pam-plugin-loginuid"
