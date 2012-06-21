@@ -1,5 +1,5 @@
 DESCRIPTION = "LXDM is the lightweight display manager"
-HOMEPAGE = "http://wiki.lxde.org/en/LXDM"
+HOMEPAGE = "http://blog.lxde.org/?p=531"
 LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://COPYING;md5=d32239bcb673463ab874e80d47fae504"
 SRC_URI = " \
@@ -12,7 +12,7 @@ SRC_URI = " \
 SRCREV = "7de2bf06f9c777d299e70e84ffd92d2e5f39d810"
 PV = "0.4.2+git${SRCPV}"
 
-DEPENDS = "virtual/libx11 glib-2.0 gtk+ consolekit libpam"
+DEPENDS = "cairo consolekit dbus gdk-pixbuf glib-2.0 gtk+ virtual/libx11 libxcb pango"
 
 inherit autotools gettext systemd
 
@@ -35,4 +35,4 @@ do_install_append() {
 SYSTEMD_PACKAGES = "${PN}-systemd"
 SYSTEMD_SERVICE = "lxdm.service"
 
-RDEPENDS_${PN} = "librsvg pango pam-plugin-loginuid"
+RDEPENDS_${PN} = "pam-plugin-loginuid"
