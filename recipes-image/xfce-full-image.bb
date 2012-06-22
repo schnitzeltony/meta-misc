@@ -8,10 +8,7 @@ IMAGE_INSTALL += " \
 	\
 	midori \
 	epdfview \
-	evince \
-	firefox \
 	gimp \
-	gedit \
 	gnome-bluetooth \
 	gnome-disk-utility \
 	florence \
@@ -19,18 +16,21 @@ IMAGE_INSTALL += " \
 	\
 	strace \
 	\
-	ntp-systemd \
-	cherokee-systemd \
-	\
 	libgles-omap3-x11demos \
 "
 
 
 #	gdm-systemd gdm-allow-root-login angstrom-gdm-xfce-hack
 #	lightdm-gtk-greeter lightdm-systemd
+#	slim-systemd
 
+#	evince
+#	firefox
+
+#	ntp-systemd
+#	cherokee-systemd
+
+#	gedit
 #	gateone
 #	chromium
-#	dhcp-relay-systemd
-#	slim
 #	orage

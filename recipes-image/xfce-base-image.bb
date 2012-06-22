@@ -17,4 +17,5 @@ IMAGE_INSTALL += " \
 	dconf \
 	\
 	upower udisks-systemd \
+	leafpad \
 "
