@@ -1,28 +1,12 @@
 TopPrio:
 
 * kernel:
-	* error regulator (720Mhz OVERO?)
-	* IrCOMM protocol remove
-	* 1-wire remove?
 	* Bluetooth
 	* OTG USB (temporary solution)
 	* TWL4030 Watchdog?
 
-libjpeg-turbo
-
 * xfce-4.8:
-OK	xfce4-xkb-plugin 0.5.4.3 inital add
-OK	xfce4-wavelan-plugin: initial add 0.5.10
-OK	xfce4-places-plugin: initial add 1.3.0
-OK	xfce4-datetime-plugin: update to latest git and unbreak build with xfce4-dev-tools 4.10.0
-OK	xfce4-diskperf-plugin: update to 2.5.3
-OK	xfce4-cpugraph-plugin: update to 1.0.2
-OK	xfce4-clipman-plugin: update to 1.2.3
-OK	xfce4-genmon-plugin: update to 3.4.0
 	xfce4-mpc-plugin 0.4.3 !!!
-OK	xfce4-embed-plugin 0.8.0
-OK	xfce4-time-out-plugin 1.0.1?
-OK	xfce4-systemload-plugin 1.1.0
 
 xfce4-netload-plugin:
 	Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev- instead
@@ -58,13 +42,12 @@ st	midori: update to 0.4.6 crashes on xfce4.8
 	done
 		- reverted patch
 		- meta-systemd
-	--see
-		ln -s '/lib/systemd/system/NetworkManager.service' '/etc/systemd/system/dbus-org.freedesktop.NetworkManager.service'
-		OK ln -s '/lib/systemd/system/NetworkManager.service' '/etc/systemd/system/multi-user.target.wants/NetworkManager.service'
+
 	2. meta-system
 
-* mpc / http://ftp.de.debian.org/debian/pool/main/m/mpd/
+* xfce-nofifyd does not work: undefined symbol: gdk_screen_make_display_name
 
+* mpc / http://ftp.de.debian.org/debian/pool/main/m/mpd/
 
 * xfce-panel: static libs
 
