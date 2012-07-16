@@ -40,10 +40,6 @@ st	midori: update to 0.4.6 crashes on xfce4.8
 			echo "Disabled $service for $alias."
 		fi
 	done
-		- reverted patch
-		- meta-systemd
-
-	2. meta-system
 
 * xfce-nofifyd does not work: undefined symbol: gdk_screen_make_display_name
 
