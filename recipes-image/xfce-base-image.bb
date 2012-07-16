@@ -16,6 +16,6 @@ IMAGE_INSTALL += " \
 	gvfsd-ftp gvfsd-sftp gvfsd-trash \
 	dconf \
 	\
-	upower udisks-systemd \
+	upower udisks \
 	leafpad \
 "

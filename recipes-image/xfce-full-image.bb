@@ -4,7 +4,7 @@ export IMAGE_BASENAME = "xfce-full-image"
 
 IMAGE_INSTALL += " \
 	xdg-user-dirs-gtk \
-	lxdm-systemd \
+	lxdm \
 	\
 	midori \
 	epdfview \
@@ -20,15 +20,15 @@ IMAGE_INSTALL += " \
 "
 
 
-#	gdm-systemd gdm-allow-root-login angstrom-gdm-xfce-hack
-#	lightdm-gtk-greeter lightdm-systemd
-#	slim-systemd
+#	gdm gdm-allow-root-login angstrom-gdm-xfce-hack
+#	lightdm-gtk-greeter lightdm
+#	slim
 
 #	evince
 #	firefox
 
-#	ntp-systemd
-#	cherokee-systemd
+#	ntp
+#	cherokee
 
 #	gedit
 #	gateone
