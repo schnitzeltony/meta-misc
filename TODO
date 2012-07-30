@@ -41,7 +41,6 @@ st	midori: update to 0.4.6 crashes on xfce4.8
 		fi
 	done
 
-* xfce-nofifyd does not work: undefined symbol: gdk_screen_make_display_name
 
 * mpc / http://ftp.de.debian.org/debian/pool/main/m/mpd/
 
