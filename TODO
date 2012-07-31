@@ -11,6 +11,10 @@ TopPrio:
 xfce4-netload-plugin:
 	Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev- instead
 
+python-bindings broken for
+	exo
+	gnome-menus
+
 * xfce-4.10:
 	1. No Background / no icons
 	2. xfce4-notifyd: gold linker problem
