@@ -3,6 +3,7 @@ require xfce-base-image.bb
 export IMAGE_BASENAME = "xfce-full-image"
 
 IMAGE_INSTALL += " \
+	task-xfce-extended \
 	xdg-user-dirs-gtk \
 	lxdm \
 	\

@@ -8,7 +8,7 @@ IMAGE_INSTALL += " \
 	task-gnome-xserver-base \
 	task-xserver \
 	\
-	task-xfce-extended \
+	task-xfce-base \
 	task-gnome-fonts \
 	ttf-dejavu-sans ttf-dejavu-sans-mono ttf-dejavu-common \
 	\
