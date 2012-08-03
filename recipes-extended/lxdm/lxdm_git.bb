@@ -9,6 +9,8 @@ SRC_URI = " \
 	file://lxdm.service.in \
 "
 
+PR = "r1"
+
 SRCREV = "7de2bf06f9c777d299e70e84ffd92d2e5f39d810"
 PV = "0.4.2+git${SRCPV}"
 
