@@ -5,6 +5,8 @@ TopPrio:
 	* OTG USB (temporary solution)
 	* TWL4030 Watchdog?
 
+* Angstrom split angstrom-task-gnome to reduce tasks
+
 * xfce-4.8:
 	xfce4-mpc-plugin 0.4.3 !!!
 
