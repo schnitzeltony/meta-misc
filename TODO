@@ -47,7 +47,6 @@ st	midori: update to 0.4.6 crashes on xfce4.8
 		fi
 	done
 
-
 * mpc / http://ftp.de.debian.org/debian/pool/main/m/mpd/
 
 * xfce-panel: static libs
