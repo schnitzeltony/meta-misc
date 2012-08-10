@@ -28,24 +28,10 @@ st	midori: update to 0.4.6 crashes on xfce4.8
 
 * firefox broken
 
-* systemd:
-	1. alias links
-	# create the required symbolic 'Alias' links
-	alias=$(grep Alias $ROOT/$service_file \
-		        | sed 's,Alias=,,g' \
-		        | tr ',' '\n' \
-		        | grep '\.service$')
-
-	for r in $alias; do
-		if [ "$action" = "enable" ]; then
-			mkdir -p $ROOT/etc/systemd/system
-			ln -s $service_file $ROOT/etc/systemd/$r
-			echo "Enabled $service for $alias."
-		else
-			rm -f $ROOT/etc/systemd/system/$r
-			echo "Disabled $service for $alias."
-		fi
-	done
+* xfce-nofifyd does not work: undefined symbol: gdk_screen_make_display_name
+* no shutdown
+* Networkmanager broken
+* 'Failed to mount /sys/kernel/security: No such file or directory' during boot
 
 * mpc / http://ftp.de.debian.org/debian/pool/main/m/mpd/
 
@@ -82,7 +68,6 @@ TODO XFCE image:
 	cpufreq		https://bugzilla.xfce.org/show_bug.cgi?id=8051
 	datetime	https://bugzilla.xfce.org/show_bug.cgi?id=8064
         eyes		https://bugzilla.xfce.org/show_bug.cgi?id=8074
-        weather		https://bugzilla.xfce.org/show_bug.cgi?id=7956 (foreign)
 
 * orage fix crash
 
