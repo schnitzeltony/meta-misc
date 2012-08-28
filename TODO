@@ -39,9 +39,6 @@ st	midori: update to 0.4.6 crashes on xfce4.8
 
 * gvfs: crash gvfsd-smb-browse on first thunar start
 
-* xfwm4 error on first start ( remove /home/root/.config )
-	S98configure[285]: //var/lib/opkg/info/xfwm4.postinst: line 2: update-alternatives: command not found
-
 * squeeze (xfce): needs thunar-vfs!! (git?)
 
 
