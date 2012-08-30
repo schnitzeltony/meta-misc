@@ -14,6 +14,7 @@ IMAGE_INSTALL += " \
 	gnome-disk-utility \
 	florence \
 	xarchiver \
+	gedit \
 	\
 	strace \
 	\
@@ -31,7 +32,6 @@ IMAGE_INSTALL += " \
 #	ntp
 #	cherokee
 
-#	gedit
 #	gateone
 #	chromium
 #	orage
