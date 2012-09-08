@@ -5,11 +5,12 @@ export IMAGE_BASENAME = "xfce-base-image"
 IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
 
 IMAGE_INSTALL += " \
-    task-gnome-xserver-base \
-    task-xserver \
+    packagegroup-gnome-xserver-base \
+    packagegroup-core-x11-xserver \
+    xinput-calibrator \
     \
-    task-xfce-base \
-    task-gnome-fonts \
+    packagegroup-xfce-base \
+    packagegroup-gnome-fonts \
     ttf-dejavu-sans ttf-dejavu-sans-mono ttf-dejavu-common \
     \
     gvfs \
