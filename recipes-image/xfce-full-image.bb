@@ -4,6 +4,7 @@ export IMAGE_BASENAME = "xfce-full-image"
 
 IMAGE_INSTALL += " \
 	packagegroup-xfce-extended \
+	packagegroup-xfce-multimedia \
 	xdg-user-dirs-gtk \
 	lxdm \
 	\
