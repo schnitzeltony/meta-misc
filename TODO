@@ -15,22 +15,11 @@ python-bindings broken for
 	exo
 	gnome-menus
 
-* xfce-4.10:
-	1. No Background / no icons
-	2. xfce4-notifyd: gold linker problem
-	3. logoff-dlg: No shutdown (dbus?)
-	4. recipes-panel-plugins/datetime/ patches upstream
-st	ristretto: update to 0.6.0 (needs 4.10)
-st	xfce4-screenshooter update to 1.8.1	!! error plugin insert on xfce4.8
-st	midori: update to 0.4.6 crashes on xfce4.8
-
 * firefox broken
 
 * xfce-nofifyd test does not work: undefined symbol: gdk_screen_make_display_name (gold issue)
 
 * mpc / http://ftp.de.debian.org/debian/pool/main/m/mpd/
-
-* xfce-panel: static libs
 
 * u-boot: 
   fix overo revision 1 -> mainline
@@ -41,7 +30,7 @@ st	midori: update to 0.4.6 crashes on xfce4.8
 
 * squeeze (xfce): needs thunar-vfs!! (git?)
 
-
+* SWF: gnash / lightspark
 
 
 LowPrio
