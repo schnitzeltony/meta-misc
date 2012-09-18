@@ -16,6 +16,7 @@ IMAGE_INSTALL += " \
 	florence \
 	xarchiver \
 	gedit \
+	parole \
 	\
 	strace \
 	\
