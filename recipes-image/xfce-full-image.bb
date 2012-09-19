@@ -9,6 +9,7 @@ IMAGE_INSTALL += " \
 	lxdm \
 	\
 	midori \
+	firefox \
 	epdfview \
 	gimp \
 	gnome-bluetooth \
@@ -29,7 +30,6 @@ IMAGE_INSTALL += " \
 #	slim
 
 #	evince
-#	firefox
 
 #	ntp
 #	cherokee
