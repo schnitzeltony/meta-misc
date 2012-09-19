@@ -5,21 +5,17 @@ TopPrio:
 	* OTG USB (temporary solution)
 	* TWL4030 Watchdog?
 
-* xfce-4.8:
-	xfce4-mpc-plugin 0.4.3 !!!
-
 xfce4-netload-plugin:
 	Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev- instead
+
+xfdesktop:
+	fix dragging multiple items (see http://git.xfce.org/xfce/xfdesktop/commit/?id=578732b85aee34d0d48b4c16ac9ef398b644a9fc)
 
 python-bindings broken for
 	exo
 	gnome-menus
 
-* firefox broken
-
 * xfce-nofifyd test does not work: undefined symbol: gdk_screen_make_display_name (gold issue)
-
-* mpc / http://ftp.de.debian.org/debian/pool/main/m/mpd/
 
 * u-boot: 
   fix overo revision 1 -> mainline
