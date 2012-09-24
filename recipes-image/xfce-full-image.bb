@@ -22,6 +22,8 @@ IMAGE_INSTALL += " \
 	strace \
 	\
 	libgles-omap3-x11demos \
+	\
+	devilspie2 \
 "
 
 
