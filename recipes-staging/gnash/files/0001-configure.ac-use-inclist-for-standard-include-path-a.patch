@@ -1,0 +1,56 @@
+From e7dcfd921fb79310d733e46741857076b31bb14b Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Andreas=20M=C3=BCller?= <schnitzeltony@googlemail.com>
+Date: Wed, 19 Sep 2012 23:25:55 +0200
+Subject: [PATCH] configure.ac: use inclist for standard include path as if we
+ were not cross-compiling
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+Signed-off-by: Andreas Müller <schnitzeltony@googlemail.com>
+---
+ configure.ac |   23 -----------------------
+ 1 files changed, 0 insertions(+), 23 deletions(-)
+
+diff --git a/configure.ac b/configure.ac
+index c550b30..e2e7eef 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -494,33 +494,10 @@ else
+    darwin=no
+ fi
+ 
+-dnl When cross compiling, limit the search directories cause otherwise
+-dnl we may get the host headers or libraries by accident. These values
+-dnl are exported, so all the other configure tests in macros/*.m4 use
+-dnl these same settings rather than duplicating them like we used to.
+-dnl To override thise, use the --with-*-incl= and --with-*-libs=
+-dnl options to configure.
+-if test x$cross_compiling = xyes; then
+-  AC_MSG_NOTICE([Configuring Gnash for cross compilation])
+-  export pkgroot="`$CXX -print-search-dirs | grep "install:" | sed -e 's/install: //' -e 's:/lib/gcc/.*::'`"
+-  dnl pkgroot only works correctly with builds of cross tools not in
+-  dnl /usr, ie... installed from the distribution packages, or just
+-  dnl plain installed in the system tools. This contaminates configure
+-  dnl when building for variations of the same basic architecture,
+-  dnl like i686-linux -> i586-mingw32.
+-  if test x${pkgroot} = "/usr"; then
+-    export pkgroot=""
+-  fi
+-  export incllist="`eval echo ${with_top_level}/include ${pkgroot}/${host_alias}/include ${pkgroot}/include`"
+-  export libslist="`eval echo ${with_top_level}/lib ${pkgroot}/${host_alias}/lib ${pkgroot}/lib64 ${pkgroot}/lib32 ${pkgroot}/lib`"
+-  export pathlist="`eval echo ${pkgroot}/${host_alias}/bin:${pkgroot}/bin`"
+-  npapi=no
+-else
+   AC_MSG_NOTICE([Configuring Gnash for native compilation])
+   export incllist="`eval cat ${srcdir}/macros/incllist`"
+   export libslist="`eval cat ${srcdir}/macros/libslist`"
+   export pathlist=$PATH
+-fi
+ 
+ if test x"${android_ndk}" != xno; then
+    incllist="${android_ndk}/include ${incllist}"
+-- 
+1.7.4.4
+
