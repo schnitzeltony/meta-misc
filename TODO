@@ -28,6 +28,18 @@ python-bindings broken for
 
 * SWF: gnash / lightspark
 
+* devilspie2: global settings
+* xfce4-xpugraph-plugin background
+* xfce4-panel/window menu
+	- application close button
+	- don't display desktop
+	- menu size
+* xfce4-panel/starter
+	- limit to one instance
+	- open maximized
+	- undecorate
+* lxdm touchscreen calibration
+
 
 LowPrio
 
