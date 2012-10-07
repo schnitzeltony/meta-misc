@@ -10,15 +10,20 @@ IMAGE_INSTALL += " \
 	\
 	firefox \
 	epdfview \
-	xarchiver \
+	xarchiver unzip xz tar bzip2 \
 	gedit \
 	\
 	strace \
-	gcc python perl php vala lua5.1 \
+	gcc python perl php vala lua5.1 php json-glib \
 	gdb valgrind \
 	make cmake \
 	automake autoconf libtool binutils elfutils gnu-config m4 patch pkgconfig quilt \
 	git subversion \
 	glade3 dialog \
 	xfce4-dev-tools \
+	texinfo \
+	ncurses \
+	gawk \
+	chrpath \
+	ccache \
 "
