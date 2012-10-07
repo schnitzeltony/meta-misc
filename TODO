@@ -40,6 +40,13 @@ python-bindings broken for
 	- undecorate
 * lxdm touchscreen calibration
 
+WARNING: QA Issue: php: Files/directories were installed but not shipped
+  /home
+  /home/Superandy
+  /home/Superandy/tmp
+  /home/Superandy/tmp/oe-core-eglibc
+  /home/Superandy/tmp/oe-core-eglibc/sysroots
+
 
 LowPrio
 
