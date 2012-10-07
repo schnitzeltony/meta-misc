@@ -20,4 +20,5 @@ IMAGE_INSTALL += " \
 	automake autoconf libtool binutils elfutils gnu-config m4 patch pkgconfig quilt \
 	git subversion \
 	glade3 dialog \
+	xfce4-dev-tools \
 "
