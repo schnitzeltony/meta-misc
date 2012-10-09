@@ -47,6 +47,7 @@ WARNING: QA Issue: php: Files/directories were installed but not shipped
   /home/Superandy/tmp/oe-core-eglibc
   /home/Superandy/tmp/oe-core-eglibc/sysroots
 
+xinput-calibrator: disable service if no xserver-nodm
 
 LowPrio
 
