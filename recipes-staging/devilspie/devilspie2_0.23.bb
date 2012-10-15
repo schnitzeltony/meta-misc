@@ -8,6 +8,7 @@ DEPENDS = "gtk+ glib-2.0 libwnck lua5.1 virtual/libx11"
 
 SRC_URI = " \
 	http://www.gusnan.se/devilspie2/download/devilspie2_${PV}-src.tar.gz \
+	file://0001-don-t-bypass-folder-option.patch \
 	file://default.lua \
 	file://devilspie2.desktop \
 "

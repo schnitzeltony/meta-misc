@@ -1,0 +1,31 @@
+From cebf9eba31cb614e0603330361d40f4091a446ce Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Andreas=20M=C3=BCller?= <schnitzeltony@googlemail.com>
+Date: Mon, 15 Oct 2012 16:41:08 +0200
+Subject: [PATCH] don't bypass --folder option
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+Signed-off-by: Andreas Müller <schnitzeltony@googlemail.com>
+---
+ src/devilspie2.c |    3 +--
+ 1 files changed, 1 insertions(+), 2 deletions(-)
+
+diff --git a/src/devilspie2.c b/src/devilspie2.c
+index 8c06d27..7fa0c57 100644
+--- a/src/devilspie2.c
++++ b/src/devilspie2.c
+@@ -217,8 +217,7 @@ void load_scripts()
+ 		lua_file=g_slice_alloc(sizeof(struct lua_File));
+ 
+ 		lua_file->file_name=g_build_path(G_DIR_SEPARATOR_S,
+-		                                 g_get_user_config_dir(),
+-		                                 "devilspie2",
++		                                 script_folder,
+ 		                                 current_file,
+ 		                                 NULL);
+ 
+-- 
+1.7.6.5
+
