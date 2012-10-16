@@ -15,8 +15,6 @@ python-bindings broken for
 	exo
 	gnome-menus
 
-* xfce-nofifyd test does not work: undefined symbol: gdk_screen_make_display_name (gold issue)
-
 * u-boot: 
   fix overo revision 1 -> mainline
 
@@ -28,10 +26,8 @@ python-bindings broken for
 
 * SWF: gnash / lightspark
 
-* devilspie2: global settings
 * xfce4-xpugraph-plugin background
 * xfce4-panel/window menu
-	- application close button
 	- don't display desktop
 	- menu size
 * xfce4-panel/starter
