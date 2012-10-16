@@ -8,12 +8,11 @@ DEPENDS = "gtk+ glib-2.0 libwnck lua5.1 virtual/libx11"
 
 SRC_URI = " \
 	http://www.gusnan.se/devilspie2/download/devilspie2_${PV}-src.tar.gz \
-	file://0001-don-t-bypass-folder-option.patch \
 	file://default.lua \
 	file://devilspie2.desktop \
 "
-SRC_URI[md5sum] = "e4d342686faf826e51daec47c9a73056"
-SRC_URI[sha256sum] = "86837b9b3ef15bf9ddc75e74fb8bdd2307327ffe65a10ac6c758684a8bde5da3"
+SRC_URI[md5sum] = "90b354662659e2922bd051fdde3b0971"
+SRC_URI[sha256sum] = "9c94fa13ed8c0bf6914fdda513e21a4bd527821b97a53d8004168a8d465a646a"
 
 inherit pkgconfig
 
