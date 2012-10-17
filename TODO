@@ -30,11 +30,14 @@ python-bindings broken for
 * xfce4-panel/window menu
 	- don't display desktop
 	- menu size
+	- add stop button
 * xfce4-panel/starter
 	- limit to one instance
 	- open maximized
 	- undecorate
-* lxdm touchscreen calibration
+* lxdm 
+	* keyboard selecton
+	* touchscreen calibration
 
 WARNING: QA Issue: php: Files/directories were installed but not shipped
   /home
