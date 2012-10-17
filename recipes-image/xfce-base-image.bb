@@ -13,6 +13,9 @@ IMAGE_INSTALL += " \
     packagegroup-gnome-fonts \
     ttf-dejavu-sans ttf-dejavu-sans-mono ttf-dejavu-common \
     \
+    angstrom-clearlooks-theme-enable \
+    angstrom-gnome-icon-theme-enable \
+    \
     gvfs \
     gvfsd-ftp gvfsd-sftp gvfsd-trash \
     dconf \
