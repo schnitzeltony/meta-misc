@@ -1,5 +1,13 @@
 TopPrio:
 
+* login-manager autostarts
+	* maliit
+	* touchscreen-calibration
+
+* operator recipe
+
+* /etc under git control
+
 * kernel:
 	* Bluetooth
 	* OTG USB (temporary solution)
@@ -35,9 +43,6 @@ python-bindings broken for
 	- limit to one instance
 	- open maximized
 	- undecorate
-* lxdm 
-	* keyboard selecton
-	* touchscreen calibration
 
 WARNING: QA Issue: php: Files/directories were installed but not shipped
   /home
