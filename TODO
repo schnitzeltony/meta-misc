@@ -8,6 +8,8 @@ TopPrio:
 
 * /etc under git control
 
+* no mouse pointer for touchscreen
+
 * kernel:
 	* Bluetooth
 	* OTG USB (temporary solution)
