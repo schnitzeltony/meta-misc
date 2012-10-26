@@ -9,6 +9,9 @@ TopPrio:
 * /etc under git control
 
 * no mouse pointer for touchscreen
+* maliit: hide when keyboard is available
+
+* kernel RTC backup charge
 
 * kernel:
 	* Bluetooth
