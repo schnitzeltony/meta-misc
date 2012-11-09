@@ -24,6 +24,11 @@ IMAGE_INSTALL += " \
 	libgles-omap3-x11demos \
 	\
 	devilspie2 \
+	\
+	bash-completion \
+	xfce4-closebutton-plugin \
+	glade3 \
+	libxfce4ui-glade \
 "
 
 
