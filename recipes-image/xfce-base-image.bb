@@ -22,6 +22,4 @@ IMAGE_INSTALL += " \
     \
     upower udisks \
     leafpad \
-    \
-    operator-user \
 "
