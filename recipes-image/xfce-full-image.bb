@@ -44,15 +44,3 @@ IMAGE_INSTALL += " \
 #	gateone
 #	chromium
 #	orage
-
-USERNAME = "operator"
-
-create_operators () {
-	if [ "x$D" != "x" ]; then
-		exit 1
-	fi
-	useradd -m -c Operator -d /home/${USERNAME} -s /bin/bash -k /etc/skel ${USERNAME}
-	passwd -d ${USERNAME}
-}
-
-IMAGE_POSTPROCESS_COMMAND = "create_operators;"
