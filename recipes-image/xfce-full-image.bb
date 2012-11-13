@@ -25,6 +25,8 @@ IMAGE_INSTALL += " \
 	\
 	devilspie2 \
 	\
+	xfce4-default-config \
+	\
 	bash-completion \
 	xfce4-closebutton-plugin \
 	glade3 \
