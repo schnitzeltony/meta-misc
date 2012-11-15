@@ -62,10 +62,6 @@ LowPrio
 
 TODO XFCE image:
 
-* https://launchpad.net/bamf/0.2/0.2.42
-
-* xfce4-xfapplet-plugin ?
-
 * xfce4-taskmanager
 
 * xfce-panel-plugins libxfce4ui port -> mainline 
@@ -80,8 +76,6 @@ TODO XFCE image:
 
 
 TODO others:
-
-* libgles: PROVIDES virtual/libgl ?
 
 * evince: additional doctype support
 # configure option  ->    current configure result
