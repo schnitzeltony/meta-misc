@@ -1,6 +1,6 @@
-require xfce-base-image.bb
+require xfce4-base-image.bb
 
-export IMAGE_BASENAME = "xfce-full-image"
+export IMAGE_BASENAME = "xfce4-full-image"
 
 IMAGE_INSTALL += " \
 	packagegroup-xfce-extended \
@@ -25,7 +25,7 @@ IMAGE_INSTALL += " \
 	\
 	devilspie2 \
 	\
-	xfce4-default-config \
+	xfce4-default-touch-config \
 	\
 	bash-completion \
 	xfce4-closebutton-plugin \

@@ -1,6 +1,6 @@
 require console-base-image-nm.bb
 
-export IMAGE_BASENAME = "xfce-base-image"
+export IMAGE_BASENAME = "xfce4-base-image"
 
 IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
 
