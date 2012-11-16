@@ -1,4 +1,0 @@
-gtk-icon-theme-name = "gnome"
-gtk-theme-name = "Clearlooks"
-gtk-enable-tooltips = 0
-gtk-dnd-drag-threshold = 50
