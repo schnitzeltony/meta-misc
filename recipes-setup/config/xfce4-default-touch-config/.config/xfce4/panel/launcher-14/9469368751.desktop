@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Firefox Browser
+Comment=Firefox Web Browser
+Exec=firefox
+Terminal=false
+MultipleArgs=false
+Type=Application
+Icon=mozilla-firefox
+Categories=Application;Internet;Network;
+SingleInstance=true
+X-XFCE-Source=file:///usr/share/applications/mozilla-firefox.desktop
+Path=
+StartupNotify=true

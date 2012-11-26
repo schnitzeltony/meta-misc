@@ -33,5 +33,6 @@
       <property name="show-filesystem" type="bool" value="false"/>
       <property name="show-trash" type="bool" value="false"/>
     </property>
+    <property name="single-click" type="bool" value="true"/>
   </property>
 </channel>
