@@ -11,7 +11,7 @@ IMAGE_INSTALL += " \
 	midori \
 	firefox \
 	epdfview \
-	gimp \
+	gimp gimp-xmc-plugin \
 	gnome-bluetooth \
 	gnome-disk-utility \
 	florence \
