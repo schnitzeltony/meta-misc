@@ -1,15 +1,52 @@
 TopPrio:
 
+* lxdm:
+	* select consolekit/systemd by packageconfig
+	* option: make keyboard layout persitent
+	  http://sourceforge.net/mailarchive/forum.php?thread_name=CALbNGRSNoEYtTYvVtCxHTHMeWR7MzEZsnMf-ZdKM2hV70i%3DKwA%40mail.gmail.com&forum_name=lxde-list
+
+* touchscreen calibration:
+	* fix race on startup (udev rule?)
+	* do not show menu entry for unpriviledged users
+	* disable service if no xserver-nodm
+
+* xfce4-settings:
+	* do not handle gtk-touchscreen-mode persistent
+	* on device remove: If there is at least one pointer device with cursor left over show it otherwise hide
+	* remove hide option and detect touchscreen automatically (as in touchscreen calibration)
+
+* gtk:
+	* larger menus
+	* force click in panel if e.g menu was opened
+
+* thunar:
+	* touchscreen long press -> open
+
+* maliit:
+	* hide when keyboard is available
+	* qt apps don't work
+
 * login-manager autostarts
 	* maliit
 	* touchscreen-calibration
 
-* operator recipe
+* xfce-session:
+	* shutdown + unsaved documents -> just logout is performed
+
+* xfce4-taskmanager
+
+* exo-open
+	* startup-notification gets lost
+
+* xfce4-panel/window menu
+	- don't display desktop
+	- menu size
+* xfce4-panel/starter
+	- limit to one instance
+	- open maximized
+	- undecorate
 
 * /etc under git control
-
-* no mouse pointer for touchscreen
-* maliit: hide when keyboard is available
 
 * kernel RTC backup charge
 
@@ -40,14 +77,6 @@ python-bindings broken for
 * SWF: gnash / lightspark
 
 * xfce4-xpugraph-plugin background
-* xfce4-panel/window menu
-	- don't display desktop
-	- menu size
-	- add stop button
-* xfce4-panel/starter
-	- limit to one instance
-	- open maximized
-	- undecorate
 
 WARNING: QA Issue: php: Files/directories were installed but not shipped
   /home
@@ -56,13 +85,9 @@ WARNING: QA Issue: php: Files/directories were installed but not shipped
   /home/Superandy/tmp/oe-core-eglibc
   /home/Superandy/tmp/oe-core-eglibc/sysroots
 
-xinput-calibrator: disable service if no xserver-nodm
-
 LowPrio
 
 TODO XFCE image:
-
-* xfce4-taskmanager
 
 * xfce-panel-plugins libxfce4ui port -> mainline 
 	cpufreq		https://bugzilla.xfce.org/show_bug.cgi?id=8051
