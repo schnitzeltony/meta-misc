@@ -15,6 +15,9 @@ TopPrio:
 	* on device remove: If there is at least one pointer device with cursor left over show it otherwise hide
 	* remove hide option and detect touchscreen automatically (as in touchscreen calibration)
 
+* xfce4-session:
+	* use pkgconfig instead of AC_PATH_PROG e.g for iceauth
+
 * gtk:
 	* larger menus
 	* force click in panel if e.g menu was opened
