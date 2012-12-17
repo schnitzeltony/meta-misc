@@ -50,6 +50,8 @@ TopPrio:
 	- open maximized
 	- undecorate
 
+* gimp: pdf import crashes (check for old poppler patch)
+
 * /etc under git control
 
 * kernel RTC backup charge
