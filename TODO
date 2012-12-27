@@ -2,8 +2,6 @@ TopPrio:
 
 * lxdm:
 	* select consolekit/systemd by packageconfig
-	* option: make keyboard layout persitent
-	  http://sourceforge.net/mailarchive/forum.php?thread_name=CALbNGRSNoEYtTYvVtCxHTHMeWR7MzEZsnMf-ZdKM2hV70i%3DKwA%40mail.gmail.com&forum_name=lxde-list
 
 * touchscreen calibration:
 	* fix race on startup (udev rule?)
@@ -21,14 +19,14 @@ TopPrio:
 
 * exo:
 	* exo-open: startup-notification gets lost
-	* build fails on som machines due to pathon modules
+	* build fails on some machines due to python modules
 
 * gtk:
 	* larger menus
 	* force click in panel if e.g menu was opened
 
 * thunar:
-	* update to 1.6.1
+	* since 1.6.1: root acount + treeview causes crash
 	* touchscreen long press -> open
 
 * maliit:
