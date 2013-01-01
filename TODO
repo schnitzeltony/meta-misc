@@ -26,7 +26,6 @@ TopPrio:
 	* force click in panel if e.g menu was opened
 
 * thunar:
-	* since 1.6.1: root acount + treeview causes crash
 	* touchscreen long press -> open
 
 * maliit:
