@@ -21,7 +21,6 @@ IMAGE_INSTALL += " \
     dconf \
     \
     upower udisks \
-    leafpad \
     \
     operator-user \
 "
