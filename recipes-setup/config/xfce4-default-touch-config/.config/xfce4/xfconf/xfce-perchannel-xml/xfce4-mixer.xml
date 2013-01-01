@@ -4,7 +4,10 @@
   <property name="sound-card" type="string" value="overoAlsamixer"/>
   <property name="sound-cards" type="empty">
     <property name="overoAlsamixer" type="array">
+      <value type="string" value="DAC1 Analog"/>
       <value type="string" value="Headset"/>
+      <value type="string" value="HeadsetL Mixer AudioL1"/>
+      <value type="string" value="HeadsetR Mixer AudioR1"/>
     </property>
   </property>
   <property name="window-height" type="int" value="400"/>

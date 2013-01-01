@@ -22,6 +22,7 @@
         <value type="int" value="6"/>
         <value type="int" value="10"/>
         <value type="int" value="2"/>
+        <value type="int" value="4"/>
       </property>
       <property name="mode" type="uint" value="2"/>
       <property name="background-alpha" type="uint" value="17"/>
@@ -39,6 +40,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
         <value type="string" value="netzwerk-manager-applet"/>
+        <value type="string" value="xfmpc"/>
         <value type="string" value="bluetooth-applet"/>
         <value type="string" value="thunar"/>
         <value type="string" value="bluetooth"/>
@@ -74,12 +76,17 @@
     </property>
     <property name="plugin-3" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="9467598741.desktop"/>
+        <value type="string" value="9466900811.desktop"/>
       </property>
     </property>
     <property name="plugin-2" type="string" value="clock">
       <property name="mode" type="uint" value="0"/>
       <property name="show-frame" type="bool" value="false"/>
+    </property>
+    <property name="plugin-4" type="string" value="mixer">
+      <property name="sound-card" type="string" value="overoAlsamixer"/>
+      <property name="track" type="string" value="DAC1 Analog"/>
+      <property name="command" type="string" value="xfce4-mixer"/>
     </property>
   </property>
 </channel>

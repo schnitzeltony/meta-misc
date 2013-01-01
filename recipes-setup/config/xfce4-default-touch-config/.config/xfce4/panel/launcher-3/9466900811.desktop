@@ -1,15 +1,14 @@
 [Desktop Entry]
 Version=1.0
-Name=Terminal
-Name[de]=Terminal
+Name=Xfce Terminal
 Comment=Terminal Emulator
 Comment[de]=Terminal-Programm
 GenericName=Terminal Emulator
 GenericName[de]=Terminal-Programm
-Exec=Terminal
+Exec=xfce4-terminal
 Icon=utilities-terminal
 Terminal=false
 Type=Application
-Categories=GTK;System;TerminalEmulator;Utility;
+Categories=GTK;System;TerminalEmulator;
 StartupNotify=true
-X-XFCE-Source=file:///usr/share/applications/Terminal.desktop
+X-XFCE-Source=file:///usr/share/applications/xfce4-terminal.desktop
