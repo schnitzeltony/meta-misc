@@ -14,7 +14,6 @@ TopPrio:
 	* remove hide option and detect touchscreen automatically (as in touchscreen calibration)
 
 * xfce4-session:
-	* use pkgconfig instead of AC_PATH_PROG e.g for iceauth
 	* shutdown + unsaved documents -> just logout is performed
 
 * exo:
