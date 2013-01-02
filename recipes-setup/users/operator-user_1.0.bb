@@ -1,11 +1,14 @@
 DESCRIPTION = "This recipe adds a user 'operator' without password"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420"
-PR = "r2"
+PR = "r3"
 
 inherit allarch
 
 USERNAME = "operator"
+# space separated groups user shall be member of
+USERGROUPS = "mpd"
+
 
 pkg_postinst_${PN}() {
 if [ "x$D" != "x" ]; then
@@ -14,6 +17,11 @@ fi
 groupadd -f ${USERNAME}
 useradd -m -c Operator -d /home/${USERNAME} -s /bin/bash -k /etc/skel -g ${USERNAME} ${USERNAME}
 passwd -d ${USERNAME}
+for usergroup in ${USERGROUPS}; do
+	if grep -q ^${usergroup}: ${sysconfdir}/group; then
+		usermod -a -G $usergroup ${USERNAME}
+	fi
+done
 }
 
 pkg_postrm_${PN}() {
