@@ -16,8 +16,8 @@ IMAGE_INSTALL += " \
     angstrom-clearlooks-theme-enable \
     angstrom-gnome-icon-theme-enable \
     \
-    gvfs \
-    gvfsd-ftp gvfsd-sftp gvfsd-trash \
+    gvfs gvfsd-ftp gvfsd-sftp gvfsd-trash \
+    \
     dconf \
     \
     upower udisks \
