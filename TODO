@@ -3,6 +3,8 @@ TopPrio:
 * lxdm:
 	* select consolekit/systemd by packageconfig
 
+* powervr demos fail
+
 * touchscreen calibration:
 	* fix race on startup (udev rule?)
 	* do not show menu entry for unpriviledged users
