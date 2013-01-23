@@ -10,5 +10,5 @@ IMAGE_INSTALL += " \
 	supertux2 \
 	wesnoth \
 "
-#	gnome-games \
+#	gnome-games
 
