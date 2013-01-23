@@ -31,6 +31,7 @@ IMAGE_INSTALL += " \
 	xfce4-closebutton-plugin \
 	glade3 \
 	libxfce4ui-glade \
+	geany \
 "
 
 
