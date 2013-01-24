@@ -9,6 +9,6 @@ IMAGE_INSTALL += " \
 	scummvm \
 	supertux2 \
 	wesnoth \
+	gnome-games \
 "
-#	gnome-games
 
