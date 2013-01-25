@@ -21,8 +21,6 @@ IMAGE_INSTALL += " \
 	\
 	strace \
 	\
-	libgles-omap3-x11demos \
-	\
 	devilspie2 \
 	\
 	xfce4-default-touch-config \

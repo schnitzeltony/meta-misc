@@ -10,5 +10,7 @@ IMAGE_INSTALL += " \
 	supertux2 \
 	wesnoth \
 	gnome-games \
+	\
+	libgles-omap3-x11demos \
 "
 
