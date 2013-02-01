@@ -30,6 +30,8 @@ IMAGE_INSTALL += " \
 	glade3 \
 	libxfce4ui-glade \
 	geany \
+	\
+	python-pygtk-demo \
 "
 
 
