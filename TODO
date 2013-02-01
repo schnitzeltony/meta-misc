@@ -3,20 +3,14 @@ TopPrio:
 * lxdm:
 	* select consolekit/systemd by packageconfig
 
-* powervr demos fail
-
 * touchscreen calibration:
 	* fix race on startup (udev rule?)
-	* do not show menu entry for unpriviledged users
 	* disable service if no xserver-nodm
 
 * xfce4-settings:
 	* do not handle gtk-touchscreen-mode persistent
 	* on device remove: If there is at least one pointer device with cursor left over show it otherwise hide
 	* remove hide option and detect touchscreen automatically (as in touchscreen calibration)
-
-* xfce4-session:
-	* shutdown + unsaved documents -> just logout is performed
 
 * exo:
 	* exo-open: startup-notification gets lost
@@ -35,7 +29,8 @@ TopPrio:
 
 * login-manager autostarts
 	* maliit
-	* touchscreen-calibration
+
+* gvfs: open windows shared
 
 * xfce4-taskmanager add
 
@@ -73,8 +68,6 @@ python-bindings broken for
   fix overo revision 1 -> mainline
 
 * networkmanager fix: libnl-3 / wpa-supplicant / iw -> oe-core
-
-* gvfs: crash gvfsd-smb-browse on first thunar start
 
 * squeeze (xfce): needs thunar-vfs!! (git?)
 
