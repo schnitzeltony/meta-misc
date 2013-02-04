@@ -34,7 +34,7 @@ IMAGE_INSTALL += " \
 	geany-plugins \
 	\
 	python-pygtk-demo \
-	xfce4-vala-panel-plugin-example \
+	xfce4-vala \
 "
 
 
