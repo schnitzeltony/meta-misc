@@ -18,6 +18,8 @@ IMAGE_INSTALL += " \
 	xarchiver \
 	gedit \
 	parole \
+	orage \
+	xfce4-orageclock-plugin \
 	\
 	strace \
 	\
@@ -25,16 +27,18 @@ IMAGE_INSTALL += " \
 	\
 	xfce4-default-touch-config \
 	\
-	bash-completion \
 	xfce4-closebutton-plugin \
 	glade3 \
 	libxfce4ui-glade \
 	geany \
+	geany-plugins \
 	\
 	python-pygtk-demo \
+	xfce4-vala-panel-plugin-example \
 "
 
 
+#	bash-completion
 #	gdm gdm-allow-root-login angstrom-gdm-xfce-hack
 #	lightdm-gtk-greeter lightdm
 #	slim
