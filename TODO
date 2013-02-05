@@ -3,10 +3,6 @@ TopPrio:
 * lxdm:
 	* select consolekit/systemd by packageconfig
 
-* touchscreen calibration:
-	* fix race on startup (udev rule?)
-	* disable service if no xserver-nodm
-
 * xfce4-settings:
 	* do not handle gtk-touchscreen-mode persistent
 	* on device remove: If there is at least one pointer device with cursor left over show it otherwise hide
@@ -75,12 +71,6 @@ python-bindings broken for
 
 * xfce4-xpugraph-plugin background
 
-WARNING: QA Issue: php: Files/directories were installed but not shipped
-  /home
-  /home/Superandy
-  /home/Superandy/tmp
-  /home/Superandy/tmp/oe-core-eglibc
-  /home/Superandy/tmp/oe-core-eglibc/sysroots
 
 LowPrio
 
@@ -90,8 +80,6 @@ TODO XFCE image:
 	cpufreq		https://bugzilla.xfce.org/show_bug.cgi?id=8051
 	datetime	https://bugzilla.xfce.org/show_bug.cgi?id=8064
         eyes		https://bugzilla.xfce.org/show_bug.cgi?id=8074
-
-* orage fix crash
 
 * tumbler: split packages
 
