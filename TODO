@@ -1,5 +1,13 @@
 TopPrio:
 
+* gvfs: open windows shared
+
+* libsdl-omap
+
+* gtk:
+	* larger menus
+	* force click in panel if e.g menu was opened
+
 * lxdm:
 	* select consolekit/systemd by packageconfig
 
@@ -7,14 +15,11 @@ TopPrio:
 	* do not handle gtk-touchscreen-mode persistent
 	* on device remove: If there is at least one pointer device with cursor left over show it otherwise hide
 	* remove hide option and detect touchscreen automatically (as in touchscreen calibration)
+	* does not work for QT applications
 
 * exo:
 	* exo-open: startup-notification gets lost
 	* build fails on some machines due to python modules
-
-* gtk:
-	* larger menus
-	* force click in panel if e.g menu was opened
 
 * thunar:
 	* touchscreen long press -> open
@@ -25,8 +30,6 @@ TopPrio:
 
 * login-manager autostarts
 	* maliit
-
-* gvfs: open windows shared
 
 * xfce4-taskmanager add
 
