@@ -4,6 +4,14 @@ TopPrio:
 
 * libsdl-omap
 
+* geany-lugins fail at do_rootfs
+	|  * satisfy_dependencies_for: Cannot satisfy the following dependencies for geany-plugins:
+	|  * 	geany-plugins-devhelp * 	geany-plugins-webhelper *
+
+* python-pygtk
+	* readd pkgconfig
+	* *.pyo for python examples not working
+
 * gtk:
 	* larger menus
 	* force click in panel if e.g menu was opened
