@@ -31,13 +31,13 @@ IMAGE_INSTALL += " \
 	glade3 \
 	libxfce4ui-glade \
 	geany \
-	geany-plugins \
 	\
 	python-pygtk-demo \
 	xfce4-vala \
 "
 
 
+#	geany-plugins
 #	bash-completion
 #	gdm gdm-allow-root-login angstrom-gdm-xfce-hack
 #	lightdm-gtk-greeter lightdm
