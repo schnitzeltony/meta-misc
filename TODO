@@ -4,6 +4,9 @@ TopPrio:
 
 * libsdl-omap
 
+* bluetooth:
+       * udev rule for ttyO1 -> systemd.service -> hciattach ttyO1 csr
+
 * geany-lugins fail at do_rootfs
 	|  * satisfy_dependencies_for: Cannot satisfy the following dependencies for geany-plugins:
 	|  * 	geany-plugins-devhelp * 	geany-plugins-webhelper *
