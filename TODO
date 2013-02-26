@@ -54,6 +54,9 @@ TopPrio:
 
 * /etc under git control
 
+* kernel 3.8
+  omap3_has_iva at board init
+
 * kernel RTC backup charge
 
 * kernel:
@@ -89,7 +92,6 @@ TODO XFCE image:
 
 * xfce-panel-plugins libxfce4ui port -> mainline 
 	cpufreq		https://bugzilla.xfce.org/show_bug.cgi?id=8051
-	datetime	https://bugzilla.xfce.org/show_bug.cgi?id=8064
         eyes		https://bugzilla.xfce.org/show_bug.cgi?id=8074
 
 * tumbler: split packages
