@@ -5,10 +5,19 @@ TopPrio:
 * libsdl-omap
 
 * kernel 3.8
-	* USB host
 	* warmstart old OMAP
 	* WLAN
-	* Power-off-button
+	* LCD Backlight
+	* omap3_has_iva at board init
+	* OPP fails
+	* USB auto suspend / fix suspend?
+	* Power down does not work
+
+* kernel:
+	* Bluetooth
+	* OTG USB (temporary solution)
+	* TWL4030 Watchdog?
+	* RTC backup charge
 
 * gvfs: open windows shared
 
@@ -64,16 +73,6 @@ TopPrio:
 * gimp: pdf import crashes (check for old poppler patch)
 
 * /etc under git control
-
-* kernel 3.8
-  omap3_has_iva at board init
-
-* kernel RTC backup charge
-
-* kernel:
-	* Bluetooth
-	* OTG USB (temporary solution)
-	* TWL4030 Watchdog?
 
 xfce4-netload-plugin:
 	Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev- instead
