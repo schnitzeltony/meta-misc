@@ -1,13 +1,21 @@
 TopPrio:
 
-* gvfs: open windows shared
+* libgles: X11
 
 * libsdl-omap
+
+* kernel 3.8
+	* USB host
+	* warmstart old OMAP
+	* WLAN
+	* Power-off-button
+
+* gvfs: open windows shared
 
 * bluetooth:
        * udev rule for ttyO1 -> systemd.service -> hciattach ttyO1 csr
 
-* geany-lugins fail at do_rootfs
+* geany-plugins fail at do_rootfs
 	|  * satisfy_dependencies_for: Cannot satisfy the following dependencies for geany-plugins:
 	|  * 	geany-plugins-devhelp * 	geany-plugins-webhelper *
 
