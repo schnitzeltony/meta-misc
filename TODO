@@ -6,12 +6,9 @@ TopPrio:
 
 * kernel 3.8
 	* warmstart old OMAP
-	* WLAN
+	* WLAN test
 	* LCD Backlight
-	* omap3_has_iva at board init
-	* OPP fails
-	* USB auto suspend / fix suspend?
-	* Power down does not work
+	* Power down / TWL4030 rework
 
 * kernel:
 	* Bluetooth
