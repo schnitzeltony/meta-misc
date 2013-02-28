@@ -7,8 +7,10 @@ TopPrio:
 * kernel 3.8
 	* warmstart old OMAP
 	* WLAN test
-	* LCD Backlight
-	* Power down / TWL4030 rework
+	* LCD Backlight?
+	* TWL4030 rework?
+	* wakeup on HDMI fails
+	* cleanup USB patches
 
 * kernel:
 	* Bluetooth
