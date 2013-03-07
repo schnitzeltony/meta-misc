@@ -6,11 +6,8 @@ TopPrio:
 
 * kernel 3.8
 	* warmstart old OMAP
-	* WLAN test
 	* LCD Backlight?
-	* TWL4030 rework?
 	* wakeup on HDMI fails
-	* cleanup USB patches
 
 * kernel:
 	* Bluetooth
@@ -18,7 +15,10 @@ TopPrio:
 	* TWL4030 Watchdog?
 	* RTC backup charge
 
-* gvfs: open windows shared
+* gvfs:
+	* open windows shared folders (password)
+	* hide rootfs/nand
+	* 'special' memory-stick
 
 * bluetooth:
        * udev rule for ttyO1 -> systemd.service -> hciattach ttyO1 csr
