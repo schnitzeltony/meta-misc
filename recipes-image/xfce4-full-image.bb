@@ -27,7 +27,6 @@ IMAGE_INSTALL += " \
 	\
 	xfce4-default-touch-config \
 	\
-	xfce4-closebutton-plugin \
 	glade3 \
 	libxfce4ui-glade \
 	geany \
