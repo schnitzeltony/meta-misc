@@ -10,6 +10,7 @@ IMAGE_INSTALL += " \
 	\
 	midori \
 	firefox \
+	chromium \
 	epdfview \
 	gimp \
 	gnome-bluetooth \
