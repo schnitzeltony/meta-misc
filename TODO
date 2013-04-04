@@ -1,5 +1,8 @@
 TopPrio:
 
+* xinput_calibrator:
+	* second session for systemd invoked start 'startx /usr/bin/xinput_calibrator --'
+
 * libgles: X11
 
 * libsdl-omap
@@ -85,8 +88,6 @@ python-bindings broken for
 
 * u-boot: 
   fix overo revision 1 -> mainline
-
-* networkmanager fix: libnl-3 / wpa-supplicant / iw -> oe-core
 
 * squeeze (xfce): needs thunar-vfs!! (git?)
 
