@@ -1,13 +1,13 @@
 DESCRIPTION = "This recipe adds a user 'operator' without password"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420"
-PR = "r3"
+PR = "r4"
 
 inherit allarch
 
 USERNAME = "operator"
 # space separated groups user shall be member of
-USERGROUPS = "mpd"
+USERGROUPS = "mpd xinpcal"
 
 
 pkg_postinst_${PN}() {
@@ -29,3 +29,6 @@ userdel -rf ${USERNAME}
 }
 
 ALLOW_EMPTY_${PN} = "1"
+
+# all those we are member of
+RDEPENDS_${PN} = "mpd pointercal-xinput"
