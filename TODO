@@ -1,7 +1,13 @@
 TopPrio:
 
+* X 1.14:
+	* On closing session
+		*** Error in `/usr/bin/X´: double free or corruption (!prev): 0x003a3448 ***
+	* startxfce
+		*** Error in `/usr/bin/X´: malloc() memory corruption (fast): 0X020fa9c0 ***
+
 * xinput_calibrator:
-	* second session for systemd invoked start 'startx /usr/bin/xinput_calibrator --'
+	* dm-less systemd environments
 
 * libgles: X11
 
