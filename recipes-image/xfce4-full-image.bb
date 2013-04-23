@@ -48,4 +48,3 @@ IMAGE_INSTALL += " \
 #	cherokee
 
 #	gateone
-#	chromium
