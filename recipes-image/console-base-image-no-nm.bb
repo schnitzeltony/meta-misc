@@ -9,6 +9,6 @@ IMAGE_FEATURES += "package-management"
 
 # add some analysing tools
 IMAGE_INSTALL += " \
-	evtest \
-	systemd-analyze \
+    evtest \
+    systemd-analyze \
 "
