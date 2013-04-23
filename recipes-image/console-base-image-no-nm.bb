@@ -11,5 +11,4 @@ IMAGE_FEATURES += "package-management"
 IMAGE_INSTALL += " \
 	evtest \
 	systemd-analyze \
-	bootchart \
 "
