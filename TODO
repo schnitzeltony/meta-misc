@@ -1,5 +1,9 @@
 TopPrio:
 
+* oe master:
+	* postinst
+	* boottime
+
 * xinput_calibrator:
 	* dm-less systemd environments
 	* multiple new touches on first start
