@@ -26,6 +26,7 @@ IMAGE_INSTALL += " \
     gnome-disk-utility \
     gnome-system-monitor \
     nautilus \
+    gedit \
     gpe-scap \
     bash \
     tzdata \
