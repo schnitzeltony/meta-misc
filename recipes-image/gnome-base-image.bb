@@ -20,6 +20,7 @@ IMAGE_INSTALL += " \
     gnome-keyring \
     gnome-power-manager \
     gnome-panel \
+    gnome-terminal \
     gtk-engine-clearlooks gtk-theme-clearlooks \
     upower udisks \
     gnome-disk-utility \
