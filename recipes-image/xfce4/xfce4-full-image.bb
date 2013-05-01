@@ -1,4 +1,4 @@
-require xfce4-nice-image.bb
+require xfce4-tiny-image.bb
 
 export IMAGE_BASENAME = "xfce4-full-image"
 
