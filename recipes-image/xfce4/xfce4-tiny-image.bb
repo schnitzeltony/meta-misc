@@ -1,6 +1,6 @@
 require xfce4-base-image.bb
 
-export IMAGE_BASENAME = "xfce4-nice-image"
+export IMAGE_BASENAME = "xfce4-tiny-image"
 
 IMAGE_INSTALL += " \
     packagegroup-xfce-extended \
