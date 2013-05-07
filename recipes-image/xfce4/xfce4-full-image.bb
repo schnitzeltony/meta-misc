@@ -6,7 +6,7 @@ IMAGE_INSTALL += " \
     midori \
     firefox \
     chromium \
-    epdfview \
+    evince \
     gimp \
     gnome-bluetooth \
     gnome-disk-utility \
@@ -36,7 +36,6 @@ IMAGE_INSTALL += " \
 #    gdm gdm-allow-root-login angstrom-gdm-xfce-hack
 #    lightdm-gtk-greeter lightdm
 
-#    evince
 
 #    ntp
 #    cherokee
