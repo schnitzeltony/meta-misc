@@ -22,3 +22,5 @@ IMAGE_INSTALL += " \
     \
     operator-user \
 "
+
+#    shared-mime-info
