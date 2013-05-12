@@ -7,7 +7,7 @@ inherit allarch
 
 USERNAME = "operator"
 # space separated groups user shall be member of
-USERGROUPS = "mpd xinpcal"
+USERGROUPS = "mpd xinpcal video"
 
 
 pkg_postinst_${PN}() {
