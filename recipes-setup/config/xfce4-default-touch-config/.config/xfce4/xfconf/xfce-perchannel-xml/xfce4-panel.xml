@@ -11,12 +11,9 @@
       <property name="size" type="uint" value="50"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
-        <value type="int" value="14"/>
-        <value type="int" value="3"/>
-        <value type="int" value="16"/>
         <value type="int" value="15"/>
-        <value type="int" value="12"/>
         <value type="int" value="8"/>
+        <value type="int" value="5"/>
         <value type="int" value="9"/>
         <value type="int" value="13"/>
         <value type="int" value="6"/>
@@ -32,9 +29,11 @@
     <property name="plugin-1" type="string" value="applicationsmenu">
       <property name="show-menu-icons" type="bool" value="true"/>
       <property name="show-button-title" type="bool" value="false"/>
+      <property name="custom-menu" type="bool" value="true"/>
+      <property name="custom-menu-file" type="string" value="/home/operator/.config/xfce4/xfce-applications.menu"/>
     </property>
     <property name="plugin-15" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
+      <property name="expand" type="bool" value="false"/>
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
@@ -57,36 +56,22 @@
     <property name="plugin-10" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-12" type="string" value="windowmenu">
-      <property name="workspace-names" type="bool" value="false"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-14" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="9469368751.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-16" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="9469370644.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-3" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="9466900811.desktop"/>
-      </property>
     </property>
     <property name="plugin-2" type="string" value="clock">
       <property name="mode" type="uint" value="0"/>
       <property name="show-frame" type="bool" value="false"/>
     </property>
     <property name="plugin-4" type="string" value="mixer">
-      <property name="sound-card" type="string" value="overoAlsamixer"/>
-      <property name="track" type="string" value="DAC1 Analog"/>
+      <property name="sound-card" type="string" value=""/>
+      <property name="track" type="string" value=""/>
       <property name="command" type="string" value="xfce4-mixer"/>
+    </property>
+    <property name="plugin-5" type="string" value="tasklist">
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="false"/>
     </property>
   </property>
 </channel>

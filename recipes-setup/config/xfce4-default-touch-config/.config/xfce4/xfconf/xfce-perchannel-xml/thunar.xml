@@ -4,7 +4,7 @@
   <property name="default-view" type="string" value="void"/>
   <property name="last-compact-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_SMALLEST"/>
   <property name="last-details-view-column-order" type="string" value="THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE,THUNAR_COLUMN_DATE_MODIFIED"/>
-  <property name="last-details-view-column-widths" type="string" value="50,308,50,50,362,50,50,79,170"/>
+  <property name="last-details-view-column-widths" type="string" value="50,149,50,50,698,50,50,79,170"/>
   <property name="last-details-view-fixed-columns" type="bool" value="false"/>
   <property name="last-details-view-visible-columns" type="string" value="THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_SMALL"/>
@@ -35,4 +35,5 @@
   <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_SMALLER"/>
   <property name="tree-icon-emblems" type="bool" value="true"/>
   <property name="tree-icon-size" type="string" value="THUNAR_ICON_SIZE_SMALL"/>
+  <property name="last-menubar-visible" type="bool" value="true"/>
 </channel>

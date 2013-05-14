@@ -1,0 +1,19 @@
+{
+   "browser": {
+      "window_placement": {
+         "bottom": 580,
+         "left": 0,
+         "maximized": true,
+         "right": 953,
+         "top": 0,
+         "work_area_bottom": 600,
+         "work_area_left": 0,
+         "work_area_right": 973,
+         "work_area_top": 0
+      }
+   },
+   "session": {
+      "restore_on_startup_migrated": true
+   },
+   "translate_language_blacklist": [ "de" ]
+}

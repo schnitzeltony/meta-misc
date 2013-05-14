@@ -2,7 +2,7 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="empty"/>
+    <property name="ThemeName" type="string" value="Xfce-touch"/>
     <property name="IconThemeName" type="empty"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
@@ -23,11 +23,11 @@
   <property name="Gtk" type="empty">
     <property name="CanChangeAccels" type="empty"/>
     <property name="ColorPalette" type="empty"/>
-    <property name="FontName" type="empty"/>
-    <property name="IconSizes" type="empty"/>
+    <property name="FontName" type="string" value="Sans 10"/>
+    <property name="IconSizes" type="string" value="gtk-menu=32,32:gtk-button=28,28"/>
     <property name="KeyThemeName" type="empty"/>
     <property name="ToolbarStyle" type="empty"/>
-    <property name="ToolbarIconSize" type="empty"/>
+    <property name="ToolbarIconSize" type="int" value="5"/>
     <property name="MenuImages" type="empty"/>
     <property name="ButtonImages" type="empty"/>
     <property name="MenuBarAccel" type="empty"/>
