@@ -37,6 +37,9 @@
         <Include>
             <Category>Settings</Category>
         </Include>
+        <Exclude>
+            <Category>X-XFCE-SettingsDialog</Category>
+        </Exclude>
 
         <Layout>
             <Filename>xfce-settings-manager.desktop</Filename>
