@@ -1,8 +1,28 @@
 TopPrio:
 
 * oe master:
-	* postinst
 	* boottime
+
+* libnotify2 -> libnotify3
+	meta-browser/recipes-mozilla/firefox/firefox_10.0.11esr.bb
+	meta-openembedded/meta-gnome/recipes-gnome/gnome-bluetooth/gnome-bluetooth_2.32.0.bb
+	meta-openembedded/meta-gnome/recipes-gnome/zenity/zenity_2.32.1.bb
+	meta-openembedded/meta-gnome/recipes-gnome/gnome-settings-daemon/gnome-settings-daemon_2.32.1.bb
+	meta-openembedded/meta-gnome/recipes-gnome/gnome-power-manager/gnome-power-manager_2.32.0.bb
+	meta-openembedded/meta-gnome/recipes-gnome/gnome-disk-utility/gnome-disk-utility_2.32.0.bb
+	OK? meta-openembedded/meta-gnome/recipes-gnome/nautilus/nautilus3_3.2.1.bb
+	?? meta-openembedded/meta-gnome/recipes-connectivity/midori/midori_0.5.0.bb
+	OK? meta-openembedded/meta-gnome/recipes-connectivity/network-manager-applet/network-manager-applet_0.9.8.0.bb
+	?? meta-openembedded/meta-gnome/recipes-support/florence/florence_0.5.1.bb:DEPENDS = "gtk+ libxml2 libglade librsvg libxtst gconf cairo intltool-native gnome-doc-utils libnotify"
+	meta-openembedded/meta-gnome/recipes-apps/gnome-mplayer/gnome-mplayer_1.0.5.bb:DEPENDS = "gmtk gtk+ alsa-lib libnotify glib-2.0 dbus-glib virtual/libx11 libxscrnsaver"
+	OK? meta-openembedded/meta-xfce/recipes-xfce/thunar/thunar_1.6.3.bb:DEPENDS = "exo glib-2.0 gtk+ gdk-pixbuf libxfce4util libxfce4ui libsm dbus-glib startup-notification libnotify xfce4-panel"
+	OK? meta-openembedded/meta-xfce/recipes-xfce/thunar-volman/thunar-volman_0.8.0.bb:DEPENDS = "exo glib-2.0 gtk+ libxfce4ui libxfce4util xfconf libnotify udev"
+	OK? meta-openembedded/meta-xfce/recipes-xfce/xfce4-settings/xfce4-settings_4.11.0.bb:DEPENDS = "exo garcon gtk+ libxfce4util libxfce4ui xfconf dbus-glib libxi virtual/libx11 xrandr libnotify libxcursor libxklavier"
+	OK? meta-openembedded/meta-xfce/recipes-xfce/xfce4-power-manager/xfce4-power-manager_1.2.0.bb:DEPENDS = "gtk+ glib-2.0 dbus-glib xfconf libxfce4ui libxfce4util libnotify \
+	OK? meta-openembedded/meta-xfce/recipes-multimedia/parole/parole_0.3.0.3.bb:DEPENDS += "dbus-glib glib-2.0 gst-meta-base gtk+ libxfce4ui libxfce4util libnotify"
+	meta-smartphone/meta-shr/recipes-shr/packagegroups/packagegroup-shr-feed.bb:        libnotify \
+	meta-smartphone/meta-shr/recipes-shr/3rdparty/vagalume_0.8.3.bb:DEPENDS = "gtk+ gstreamer curl gst-plugins-good gst-plugins-base ${@base_conditional('ENTERPRISE_DISTRO', '1', '', 'gst-plugins-ugly', d)} libnotify"
+
 
 * xinput_calibrator:
 	* dm-less systemd environments
