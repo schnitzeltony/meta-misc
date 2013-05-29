@@ -15,6 +15,8 @@ IMAGE_INSTALL += " \
     \
     xdg-user-dirs-gtk \
     devilspie2 \
+    faenza-icon-theme \
+    openzone \
     \
     parole \
     orage \
