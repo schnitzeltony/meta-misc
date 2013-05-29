@@ -23,6 +23,10 @@ TopPrio:
 	meta-smartphone/meta-shr/recipes-shr/packagegroups/packagegroup-shr-feed.bb:        libnotify \
 	meta-smartphone/meta-shr/recipes-shr/3rdparty/vagalume_0.8.3.bb:DEPENDS = "gtk+ gstreamer curl gst-plugins-good gst-plugins-base ${@base_conditional('ENTERPRISE_DISTRO', '1', '', 'gst-plugins-ugly', d)} libnotify"
 
+* xarchiver:
+	* xz support (thunar-plugin --extract <filename> crashes)
+	* maintain
+
 * maliit-framework:
 	gtk3
 
