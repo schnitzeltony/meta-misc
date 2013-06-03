@@ -13,6 +13,5 @@ IMAGE_INSTALL += " \
     freeciv \
     etr \
     \
-    libgles-omap3-x11demos \
 "
-
+#    libgles-omap3-x11demos
