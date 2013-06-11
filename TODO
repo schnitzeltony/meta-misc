@@ -1,8 +1,5 @@
 TopPrio:
 
-* oe master:
-	* boottime
-
 * libnotify2 -> libnotify3
 	meta-browser/recipes-mozilla/firefox/firefox_10.0.11esr.bb
 	meta-openembedded/meta-gnome/recipes-gnome/gnome-bluetooth/gnome-bluetooth_2.32.0.bb
@@ -24,7 +21,7 @@ TopPrio:
 	meta-smartphone/meta-shr/recipes-shr/3rdparty/vagalume_0.8.3.bb:DEPENDS = "gtk+ gstreamer curl gst-plugins-good gst-plugins-base ${@base_conditional('ENTERPRISE_DISTRO', '1', '', 'gst-plugins-ugly', d)} libnotify"
 
 * xarchiver:
-	* xz support (thunar-plugin --extract <filename> crashes)
+	* open-with / doubleclick
 	* maintain
 
 * maliit-framework:
@@ -52,7 +49,6 @@ TopPrio:
 
 * gvfs:
 	* open windows shared folders (password)
-	* hide rootfs/nand
 	* 'special' memory-stick
 
 * bluetooth:
@@ -70,9 +66,6 @@ TopPrio:
 	* larger menus
 	* force click in panel if e.g menu was opened
 
-* lxdm:
-	* select consolekit/systemd by packageconfig
-
 * xfce4-settings:
 	* do not handle gtk-touchscreen-mode persistent
 	* on device remove: If there is at least one pointer device with cursor left over show it otherwise hide
@@ -81,14 +74,12 @@ TopPrio:
 
 * exo:
 	* exo-open: startup-notification gets lost
-	* build fails on some machines due to python modules
 
 * thunar:
 	* touchscreen long press -> open
 
 * maliit:
 	* hide when keyboard is available
-	* qt apps don't work
 
 * login-manager autostarts
 	* maliit
@@ -134,7 +125,6 @@ TODO XFCE image:
 
 * xfce-panel-plugins libxfce4ui port -> mainline 
 	cpufreq		https://bugzilla.xfce.org/show_bug.cgi?id=8051
-        eyes		https://bugzilla.xfce.org/show_bug.cgi?id=8074
 
 * tumbler: split packages
 
