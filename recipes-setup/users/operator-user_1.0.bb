@@ -7,7 +7,7 @@ inherit allarch
 
 USERNAME = "operator"
 # space separated groups user shall be member of
-USERGROUPS = "mpd xinpcal video network"
+USERGROUPS = "mpd xinpcal video network datetime"
 
 
 pkg_postinst_${PN}() {
@@ -31,4 +31,4 @@ userdel -rf ${USERNAME}
 ALLOW_EMPTY_${PN} = "1"
 
 # all those we are member of
-RDEPENDS_${PN} = "mpd pointercal-xinput"
+RDEPENDS_${PN} = "mpd pointercal-xinput polkit-group-rule-datetime polkit-group-rule-network"
