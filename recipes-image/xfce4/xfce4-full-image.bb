@@ -7,6 +7,7 @@ IMAGE_INSTALL += " \
     firefox \
     chromium \
     evince \
+    abiword \
     gimp \
     gnome-bluetooth \
     gnome-disk-utility \
