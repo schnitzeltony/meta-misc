@@ -33,6 +33,8 @@ IMAGE_INSTALL += " \
     python-pygtk-demo \
 "
 
+# beaglebone
+#IMAGE_INSTALL_append_beaglebone = "beaglebone-getting-started gadget-init xf86-video-fbdev"
 
 #    geany-plugins
 #    bash-completion
