@@ -34,7 +34,8 @@ IMAGE_INSTALL += " \
 "
 
 # beaglebone
-#IMAGE_INSTALL_append_beaglebone = "beaglebone-getting-started gadget-init xf86-video-fbdev"
+IMAGE_INSTALL_append_beaglebone = "xf86-video-fbdev"
+#IMAGE_INSTALL_append_beaglebone = "beaglebone-getting-started gadget-init"
 
 #    geany-plugins
 #    bash-completion
