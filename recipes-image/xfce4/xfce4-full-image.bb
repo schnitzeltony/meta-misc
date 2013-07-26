@@ -31,6 +31,7 @@ IMAGE_INSTALL += " \
     geany \
     \
     python-pygtk-demo \
+    ntp \
 "
 
 # beaglebone
