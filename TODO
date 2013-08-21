@@ -124,7 +124,6 @@ LowPrio
 TODO XFCE image:
 
 * xfce-panel-plugins libxfce4ui port -> mainline 
-	cpufreq		https://bugzilla.xfce.org/show_bug.cgi?id=8051
 
 * tumbler: split packages
 
