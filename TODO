@@ -36,16 +36,12 @@ TopPrio:
 
 * libsdl-omap
 
-* kernel 3.8
-	* warmstart old OMAP
-	* LCD Backlight?
-	* wakeup on HDMI fails
-
 * kernel:
 	* Bluetooth
 	* OTG USB (temporary solution)
 	* TWL4030 Watchdog?
 	* RTC backup charge
+	* supend
 
 * gvfs:
 	* open windows shared folders (password)
@@ -84,9 +80,6 @@ TopPrio:
 * login-manager autostarts
 	* maliit
 
-* xfce4-taskmanager add
-
-
 * xfce4-panel/window menu
 	- don't display desktop
 	- menu size
@@ -122,10 +115,6 @@ python-bindings broken for
 LowPrio
 
 TODO XFCE image:
-
-* xfce-panel-plugins libxfce4ui port -> mainline 
-
-* tumbler: split packages
 
 
 
