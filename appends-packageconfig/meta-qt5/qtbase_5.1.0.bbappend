@@ -1,1 +1,1 @@
-PACKAGECONFIG_DISTRO = "examples accessibility"
+PACKAGECONFIG_DISTRO = "examples accessibility icu"
