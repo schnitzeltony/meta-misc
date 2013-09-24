@@ -32,7 +32,6 @@ IMAGE_INSTALL += " \
 	qt-creator \
 	qtbase \
 	qtscript \
-	qtwebkit \
 	qtxmlpatterns \
 	qtquickcontrols \
 "
