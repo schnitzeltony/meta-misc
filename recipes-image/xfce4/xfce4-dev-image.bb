@@ -1,4 +1,4 @@
-require recipes-image/xfce4/xfce4-full-image.bb
+require recipes-image/xfce4/xfce4-qt5-image.bb
 
 export IMAGE_BASENAME = "xfce4-dev-image"
 
@@ -29,11 +29,6 @@ IMAGE_INSTALL += " \
 	exo-csource \
 	xfce4-dev-tools \
 	\
-	qt-creator \
-	qtbase \
-	qtscript \
-	qtxmlpatterns \
-	qtquickcontrols-qmlplugins \
 	qtwebkit \
 "
 
