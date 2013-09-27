@@ -9,4 +9,6 @@ IMAGE_INSTALL += " \
 	qtquickcontrols-qmlplugins \
 	\
 	qt-creator \
+	make cmake \
+	gcc-symlinks g++-symlinks cpp-symlinks ccache gdb \
 "

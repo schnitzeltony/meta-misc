@@ -10,9 +10,8 @@ IMAGE_INSTALL += " \
 	unzip xz tar bzip2 \
 	\
 	strace \
-	gcc-symlinks g++-symlinks cpp-symlinks ccache python python-mako perl php vala lua5.1 php json-glib \
-	gdb gdbserver valgrind \
-	make cmake \
+	python python-mako perl php vala lua5.1 php json-glib \
+	gdbserver valgrind \
 	automake autoconf libtool binutils-symlinks elfutils coreutils gnu-config m4 patch pkgconfig quilt \
 	git subversion \
 	\
