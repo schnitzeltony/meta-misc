@@ -1,6 +1,6 @@
 require recipes-image/xfce4/xfce4-full-image.bb
 
-export IMAGE_BASENAME = "xfce4-qt5-image"
+export IMAGE_BASENAME = "xfce4-qt-image"
 
 IMAGE_INSTALL += " \
 	qtbase-tools \
