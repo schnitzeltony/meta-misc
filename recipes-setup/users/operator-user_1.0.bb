@@ -7,7 +7,7 @@ inherit allarch
 
 USERNAME = "operator"
 # space separated groups user shall be member of
-USERGROUPS = "mpd video network datetime"
+USERGROUPS = "mpd video network datetime systemd-journal"
 # xinpcal
 
 
