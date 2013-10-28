@@ -8,9 +8,11 @@ IMAGE_INSTALL += " \
 	qtbase-tools \
 	qtbase-examples \
 	qtbase-doc \
-	qtscript \
-	qtxmlpatterns \
+	qtbase-plugins \
 	qtquickcontrols-qmlplugins \
+	qtdeclarative-tools \
+	qtdeclarative-qmlplugins \
+	qtgraphicaleffects-qmlplugins \
 	\
 	qt-creator \
 	qt4-designer \
