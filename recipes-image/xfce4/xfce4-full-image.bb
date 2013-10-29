@@ -12,7 +12,6 @@ IMAGE_INSTALL += " \
     gnome-bluetooth \
     gnome-disk-utility \
     florence \
-    xarchiver \
     \
     xdg-user-dirs-gtk \
     devilspie2 \

@@ -7,7 +7,5 @@ IMAGE_INSTALL += " \
     packagegroup-xfce-multimedia \
     lxdm \
     \
-    gedit \
-    \
     xfce4-default-touch-config \
 "

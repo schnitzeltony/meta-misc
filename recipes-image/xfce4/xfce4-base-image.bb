@@ -21,6 +21,9 @@ IMAGE_INSTALL += " \
     upower udisks \
     \
     operator-user \
+    \
+    gedit \
+    xarchiver \
 "
 
 #    shared-mime-info
