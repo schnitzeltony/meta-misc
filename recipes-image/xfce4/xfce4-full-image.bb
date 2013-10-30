@@ -10,7 +10,6 @@ IMAGE_INSTALL += " \
     abiword \
     gimp \
     gnome-bluetooth \
-    gnome-disk-utility \
     florence \
     \
     xdg-user-dirs-gtk \
