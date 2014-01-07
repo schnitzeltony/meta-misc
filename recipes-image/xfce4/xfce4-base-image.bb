@@ -24,6 +24,8 @@ IMAGE_INSTALL += " \
     \
     gedit \
     xarchiver \
+    \
+    bash-completion \
 "
 
 #    shared-mime-info
