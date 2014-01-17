@@ -1,1 +1,3 @@
-PACKAGECONFIG_DISTRO = "examples accessibility icu gles2"
+PACKAGECONFIG_DISTRO = "examples accessibility icu"
+
+PACKAGECONFIG_GL = "gles2"
