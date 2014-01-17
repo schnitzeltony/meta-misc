@@ -23,6 +23,7 @@ IMAGE_INSTALL += " \
 	systemd-analyze \
 	bash-completion \
 	\
+	qtwayland-plugins \
 	qtwayland-examples qtwayland-tools \
 "
 
