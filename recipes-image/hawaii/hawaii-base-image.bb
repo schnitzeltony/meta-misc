@@ -23,6 +23,15 @@ IMAGE_INSTALL += " \
 	systemd-analyze \
 	bash-completion \
 	\
+	qtbase-tools \
+	qtbase-fonts \
+	qtbase-plugins \
+	qtdeclarative-tools \
+	qtdeclarative-qmlplugins \
+	qtscript \
+	qtgraphicaleffects-qmlplugins \
+	qtquickcontrols-qmlplugins \
+	\
 	qtwayland-plugins \
 	qtwayland-examples qtwayland-tools \
 "
