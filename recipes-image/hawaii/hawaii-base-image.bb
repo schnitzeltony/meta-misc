@@ -1,8 +1,6 @@
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COREBASE}/LICENSE;md5=4d92cd373abda3937c2bc47fbc49d690"
 
-inherit image
-
 export IMAGE_BASENAME = "hawaii-base-image"
 
 # to be removed again later?
@@ -19,6 +17,7 @@ IMAGE_INSTALL += " \
 	angstrom-packagegroup-boot \
 	packagegroup-basic \
 	packagegroup-hawaii \
+	strace \
 	\
 	systemd-analyze \
 	bash-completion \
@@ -34,8 +33,15 @@ IMAGE_INSTALL += " \
 	\
 	qtwayland-plugins \
 	qtwayland-examples qtwayland-tools \
+	\
+	weston weston-examples \
+	\
+	qml-demo \
 "
 
+inherit image
+
+#    weston-init
 #    operator-user
 #    upower udisks
 #    shared-mime-info
