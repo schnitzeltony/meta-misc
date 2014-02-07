@@ -13,6 +13,7 @@ IMAGE_INSTALL += " \
 	qtscript \
 	qtgraphicaleffects-qmlplugins \
 	qtquickcontrols-qmlplugins \
+	qtsvg-plugins \
 	\
 	mesa-driver-swrast \
 	xserver-xorg-extension-glx \

@@ -31,6 +31,7 @@ IMAGE_INSTALL += " \
 	qtscript \
 	qtgraphicaleffects-qmlplugins \
 	qtquickcontrols-qmlplugins \
+	qtsvg-plugins \
 	\
 	qtwayland-plugins \
 	qtwayland-examples qtwayland-tools \
