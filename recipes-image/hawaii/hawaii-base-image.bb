@@ -17,6 +17,7 @@ IMAGE_INSTALL += " \
 	angstrom-packagegroup-boot \
 	packagegroup-basic \
 	packagegroup-hawaii \
+	hicolor-icon-theme \
 	strace \
 	\
 	systemd-analyze \
