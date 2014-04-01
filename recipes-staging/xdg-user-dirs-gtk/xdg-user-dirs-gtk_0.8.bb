@@ -2,7 +2,7 @@ DESCRIPTION = "tool to manage well known user directories (Gtk extension)"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=94d55d512a9ba36caa9b7df079bae19f"
 SRC_URI = "${GNOME_MIRROR}/${BPN}/${PV}/${BPN}-${PV}.tar.gz"
-DEPENDS = "gtk+ xdg-user-dirs"
+DEPENDS = "gtk+ xdg-user-dirs intltool-native"
 
 inherit autotools gettext
 
