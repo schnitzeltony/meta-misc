@@ -9,3 +9,6 @@ IMAGE_INSTALL += " \
     \
     xfce4-default-touch-config \
 "
+
+# reenable graphical target
+IMAGE_FEATURES += "x11-base"

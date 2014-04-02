@@ -8,3 +8,6 @@ IMAGE_INSTALL += " \
     gnome-bluetooth \
     gnome-mplayer \
 "
+
+# reenable graphical target
+IMAGE_FEATURES += "x11-base"
