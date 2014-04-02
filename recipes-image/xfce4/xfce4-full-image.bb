@@ -7,7 +7,7 @@ IMAGE_INSTALL += " \
     firefox \
     chromium \
     evince \
-    abiword \
+    abiword-meta \
     gimp \
     gnome-bluetooth \
     florence \
