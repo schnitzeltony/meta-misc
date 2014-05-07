@@ -6,7 +6,6 @@ IMAGE_INSTALL += " \
     midori \
     firefox \
     chromium \
-    evince \
     abiword-meta \
     gimp \
     gnome-bluetooth \

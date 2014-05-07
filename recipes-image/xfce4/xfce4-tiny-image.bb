@@ -6,6 +6,7 @@ IMAGE_INSTALL += " \
     packagegroup-xfce-extended \
     packagegroup-xfce-multimedia \
     lxdm \
+    evince \
     \
     xfce4-default-touch-config \
 "
