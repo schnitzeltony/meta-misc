@@ -1,5 +1,44 @@
 TopPrio:
 
+* kernel:
+	* kernel specific TODOs
+	* Bluetooth
+	       * udev rule for ttyO1 -> systemd.service -> hciattach ttyO1 csr
+	* OTG USB (temporary solution)
+	* TWL4030 Watchdog?
+	* RTC backup charge
+
+* opkg:
+	* chown in do_install nonworking (polkit rights issue) http://lists.openembedded.org/pipermail/openembedded-core/2014-April/091779.html
+
+* xfce4-settings:
+	* keyboard settings non working
+	* Monitor power management non working
+	* Touch:
+		* do not handle gtk-touchscreen-mode persistent
+		* on device remove: If there is at least one pointer device with cursor left over show it otherwise hide
+		* remove hide option and detect touchscreen automatically (as in touchscreen calibration)
+		* does not work for QT applications
+
+* lxdm:
+	* language selection does not work
+	* crash on slow machines
+	* displays systemd-journal-gateway as user
+
+* thunar:
+	* deleting current directory whith multiple tabs causes trouble
+	* long startup delay for sidepane in tree mode
+	* touchscreen long press -> open
+
+* xfdesktop:
+	fix dragging multiple items (see http://git.xfce.org/xfce/xfdesktop/commit/?id=578732b85aee34d0d48b4c16ac9ef398b644a9fc)
+
+* xfce4-notify
+	notifications: hint xfce4-notifyd-config complains with '/usr/lib/libnotify.so.1: undefined symbol: gdk_screen_make_display_name' gtk2/3 conflict?
+
+* chrome/firefox not working
+* midori somtimes crashes with OOM
+
 * libnotify2 -> libnotify3
 	meta-browser/recipes-mozilla/firefox/firefox_10.0.11esr.bb
 	meta-openembedded/meta-gnome/recipes-gnome/gnome-bluetooth/gnome-bluetooth_2.32.0.bb
@@ -32,23 +71,9 @@ TopPrio:
 	* multiple new touches on first start
 	* tmp dir missing
 
-* libgles: X11
-
-* libsdl-omap
-
-* kernel:
-	* Bluetooth
-	* OTG USB (temporary solution)
-	* TWL4030 Watchdog?
-	* RTC backup charge
-	* supend
-
 * gvfs:
 	* open windows shared folders (password)
 	* 'special' memory-stick
-
-* bluetooth:
-       * udev rule for ttyO1 -> systemd.service -> hciattach ttyO1 csr
 
 * geany-plugins fail at do_rootfs
 	|  * satisfy_dependencies_for: Cannot satisfy the following dependencies for geany-plugins:
@@ -59,34 +84,20 @@ TopPrio:
 	* *.pyo for python examples not working
 
 * gtk:
-	* larger menus
 	* force click in panel if e.g menu was opened
-
-* xfce4-settings:
-	* do not handle gtk-touchscreen-mode persistent
-	* on device remove: If there is at least one pointer device with cursor left over show it otherwise hide
-	* remove hide option and detect touchscreen automatically (as in touchscreen calibration)
-	* does not work for QT applications
 
 * exo:
 	* exo-open: startup-notification gets lost
 
-* thunar:
-	* touchscreen long press -> open
-
 * maliit:
 	* hide when keyboard is available
-
-* login-manager autostarts
-	* maliit
 
 * xfce4-panel/window menu
 	- don't display desktop
 	- menu size
+
 * xfce4-panel/starter
 	- limit to one instance
-	- open maximized
-	- undecorate
 
 * gimp: pdf import crashes (check for old poppler patch)
 
@@ -94,9 +105,6 @@ TopPrio:
 
 xfce4-netload-plugin:
 	Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev- instead
-
-xfdesktop:
-	fix dragging multiple items (see http://git.xfce.org/xfce/xfdesktop/commit/?id=578732b85aee34d0d48b4c16ac9ef398b644a9fc)
 
 python-bindings broken for
 	exo
@@ -106,8 +114,6 @@ python-bindings broken for
   fix overo revision 1 -> mainline
 
 * squeeze (xfce): needs thunar-vfs!! (git?)
-
-* SWF: gnash / lightspark
 
 * xfce4-xpugraph-plugin background
 

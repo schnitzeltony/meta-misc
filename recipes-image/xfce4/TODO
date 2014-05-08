@@ -1,9 +1,0 @@
-with work-2014-04 branches:
-
-* lxdm language selection has no effect (was working long time ago)
-* datetime-setter works only as root (was working when implemented)
-* notifications: hint xfce4-notifyd-config complains with '/usr/lib/libnotify.so.1: undefined symbol: gdk_screen_make_display_name' gtk2/3 conflict?
-* chrome/firefox not working
-* midori somtimes crashes with OOM
-* thunar starttime with side pane set to tree mode
-
