@@ -8,6 +8,8 @@ LIC_FILES_CHKSUM = " \
 
 DEPENDS = "libdrm"
 
+inherit pkgconfig
+
 SRC_URI = "git://github.com/schnitzeltony/docs.git;protocol=git;branch=master"
 
 SRCREV = "4836eda0da9650c71c62b20f11c35ce288f9eb2f"
