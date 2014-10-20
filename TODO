@@ -1,18 +1,20 @@
 TopPrio:
 
+* networkmanager / applet:
+	* AP
+
 * kernel:
-	* kernel specific TODOs
+	* Suspend broken again
 	* Bluetooth
 	       * udev rule for ttyO1 -> systemd.service -> hciattach ttyO1 csr
 	* OTG USB (temporary solution)
-	* TWL4030 Watchdog?
 	* RTC backup charge
+
 
 * opkg:
 	* chown in do_install nonworking (polkit rights issue) http://lists.openembedded.org/pipermail/openembedded-core/2014-April/091779.html
 
 * xfce4-settings:
-	* keyboard settings non working
 	* Monitor power management non working
 	* Touch:
 		* do not handle gtk-touchscreen-mode persistent
@@ -21,9 +23,8 @@ TopPrio:
 		* does not work for QT applications
 
 * lxdm:
-	* language selection does not work
-	* crash on slow machines
 	* displays systemd-journal-gateway as user
+	* mouse hotplug
 
 * thunar:
 	* deleting current directory whith multiple tabs causes trouble
@@ -37,7 +38,6 @@ TopPrio:
 	notifications: hint xfce4-notifyd-config complains with '/usr/lib/libnotify.so.1: undefined symbol: gdk_screen_make_display_name' gtk2/3 conflict?
 
 * chrome/firefox not working
-* midori somtimes crashes with OOM
 
 * libnotify2 -> libnotify3
 	meta-browser/recipes-mozilla/firefox/firefox_10.0.11esr.bb
@@ -66,18 +66,12 @@ TopPrio:
 * maliit-framework:
 	gtk3
 
-* xinput_calibrator:
-	* dm-less systemd environments
-	* multiple new touches on first start
-	* tmp dir missing
-
 * gvfs:
-	* open windows shared folders (password)
+	* open windows shared folders (password) - see also gigolo shared location open thunar -> crash
 	* 'special' memory-stick
 
-* geany-plugins fail at do_rootfs
-	|  * satisfy_dependencies_for: Cannot satisfy the following dependencies for geany-plugins:
-	|  * 	geany-plugins-devhelp * 	geany-plugins-webhelper *
+* geany-plugins
+	* fix build
 
 * python-pygtk
 	* readd pkgconfig
@@ -101,17 +95,12 @@ TopPrio:
 
 * gimp: pdf import crashes (check for old poppler patch)
 
-* /etc under git control
-
 xfce4-netload-plugin:
 	Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev- instead
 
 python-bindings broken for
 	exo
 	gnome-menus
-
-* u-boot: 
-  fix overo revision 1 -> mainline
 
 * squeeze (xfce): needs thunar-vfs!! (git?)
 
