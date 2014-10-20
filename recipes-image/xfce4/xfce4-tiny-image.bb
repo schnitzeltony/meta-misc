@@ -9,6 +9,13 @@ IMAGE_INSTALL += " \
     evince \
     \
     xfce4-default-touch-config \
+    \
+    strace \
+    \
+    ntp ntp-utils \
+    dnsmasq \
+    bind \
+    wireless-tools \
 "
 
 # reenable graphical target
