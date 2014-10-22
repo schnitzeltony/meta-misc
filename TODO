@@ -1,7 +1,17 @@
 TopPrio:
 
 * networkmanager / applet:
-	* AP
+	* AP default configuration for fixed IP:
+		1. Setup fixed IP for wlan0 (should be in same net as range below)
+		2. Setup dnsmasq.conf
+			domain-needed
+			bogus-priv
+			bind-dynamic
+			listen-address=<fixed IP above>
+			dhcp-range=interface:wlan0,<start-IP>,<end-IP>
+		3. systemctl restart dnsmasq
+	* AP default configuration for fixed IP:
+		1. Setup shared for wlan0 (TBD)
 
 * kernel:
 	* Suspend broken again
