@@ -93,9 +93,6 @@ TopPrio:
 * exo:
 	* exo-open: startup-notification gets lost
 
-* maliit:
-	* hide when keyboard is available
-
 * xfce4-panel/window menu
 	- don't display desktop
 	- menu size
@@ -118,10 +115,6 @@ python-bindings broken for
 
 
 LowPrio
-
-TODO XFCE image:
-
-
 
 TODO others:
 
