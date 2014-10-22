@@ -14,7 +14,7 @@ TopPrio:
 		1. Setup shared for wlan0 (TBD)
 
 * kernel:
-	* Suspend broken again
+	* Suspend broken by libertas_tf
 	* Bluetooth
 	       * udev rule for ttyO1 -> systemd.service -> hciattach ttyO1 csr
 	* OTG USB (temporary solution)
