@@ -7,7 +7,7 @@ TopPrio:
 			domain-needed
 			bogus-priv
 			bind-dynamic
-			listen-address=<fixed IP above>
+			listen-address=<fixed IP above>  OR interface wlan0
 			dhcp-range=interface:wlan0,<start-IP>,<end-IP>
 		3. systemctl restart dnsmasq
 	* AP default configuration for fixed IP:
