@@ -16,6 +16,11 @@ IMAGE_INSTALL += " \
     dnsmasq \
     bind \
     wireless-tools \
+    \
+    mesa-demos \
+    glmark2 \
+    \
+    gparted \
 "
 
 # reenable graphical target
