@@ -1,4 +1,4 @@
-require recipes-image/xfce4/xfce4-qt-image.bb
+require recipes-image/xfce4/xfce4-qt5-dev-image.bb
 
 export IMAGE_BASENAME = "xfce4-dev-image"
 

@@ -1,26 +1,23 @@
-require recipes-image/xfce4/xfce4-full-image.bb
+require xfce4-tiny-image.bb
 
-export IMAGE_BASENAME = "xfce4-qt-image"
+export IMAGE_BASENAME = "xfce4-qt5-test-image"
 
 GLES_NO_SHLIB_omap3 = "libgles-omap3"
 
 IMAGE_INSTALL += " \
-	qt4-tools \
-	\
 	qtbase-tools \
-	qtbase-examples \
 	qtbase-fonts \
 	qtbase-plugins \
+	qtbase-examples \
 	qtbase-doc \
 	qtdeclarative-tools \
 	qtdeclarative-qmlplugins \
 	qtscript \
 	qtgraphicaleffects-qmlplugins \
 	qtquickcontrols-qmlplugins \
-	${GLES_NO_SHLIB} \
+	qtsvg-plugins \
 	\
-	qt-creator \
-	qt4-designer \
+	qt5-creator \
 	make cmake \
 	gcc-symlinks g++-symlinks cpp-symlinks ccache gdb \
 "
