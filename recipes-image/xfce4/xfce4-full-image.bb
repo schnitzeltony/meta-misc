@@ -20,8 +20,6 @@ IMAGE_INSTALL += " \
     xfce4-orageclock-plugin \
     xfce4-vala \
     \
-    glade3 \
-    libxfce4ui-glade \
     geany \
     \
     python-pygtk-demo \
