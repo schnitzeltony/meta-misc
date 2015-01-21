@@ -38,7 +38,6 @@ IMAGE_INSTALL += " \
 #    lightdm-gtk-greeter lightdm
 
 
-#    ntp
 #    cherokee
 
 #    gateone

@@ -1,6 +1,6 @@
 require xfce4-tiny-image.bb
 
-export IMAGE_BASENAME = "xfce4-qt5-test-image"
+export IMAGE_BASENAME = "xfce4-qt5-dev-image"
 
 GLES_NO_SHLIB_omap3 = "libgles-omap3"
 
