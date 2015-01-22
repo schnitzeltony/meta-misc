@@ -18,6 +18,6 @@ IMAGE_INSTALL += " \
     qtsvg-plugins \
     \
     qt5-creator \
-    make cmake \
+    make cmake git \
     gcc-symlinks g++-symlinks cpp-symlinks ccache gdb \
 "
