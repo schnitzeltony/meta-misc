@@ -18,7 +18,6 @@ IMAGE_INSTALL += " \
     \
     orage \
     xfce4-orageclock-plugin \
-    xfce4-vala \
     \
     geany \
     \
