@@ -23,4 +23,4 @@ IMAGE_INSTALL += " \
 "
 
 # for test temporary
-IMAGE_INSTALL += "kde-world"
+IMAGE_INSTALL += "kde-world lxqt-world"
