@@ -20,6 +20,9 @@ IMAGE_INSTALL += " \
     qt5-creator \
     make cmake git \
     gcc-symlinks g++-symlinks cpp-symlinks ccache gdb \
+    \
+    mesa-demos \
+    glmark2 \
 "
 
 # for test temporary

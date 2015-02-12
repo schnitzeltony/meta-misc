@@ -17,9 +17,6 @@ IMAGE_INSTALL += " \
     bind \
     wireless-tools \
     \
-    mesa-demos \
-    glmark2 \
-    \
     gparted \
 "
 
