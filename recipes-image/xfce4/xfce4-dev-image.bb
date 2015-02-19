@@ -4,17 +4,18 @@ export IMAGE_BASENAME = "xfce4-dev-image"
 
 DEPENDS = "gdb-cross-${TARGET_ARCH}"
 
-IMAGE_FEATURES += "dev-pkgs dbg-pkgs"
 
 IMAGE_INSTALL += " \
     unzip xz tar bzip2 \
     \
     python python-mako perl php vala lua php json-glib \
-    gdbserver valgrind \
+    gdbserver \
     automake autoconf libtool binutils-symlinks elfutils coreutils gnu-config m4 patch pkgconfig quilt \
     subversion \
     \
-    glade3 gursormaker \
+    fontforge \
+    geany \
+    glade3 \
     xfce4-dev-tools libxfce4ui-glade\
     \
     texinfo gettext \
@@ -29,4 +30,4 @@ IMAGE_INSTALL += " \
     libxfce4ui-glade \
 "
 
-
+# valgrind
