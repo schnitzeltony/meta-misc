@@ -7,7 +7,6 @@ IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
 IMAGE_INSTALL += " \
     packagegroup-gnome-xserver-base \
     packagegroup-core-x11-xserver \
-    xinput-calibrator \
     lxdm \
     \
     packagegroup-xfce-base \
@@ -25,8 +24,6 @@ IMAGE_INSTALL += " \
     \
     gedit \
     xarchiver \
-    \
-    bash-completion \
 "
 
 

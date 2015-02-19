@@ -17,4 +17,8 @@ IMAGE_INSTALL += " \
     wireless-tools \
     \
     gparted \
+    \
+    xinput-calibrator \
+    \
+    bash-completion \
 "
