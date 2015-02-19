@@ -8,6 +8,7 @@ IMAGE_INSTALL += " \
     packagegroup-gnome-xserver-base \
     packagegroup-core-x11-xserver \
     xinput-calibrator \
+    lxdm \
     \
     packagegroup-xfce-base \
     packagegroup-gnome-fonts \
@@ -27,5 +28,9 @@ IMAGE_INSTALL += " \
     \
     bash-completion \
 "
+
+
+# reenable graphical target
+IMAGE_FEATURES += "x11-base"
 
 #    shared-mime-info
