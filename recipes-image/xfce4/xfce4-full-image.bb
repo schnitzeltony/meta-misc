@@ -23,6 +23,8 @@ IMAGE_INSTALL += " \
     \
     python-pygtk-demo \
     fontforge \
+    \
+    mpd \
 "
 
 #    parole
