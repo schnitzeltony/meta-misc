@@ -25,8 +25,8 @@ TopPrio:
 	* chown in do_install nonworking (polkit rights issue) http://lists.openembedded.org/pipermail/openembedded-core/2014-April/091779.html
 
 * xfce4-settings:
-	* Monitor power management non working
 	* Touch:
+		* port to 4.12 (libinput)
 		* do not handle gtk-touchscreen-mode persistent
 		* on device remove: If there is at least one pointer device with cursor left over show it otherwise hide
 		* remove hide option and detect touchscreen automatically (as in touchscreen calibration)
@@ -77,14 +77,13 @@ TopPrio:
 	gtk3
 
 * gvfs:
-	* open windows shared folders (password) - see also gigolo shared location open thunar -> crash
+	* automount broken
 	* 'special' memory-stick
 
 * geany-plugins
 	* fix build
 
 * python-pygtk
-	* readd pkgconfig
 	* *.pyo for python examples not working
 
 * gtk:
