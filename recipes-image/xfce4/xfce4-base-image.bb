@@ -4,10 +4,12 @@ export IMAGE_BASENAME = "xfce4-base-image"
 
 IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
 
+XFCE_DM ?= "lxdm"
+
 IMAGE_INSTALL += " \
     packagegroup-gnome-xserver-base \
     packagegroup-core-x11-xserver \
-    lxdm \
+    ${XFCE_DM} \
     \
     packagegroup-xfce-base \
     packagegroup-gnome-fonts \
