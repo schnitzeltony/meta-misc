@@ -8,10 +8,15 @@ IMAGE_INSTALL += " \
     pingus \
     scummvm \
     supertux2 \
-    wesnoth \
+    supertuxkart \
     gnome-games \
     freeciv \
     etr \
     \
+    z80 \
+    vice \
+    \
+    kapman \
+    katomic \
 "
-#    libgles-omap3-x11demos
+#    wesnoth wesnoth-all-campaigns
