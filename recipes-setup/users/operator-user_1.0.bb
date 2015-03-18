@@ -7,9 +7,7 @@ inherit allarch
 
 USERNAME = "operator"
 # space separated groups user shall be member of
-USERGROUPS = "mpd video network datetime systemd-journal"
-# xinpcal
-
+USERGROUPS = "mpd audio video network datetime systemd-journal"
 
 pkg_postinst_${PN}() {
 if [ "x$D" != "x" ]; then
