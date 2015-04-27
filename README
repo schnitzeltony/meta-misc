@@ -10,7 +10,15 @@ URI: git://github.com/openembedded/meta-oe.git
 branch: master
 revision: HEAD
 
-URI: git://github.com/OSSystems/meta-mozilla.git
+URI: git://github.com/OSSystems/meta-browser.git
+branch: master
+revision: HEAD
+
+URI: git://github.com/meta-qt5/meta-qt5.git
+branch: master
+revision: HEAD
+
+URI: git://github.com/schnitzeltony/meta-qt5-extra.git
 branch: master
 revision: HEAD
 
