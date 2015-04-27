@@ -4,6 +4,8 @@ export IMAGE_BASENAME = "xfce4-qt5-dev-image"
 
 GLES_NO_SHLIB_omap3 = "libgles-omap3"
 
+XFCE_DM = "sddm"
+
 IMAGE_INSTALL += " \
     qtbase-tools \
     qtbase-fonts \
