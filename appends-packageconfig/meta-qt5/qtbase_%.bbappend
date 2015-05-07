@@ -4,7 +4,7 @@ PACKAGECONFIG_DISTRO = " \
     icu \
     sql-sqlite \
     fontconfig \
-    ${@bb.utils.contains('DISTRO_FEATURES', 'x11', 'gtkstyle', '', d)} \
 "
 
+#PACKAGECONFIG_GL = "gl"
 PACKAGECONFIG_GL = "gles2"
