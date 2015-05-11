@@ -16,7 +16,7 @@ IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
 IMAGE_INSTALL += " \
     angstrom-packagegroup-boot \
     packagegroup-basic \
-    packagegroup-hawaii \
+    hawaii-world \
     hicolor-icon-theme \
     strace \
     \
