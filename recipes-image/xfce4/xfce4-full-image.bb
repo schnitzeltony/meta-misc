@@ -5,7 +5,6 @@ export IMAGE_BASENAME = "xfce4-full-image"
 IMAGE_INSTALL += " \
     midori \
     firefox \
-    chromium \
     abiword-meta \
     gimp \
     gnome-bluetooth \
@@ -27,6 +26,7 @@ IMAGE_INSTALL += " \
     mpd \
 "
 
+#    chromium
 #    parole
 #    menulibre
 #    gursormaker
