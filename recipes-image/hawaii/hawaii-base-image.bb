@@ -14,6 +14,7 @@ IMAGE_LOGIN_MANAGER = "busybox shadow"
 IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
 
 IMAGE_INSTALL += " \
+    ${ROOTFS_PKGMANAGE_BOOTSTRAP} \
     angstrom-packagegroup-boot \
     packagegroup-basic \
     hawaii-world \
