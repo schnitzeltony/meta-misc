@@ -23,9 +23,10 @@ IMAGE_INSTALL += " \
     make cmake git \
     gcc-symlinks g++-symlinks cpp-symlinks ccache gdb \
     \
+    kde-world \
+    lxqt-world \
+    plasma-workspace-dbg \
+    \
     mesa-demos \
     glmark2 \
 "
-
-# for test temporary
-IMAGE_INSTALL += "kde-world lxqt-world"
