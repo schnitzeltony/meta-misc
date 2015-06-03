@@ -6,6 +6,9 @@ GLES_NO_SHLIB_omap3 = "libgles-omap3"
 
 XFCE_DM = "sddm"
 
+MACHINE_SPECIFICS = ""
+MACHINE_SPECIFICS_mx6 = "imx-gpu-viv-tools imx-gpu-viv-tools-apitrace imx-gpu-viv-demos"
+
 IMAGE_INSTALL += " \
     qtbase-tools \
     qtbase-fonts \
@@ -31,4 +34,6 @@ IMAGE_INSTALL += " \
     glmark2 \
     eglinfo-x11 \
     qt5-opengles2-test \
+    \
+    ${MACHINE_SPECIFICS} \
 "
