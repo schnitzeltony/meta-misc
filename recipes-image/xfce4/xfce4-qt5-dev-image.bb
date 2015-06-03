@@ -30,4 +30,5 @@ IMAGE_INSTALL += " \
     mesa-demos \
     glmark2 \
     eglinfo-x11 \
+    qt5-opengles2-test \
 "
