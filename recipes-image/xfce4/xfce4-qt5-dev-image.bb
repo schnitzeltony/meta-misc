@@ -26,6 +26,8 @@ IMAGE_INSTALL += " \
     make cmake git \
     gcc-symlinks g++-symlinks cpp-symlinks ccache gdb \
     \
+    wireshark \
+    \
     kde-world \
     lxqt-world \
     plasma-workspace-dbg \
