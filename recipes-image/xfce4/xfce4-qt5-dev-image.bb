@@ -26,6 +26,7 @@ IMAGE_INSTALL += " \
     make cmake git \
     gcc-symlinks g++-symlinks cpp-symlinks ccache gdb \
     \
+    midori \
     wireshark \
     \
     kde-world \
