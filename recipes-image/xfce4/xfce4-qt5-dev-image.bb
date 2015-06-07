@@ -23,7 +23,7 @@ IMAGE_INSTALL += " \
     qtsvg-plugins \
     \
     qt5-creator \
-    make cmake git \
+    make cmake git git-bash-completion \
     gcc-symlinks g++-symlinks cpp-symlinks ccache gdb \
     \
     geany \
