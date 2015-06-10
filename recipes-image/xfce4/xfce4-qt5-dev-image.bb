@@ -6,6 +6,8 @@ GLES_NO_SHLIB_omap3 = "libgles-omap3"
 
 XFCE_DM = "sddm"
 
+DEPENDS = "gdb-cross-${TARGET_ARCH}"
+
 MACHINE_SPECIFICS = ""
 MACHINE_SPECIFICS_mx6 = "imx-gpu-viv-tools imx-gpu-viv-tools-apitrace imx-gpu-viv-demos"
 
@@ -24,7 +26,7 @@ IMAGE_INSTALL += " \
     \
     qt5-creator \
     make cmake git git-bash-completion \
-    gcc-symlinks g++-symlinks cpp-symlinks ccache gdb \
+    gcc-symlinks g++-symlinks cpp-symlinks ccache gdb gdbserver \
     \
     geany \
     \
