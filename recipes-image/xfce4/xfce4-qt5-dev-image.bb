@@ -35,6 +35,27 @@ IMAGE_INSTALL += " \
     \
     kde-world \
     lxqt-world \
+    \
+    qtbase-plugins-dbg \
+    qt3d-qmlplugins-dbg \
+    qtconnectivity-qmlplugins-dbg \
+    qtdeclarative-plugins-dbg \
+    qtdeclarative-qmlplugins-dbg \
+    qtenginio-qmlplugins-dbg \
+    qtimageformats-plugins-dbg \
+    qtlocation-plugins-dbg \
+    qtlocation-qmlplugins-dbg \
+    qtmultimedia-plugins-dbg \
+    qtmultimedia-qmlplugins-dbg \
+    qtsensors-plugins-dbg \
+    qtsensors-qmlplugins-dbg \
+    qtsvg-plugins-dbg \
+    qtsystems-qmlplugins-dbg \
+    qttools-plugins-dbg \
+    qtwebsockets-qmlplugins-dbg \
+    qtwebchannel-qmlplugins-dbg \
+    qtquickcontrols-qmlplugins-dbg \
+    \
     plasma-workspace-dbg \
     \
     mesa-demos \
@@ -44,3 +65,6 @@ IMAGE_INSTALL += " \
     \
     ${MACHINE_SPECIFICS} \
 "
+
+# TBD: Allow empty for the following in meta-qt5
+# qtgraphicaleffects-qmlplugins-dbg
