@@ -41,6 +41,8 @@ IMAGE_INSTALL += " \
     plasma-nm \
     \
     operator-user \
+    \
+    cinematicexperience \
 "
 
 
