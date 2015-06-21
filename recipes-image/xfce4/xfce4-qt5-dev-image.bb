@@ -62,6 +62,7 @@ IMAGE_INSTALL += " \
     glmark2 \
     eglinfo-x11 \
     qt5-opengles2-test \
+    cinematicexperience \
     \
     ${MACHINE_SPECIFICS} \
 "
