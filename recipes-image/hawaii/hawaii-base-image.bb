@@ -38,7 +38,6 @@ IMAGE_INSTALL += " \
     qtwayland-examples qtwayland-tools \
     \
     weston weston-examples \
-    plasma-nm \
     \
     operator-user \
     \
