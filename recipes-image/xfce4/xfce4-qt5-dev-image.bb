@@ -29,7 +29,7 @@ IMAGE_INSTALL += " \
     pkgconfig automake autoconf \
     gdb gdbserver \
     git git-bash-completion \
-    python-shell \
+    python-shell python-subprocess \
     \
     geany \
     \
@@ -59,7 +59,8 @@ IMAGE_INSTALL += " \
     qtwebchannel-qmlplugins-dbg \
     qtquickcontrols-qmlplugins-dbg \
     \
-    plasma-workspace-dbg \
+    plasma-workspace-dbg plasma-workspace-dev \
+    libpng12-dev libpng12-dbg \
     \
     mesa-demos \
     glmark2 \
