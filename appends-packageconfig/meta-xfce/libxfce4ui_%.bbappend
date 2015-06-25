@@ -1,3 +1,1 @@
-PACKAGECONFIG = "startup-notification"
-
-#gladeui
+PACKAGECONFIG = "startup-notification gladeui"
