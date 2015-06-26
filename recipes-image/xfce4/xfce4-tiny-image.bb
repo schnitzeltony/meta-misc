@@ -18,7 +18,7 @@ IMAGE_INSTALL += " \
     \
     gparted \
     \
-    xinput-calibrator \
-    \
     bash-completion \
 "
+
+# xinput-calibrator
