@@ -38,6 +38,7 @@ IMAGE_INSTALL += " \
     \
     kde-world \
     lxqt-world \
+    qterminal-world \
     \
     qtbase-plugins-dbg \
     qt3d-qmlplugins-dbg \
