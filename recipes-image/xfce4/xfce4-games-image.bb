@@ -8,7 +8,6 @@ IMAGE_INSTALL += " \
     pingus \
     scummvm \
     supertux2 \
-    supertuxkart \
     gnome-games \
     freeciv \
     etr \
@@ -19,4 +18,5 @@ IMAGE_INSTALL += " \
     kapman \
     katomic \
 "
+#    supertuxkart
 #    wesnoth wesnoth-all-campaigns
