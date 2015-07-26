@@ -37,7 +37,7 @@ IMAGE_INSTALL += " \
     wireshark \
     \
     kde-world \
-    lxqt-world \
+    lxqt-base \
     qterminal-world \
     \
     qtbase-plugins-dbg \
