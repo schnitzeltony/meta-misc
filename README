@@ -22,4 +22,12 @@ URI: git://github.com/schnitzeltony/meta-qt5-extra.git
 branch: master
 revision: HEAD
 
+URI: git://github.com/cazfi/meta-games.git
+branch: master
+revision: HEAD
+
+URI: git://github.com/schnitzeltony/meta-retro.git
+branch: master
+revision: HEAD
+
 Layer maintainer: Andreas Müller <schnitzeltony@googlemail.com>
