@@ -14,6 +14,7 @@ IMAGE_INSTALL += " \
     \
     z80 \
     vice \
+    stella \
     \
     kapman \
     katomic \
