@@ -30,6 +30,7 @@ IMAGE_INSTALL += " \
     gdb gdbserver \
     git git-bash-completion \
     python-shell python-subprocess \
+    qemu \
     \
     geany \
     \
