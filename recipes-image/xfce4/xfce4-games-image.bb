@@ -16,8 +16,11 @@ IMAGE_INSTALL += " \
     vice \
     stella \
     \
+    opentyrian \
+    \
     kapman \
     katomic \
+    gottet \
 "
 #    supertuxkart
 #    wesnoth wesnoth-all-campaigns
