@@ -21,6 +21,7 @@ IMAGE_INSTALL += " \
     kapman \
     katomic \
     gottet \
+    hexalate \
 "
 #    supertuxkart
 #    wesnoth wesnoth-all-campaigns
