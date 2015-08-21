@@ -3,7 +3,6 @@ require xfce4-tiny-image.bb
 export IMAGE_BASENAME = "xfce4-full-image"
 
 IMAGE_INSTALL += " \
-    midori \
     abiword-meta \
     gimp \
     gnome-bluetooth \
@@ -23,6 +22,9 @@ IMAGE_INSTALL += " \
     fontforge \
     \
     mpd \
+    \
+    midori \
+    firefox \
 "
 
 #    chromium
@@ -33,7 +35,6 @@ IMAGE_INSTALL += " \
 # beaglebone
 #IMAGE_INSTALL_append_beaglebone = "beaglebone-getting-started gadget-init"
 
-#    firefox
 #    geany-plugins
 #    bash-completion
 #    gdm gdm-allow-root-login angstrom-gdm-xfce-hack
