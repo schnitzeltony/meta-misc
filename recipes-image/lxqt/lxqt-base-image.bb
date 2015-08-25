@@ -6,7 +6,7 @@ CONMANPKGS = "networkmanager"
 
 IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
 
-LXQT_DM ?= "sddm"
+LXQT_DM ?= "lxdm"
 
 IMAGE_INSTALL += " \
     packagegroup-gnome-xserver-base \
