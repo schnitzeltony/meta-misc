@@ -20,8 +20,6 @@ IMAGE_INSTALL += " \
     \
     dconf \
     \
-    upower udisks \
-    \
     operator-user \
     \
     gedit \
