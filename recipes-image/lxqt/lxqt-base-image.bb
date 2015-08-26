@@ -15,10 +15,7 @@ IMAGE_INSTALL += " \
     \
     packagegroup-lxqt-base \
     \
-    operator-user \
-    \
-    gedit \
-    xarchiver \
+    packagegroup-image-base \
 "
 
 
