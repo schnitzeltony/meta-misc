@@ -8,8 +8,6 @@ IMAGE_INSTALL += " \
     evince \
     rodent-icon-theme \
     \
-    xfce4-default-touch-config \
-    \
     strace \
     \
     ntp ntp-utils \
