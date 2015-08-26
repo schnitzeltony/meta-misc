@@ -11,19 +11,13 @@ IMAGE_INSTALL += " \
     packagegroup-core-x11-xserver \
     ${XFCE_DM} \
     \
-    packagegroup-xfce-base \
-    packagegroup-gnome-fonts \
-    ttf-dejavu-sans ttf-dejavu-sans-mono ttf-dejavu-common \
-    \
     angstrom-clearlooks-theme-enable \
     angstrom-gnome-icon-theme-enable \
     \
-    dconf \
+    packagegroup-xfce-base \
+    packagegroup-image-base \
     \
-    operator-user \
-    \
-    gedit \
-    xarchiver \
+    xfce4-default-touch-config \
 "
 
 
@@ -31,3 +25,5 @@ IMAGE_INSTALL += " \
 IMAGE_FEATURES += "x11-base"
 
 #    shared-mime-info
+#    dconf
+
