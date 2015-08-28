@@ -16,6 +16,7 @@ IMAGE_INSTALL += " \
     packagegroup-lxqt-base \
     \
     packagegroup-image-base \
+    lxqt-default-config \
 "
 
 
