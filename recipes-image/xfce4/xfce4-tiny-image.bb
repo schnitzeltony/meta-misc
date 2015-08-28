@@ -5,19 +5,8 @@ export IMAGE_BASENAME = "xfce4-tiny-image"
 IMAGE_INSTALL += " \
     packagegroup-xfce-extended \
     packagegroup-xfce-multimedia \
-    evince \
     rodent-icon-theme \
     \
-    strace \
-    \
-    ntp ntp-utils \
-    dnsmasq \
-    bind \
-    wireless-tools \
-    \
-    gparted \
-    \
-    bash-completion \
+    packagegroup-image-tiny \
 "
 
-# xinput-calibrator
