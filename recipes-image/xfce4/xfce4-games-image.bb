@@ -17,6 +17,7 @@ IMAGE_INSTALL += " \
     stella \
     \
     opentyrian \
+    d1x-rebirth \
     \
     kapman \
     katomic \
