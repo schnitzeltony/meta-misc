@@ -10,6 +10,7 @@ RDEPENDS_${PN} = " \
     strace \
     \
     ntp ntp-utils \
+    tzdata \
     dnsmasq \
     bind \
     wireless-tools \
