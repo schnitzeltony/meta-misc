@@ -9,6 +9,8 @@ RDEPENDS_${PN} = " \
     gimp \
     fontforge \
     \
+    antimony \
+    \
     mpd \
     parole \
     \
