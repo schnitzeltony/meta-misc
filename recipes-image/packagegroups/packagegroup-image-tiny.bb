@@ -15,7 +15,5 @@ RDEPENDS_${PN} = " \
     bind \
     wireless-tools \
     \
-    gparted \
-    \
     bash-completion \
 "

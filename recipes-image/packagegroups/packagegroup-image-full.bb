@@ -7,12 +7,17 @@ inherit packagegroup
 RDEPENDS_${PN} = " \
     abiword-meta \
     gimp \
-    geany \
-    \
     fontforge \
     \
     mpd \
+    parole \
     \
     midori \
     firefox \
 "
+
+#    chromium
+#    menulibre
+#    gursormaker
+#    cherokee
+#    gateone
