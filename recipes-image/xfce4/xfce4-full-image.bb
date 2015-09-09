@@ -9,7 +9,6 @@ IMAGE_INSTALL += " \
     florence \
     \
     xdg-user-dirs-gtk \
-    devilspie2 \
     \
     faenza-icon-theme \
     openzone \
@@ -18,6 +17,7 @@ IMAGE_INSTALL += " \
     xfce4-orageclock-plugin \
 "
 
+#    devilspie2
 
 # beaglebone
 #IMAGE_INSTALL_append_beaglebone = "beaglebone-getting-started gadget-init"
