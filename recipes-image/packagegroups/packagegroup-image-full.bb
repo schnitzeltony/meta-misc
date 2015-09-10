@@ -4,6 +4,9 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/LICENSE;md5=4d92cd373abda3937c2bc47fbc49d
 
 inherit packagegroup
 
+MACHINE_SPECIFICS_FULL = ""
+MACHINE_SPECIFICS_FULL_imx6 = "gstreamer1.0-plugins-imx-meta"
+
 RDEPENDS_${PN} = " \
     abiword-meta \
     gimp \
@@ -13,6 +16,7 @@ RDEPENDS_${PN} = " \
     \
     mpd \
     parole \
+    ${MACHINE_SPECIFICS_FULL} \
     \
     midori \
     firefox \
