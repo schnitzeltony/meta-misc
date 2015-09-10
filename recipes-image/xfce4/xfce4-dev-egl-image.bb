@@ -6,8 +6,8 @@ GLES_NO_SHLIB_omap3 = "libgles-omap3"
 
 XFCE_DM = "sddm"
 
-MACHINE_SPECIFICS = ""
-MACHINE_SPECIFICS_mx6 = "imx-gpu-viv-tools imx-gpu-viv-tools-apitrace imx-gpu-viv-demos"
+MACHINE_SPECIFICS_DEVEGL = ""
+MACHINE_SPECIFICS_DEVEGL_mx6 = "imx-gpu-viv-tools imx-gpu-viv-tools-apitrace imx-gpu-viv-demos"
 
 IMAGE_INSTALL += " \
     kde-world \
@@ -23,7 +23,7 @@ IMAGE_INSTALL += " \
     qt5-opengles2-test \
     cinematicexperience \
     \
-    ${MACHINE_SPECIFICS} \
+    ${MACHINE_SPECIFICS_DEVEGL} \
 "
 
 # TBD: Allow empty for the following in meta-qt5
