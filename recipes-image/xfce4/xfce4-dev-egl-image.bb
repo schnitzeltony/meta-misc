@@ -1,6 +1,6 @@
 require xfce4-dev-image.bb
 
-export IMAGE_BASENAME = "xfce4-egl-dev-image"
+export IMAGE_BASENAME = "xfce4-dev-egl-image"
 
 GLES_NO_SHLIB_omap3 = "libgles-omap3"
 
