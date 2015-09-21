@@ -19,10 +19,10 @@ RDEPENDS_${PN} = " \
     gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta \
     ${MACHINE_SPECIFICS_FULL} \
     \
-    midori \
     firefox \
 "
 
+#    midori
 #    chromium
 #    menulibre
 #    gursormaker

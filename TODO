@@ -1,5 +1,7 @@
 TopPrio:
 
+* midori -> meta-browser
+
 * networkmanager / applet:
 	* AP default configuration for fixed IP:
 		1. Setup fixed IP for wlan0 (should be in same net as range below)
