@@ -23,6 +23,7 @@ RDEPENDS_${PN} = " \
     \
     kapman \
     katomic \
+    kbounce \
     gottet \
     hexalate \
 "
