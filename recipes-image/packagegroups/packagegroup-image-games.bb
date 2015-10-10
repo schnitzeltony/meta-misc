@@ -21,9 +21,7 @@ RDEPENDS_${PN} = " \
     opentyrian \
     d1x-rebirth \
     \
-    kapman \
-    katomic \
-    kbounce \
+    kde-games \
     gottet \
     hexalate \
 "
