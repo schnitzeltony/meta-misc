@@ -14,6 +14,8 @@ IMAGE_INSTALL += " \
     packagegroup-lxqt-base lxqt-default-config \
     qterminal-world \
     \
+    antimony \
+    \
     plasma-workspace-dbg plasma-workspace-dev \
     libpng12-dev libpng12-dbg \
     \
