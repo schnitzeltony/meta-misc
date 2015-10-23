@@ -14,7 +14,7 @@ RDEPENDS_${PN} = " \
     make cmake \
     automake autoconf libtool m4 \
     pkgconfig binutils-symlinks elfutils coreutils gnu-config \
-    gdb gdbserver gdb-cross-meta \
+    gdb gdbserver \
     git git-bash-completion subversion \
     python-shell python-subprocess \
     python python-mako perl php vala lua php json-glib \
