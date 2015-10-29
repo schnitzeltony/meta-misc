@@ -12,6 +12,8 @@ RDEPENDS_${PN} = " \
     gimp \
     fontforge \
     \
+    epdf \
+    \
     mpd \
     parole \
     gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta \
