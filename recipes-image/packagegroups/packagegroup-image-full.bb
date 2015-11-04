@@ -20,6 +20,8 @@ RDEPENDS_${PN} = " \
     ${MACHINE_SPECIFICS_FULL} \
     \
     firefox \
+    \
+    gparted \
 "
 
 #    midori

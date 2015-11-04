@@ -57,7 +57,6 @@ RDEPENDS_${PN} = " \
     qtwebchannel-qmlplugins-dbg \
     qtquickcontrols-qmlplugins-dbg \
     \
-    gparted \
     wireshark \
     \
     qemu \
