@@ -13,6 +13,7 @@ RDEPENDS_${PN} = " \
     gnome-games \
     freeciv \
     etr \
+    openastromenace \
     \
     z80 \
     vice \
