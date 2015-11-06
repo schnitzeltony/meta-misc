@@ -12,7 +12,6 @@ MACHINE_SPECIFICS_DEVEGL_mx6 = "imx-gpu-viv-tools imx-gpu-viv-tools-apitrace imx
 IMAGE_INSTALL += " \
     kde-world \
     packagegroup-lxqt-base lxqt-default-config \
-    qterminal-world \
     \
     antimony \
     \
