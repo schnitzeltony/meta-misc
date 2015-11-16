@@ -17,14 +17,14 @@ SRC_URI = " \
 do_install() {
     # default user configration -> /etc/skel
     install -d ${D}${sysconfdir}/skel/Desktop
-    cp -rp ${WORKDIR}/.config ${D}${sysconfdir}/skel/
-    cp -rp ${WORKDIR}/.local ${D}${sysconfdir}/skel/
-    cp -rp ${WORKDIR}/.gimp-2.8 ${D}${sysconfdir}/skel/
-    cp -rp ${WORKDIR}/.gnome2 ${D}${sysconfdir}/skel/
+    cp -r ${WORKDIR}/.config ${D}${sysconfdir}/skel/
+    cp -r ${WORKDIR}/.local ${D}${sysconfdir}/skel/
+    cp -r ${WORKDIR}/.gimp-2.8 ${D}${sysconfdir}/skel/
+    cp -r ${WORKDIR}/.gnome2 ${D}${sysconfdir}/skel/
 
     # gtk-theme for touch
     install -d ${D}${datadir}/themes
-    cp -rp ${WORKDIR}/Xfce-touch ${D}${datadir}/themes
+    cp -r ${WORKDIR}/Xfce-touch ${D}${datadir}/themes
     chmod -R 644 ${D}${datadir}/themes/Xfce-touch/                                                                                                                          
     chmod 0755 ${D}${datadir}/themes/Xfce-touch/                                                                                                                          
     chmod 0755 ${D}${datadir}/themes/Xfce-touch/gtk-2.0/
