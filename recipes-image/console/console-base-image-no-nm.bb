@@ -11,5 +11,5 @@ IMAGE_FEATURES += "package-management"
 IMAGE_INSTALL += " \
     ${ROOTFS_PKGMANAGE_BOOTSTRAP} \
     evtest \
-    systemd-analyze \
+    systemd-analyze less \
 "
