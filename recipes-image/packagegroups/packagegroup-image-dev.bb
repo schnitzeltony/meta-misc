@@ -58,6 +58,7 @@ RDEPENDS_${PN} = " \
     qtquickcontrols-qmlplugins-dbg \
     \
     wireshark \
+    nfs-utils-client \
     \
     qemu \
 "
