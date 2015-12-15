@@ -13,6 +13,8 @@ RDEPENDS_${PN} = " \
     unzip xz tar bzip2 \
     make cmake \
     automake autoconf libtool m4 \
+    gcc-symlinks g++-symlinks cpp-symlinks \
+    dtc \
     pkgconfig binutils-symlinks elfutils coreutils gnu-config \
     gdb gdbserver \
     git git-bash-completion subversion \
