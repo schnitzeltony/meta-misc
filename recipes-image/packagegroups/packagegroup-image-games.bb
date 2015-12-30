@@ -18,6 +18,7 @@ RDEPENDS_${PN} = " \
     z80 \
     vice \
     stella \
+    mame \
     \
     opentyrian \
     d1x-rebirth \
