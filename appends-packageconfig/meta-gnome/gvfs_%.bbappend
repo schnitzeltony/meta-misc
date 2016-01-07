@@ -1,1 +1,1 @@
-PACKAGECONFIG = "libgphoto2 samba"
+PACKAGECONFIG = "libgphoto2 samba archive fuse libmtp libimobiledevice"
