@@ -1,7 +1,6 @@
 DESCRIPTION = "This recipe adds a user 'operator' without password"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420"
-PR = "r4"
 
 inherit allarch
 
@@ -32,3 +31,8 @@ ALLOW_EMPTY_${PN} = "1"
 # all those we are member of
 RDEPENDS_${PN} = "polkit-group-rule-datetime polkit-group-rule-network"
 #pointercal-xinput
+
+RPROVIDES_${PN} += "user-operator"
+RREPLACES_${PN} += "user-operator"
+RCONFLICTS_${PN} += "user-operator"
+
