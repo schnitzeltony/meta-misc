@@ -13,4 +13,5 @@ RDEPENDS_${PN} = " \
     gedit \
     xarchiver \
     shared-mime-info \
+    xterm \
 "
