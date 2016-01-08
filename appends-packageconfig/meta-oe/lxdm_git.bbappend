@@ -7,20 +7,24 @@ do_install_append() {
 		${D}${sysconfdir}/lxdm/lxdm.conf
 }
 
-pkg_preinst_${PN} () {
-# backup configuration
-if [ -e ${localstatedir}/lib/lxdm/lxdm.conf ]; then
-	echo 'lxdm: backup configuration'
-	cp ${localstatedir}/lib/lxdm/lxdm.conf ${localstatedir}/lib/lxdm/lxdm.conf.old
+pkg_preinst_${PN}_append () {
+if [ "x$D" = "x" ]; then
+    # backup configuration
+    if [ -e "${localstatedir}/lib/lxdm/lxdm.conf" ]; then
+        echo 'lxdm: backup configuration'
+        cp ${localstatedir}/lib/lxdm/lxdm.conf ${localstatedir}/lib/lxdm/lxdm.conf.old
+    fi
 fi
 }
 
 pkg_postinst_${PN}_append () {
-# restore configuration
-if [ -e ${localstatedir}/lib/lxdm/lxdm.conf.old ]; then
-	echo 'lxdm: restore configuration'
-	cp ${localstatedir}/lib/lxdm/lxdm.conf.old ${localstatedir}/lib/lxdm/lxdm.conf
-	rm ${localstatedir}/lib/lxdm/lxdm.conf.old
+if [ "x$D" = "x" ]; then
+    # restore configuration
+    if [ -e "${localstatedir}/lib/lxdm/lxdm.conf.old" ]; then
+        echo 'lxdm: restore configuration'
+        cp ${localstatedir}/lib/lxdm/lxdm.conf.old ${localstatedir}/lib/lxdm/lxdm.conf
+        rm ${localstatedir}/lib/lxdm/lxdm.conf.old
+    fi
 fi
 
 # systemd_postinst is last - force override to avoid restarting during update
@@ -32,12 +36,11 @@ if [ -n "$D" ]; then
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl $OPTS ${SYSTEMD_AUTO_ENABLE} ${SYSTEMD_SERVICE}
-
+    systemctl $OPTS ${SYSTEMD_AUTO_ENABLE} ${SYSTEMD_SERVICE}
 fi
 
 # avoid systemd append
 exit
 }
 
-RDEPENDS_${PN} = "operator-user"
+RDEPENDS_${PN} += "operator-user"
