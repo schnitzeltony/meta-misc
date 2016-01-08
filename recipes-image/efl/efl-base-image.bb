@@ -6,7 +6,5 @@ IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
 
 IMAGE_INSTALL += " \
     packagegroup-x11-illume \
-    xinput-calibrator \
-    \
-    operator-user \
+    packagegroup-image-base \
 "

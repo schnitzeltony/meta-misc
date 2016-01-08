@@ -8,11 +8,11 @@ IMAGE_INSTALL += " \
     packagegroup-gnome-themes \
     packagegroup-gnome-xserver-base \
     packagegroup-core-x11-xserver \
-    packagegroup-gnome-fonts \
     angstrom-clearlooks-theme-enable \
+    packagegroup-image-base \
+    \
     dconf \
     xinput-calibrator \
-    ttf-dejavu-sans ttf-dejavu-sans-mono ttf-dejavu-common \
     \
     gnome-settings-daemon gnome-control-center \
     gnome-keyring \
@@ -23,10 +23,7 @@ IMAGE_INSTALL += " \
     gnome-disk-utility \
     gnome-system-monitor \
     nautilus \
-    gedit \
     gpe-scap \
     bash \
     tzdata \
-    \
-    operator-user \
 "
