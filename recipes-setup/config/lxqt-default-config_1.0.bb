@@ -11,5 +11,5 @@ SRC_URI = " \
 do_install() {
     # default user configration -> /etc/skel
     install -d ${D}${sysconfdir}/skel/Desktop
-    cp -rp ${WORKDIR}/.config ${D}${sysconfdir}/skel/
+    cp -r ${WORKDIR}/.config ${D}${sysconfdir}/skel/
 }
