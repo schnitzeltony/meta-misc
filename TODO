@@ -23,19 +23,7 @@ TopPrio:
 	* RTC backup charge
 
 
-* opkg:
-	* chown in do_install nonworking (polkit rights issue) http://lists.openembedded.org/pipermail/openembedded-core/2014-April/091779.html
-
-* xfce4-settings:
-	* Touch:
-		* port to 4.12 (libinput)
-		* do not handle gtk-touchscreen-mode persistent
-		* on device remove: If there is at least one pointer device with cursor left over show it otherwise hide
-		* remove hide option and detect touchscreen automatically (as in touchscreen calibration)
-		* does not work for QT applications
-
 * lxdm:
-	* displays systemd-journal-gateway as user
 	* mouse hotplug
 
 * thunar:
@@ -46,7 +34,7 @@ TopPrio:
 * xfdesktop:
 	fix dragging multiple items (see http://git.xfce.org/xfce/xfdesktop/commit/?id=578732b85aee34d0d48b4c16ac9ef398b644a9fc)
 
-* chrome/firefox not working
+* chrome not working ??
 
 * xarchiver:
 	* open-with / doubleclick
@@ -56,7 +44,6 @@ TopPrio:
 	gtk3
 
 * gvfs:
-	* automount broken
 	* 'special' memory-stick
 
 * geany-plugins
@@ -102,7 +89,3 @@ TODO others:
 # --enable-ps       ->    PostScript Backend.:  no
 # --enable-djvu     ->    DJVU Backend.......:  no
 # --enable-impress  ->    Impress Backend....:  no
-
-* gobject-introspection
-
-* mame
