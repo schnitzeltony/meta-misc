@@ -21,6 +21,11 @@ RDEPENDS_${PN} = " \
     firefox \
     \
     gparted \
+    \
+    ark \
+    filelight \
+    konsole \
+    spectacle \
 "
 
 #    epdf
