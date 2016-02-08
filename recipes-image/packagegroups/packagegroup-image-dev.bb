@@ -9,6 +9,7 @@ RDEPENDS_${PN} = " \
     qt5-creator \
     hexedit \
     glade3 \
+    umbrello \
     \
     unzip xz tar bzip2 \
     make cmake \
