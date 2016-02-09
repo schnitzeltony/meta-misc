@@ -1,6 +1,8 @@
 # we had a PRINC here (?= in case mainline adds same)
 PE ?= "1"
 
+SYSTEMD_UPDATE_STARTSTOP = "disable"
+
 # enable autologin
 do_install_append() {
 	sed -i 	's,# autologin=.*,autologin=operator,g' \
@@ -26,21 +28,6 @@ if [ "x$D" = "x" ]; then
         rm ${localstatedir}/lib/lxdm/lxdm.conf.old
     fi
 fi
-
-# systemd_postinst is last - force override to avoid restarting during update
-# copied from systemd.bbclass & modified
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
-if type systemctl >/dev/null 2>/dev/null; then
-    systemctl $OPTS ${SYSTEMD_AUTO_ENABLE} ${SYSTEMD_SERVICE}
-fi
-
-# avoid systemd append
-exit
 }
 
 RDEPENDS_${PN} += "operator-user"
