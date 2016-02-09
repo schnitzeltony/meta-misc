@@ -2,8 +2,6 @@ require ../console/console-base-image-nm.bb
 
 export IMAGE_BASENAME = "xfce4-base-image"
 
-IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
-
 XFCE_DM ?= "lxdm"
 
 IMAGE_INSTALL += " \

@@ -4,8 +4,6 @@ export IMAGE_BASENAME = "lxqt-base-image"
 
 CONMANPKGS = "networkmanager"
 
-IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
-
 LXQT_DM ?= "lxdm"
 
 IMAGE_INSTALL += " \
