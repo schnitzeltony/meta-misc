@@ -21,6 +21,7 @@ IMAGE_LINGUAS = " \
     hu-hu \
     it-it \
     ja-jp \
+    ko-kr \
     nn-no \
     ku-tr \
     pl-pl \
