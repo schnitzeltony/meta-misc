@@ -8,6 +8,10 @@ MACHINE_SPECIFICS_FULL = ""
 MACHINE_SPECIFICS_FULL_mx6 = "gstreamer1.0-plugins-imx"
 
 RDEPENDS_${PN} = " \
+    tzdata tzdata-misc tzdata-africa \
+    tzdata-americas tzdata-antarctica tzdata-arctic tzdata-asia \
+    tzdata-atlantic tzdata-australia tzdata-europe tzdata-pacific \
+    \
     libreoffice \
     abiword-meta \
     gimp \
