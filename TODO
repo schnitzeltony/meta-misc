@@ -55,13 +55,6 @@ TopPrio:
 * gtk:
 	* force click in panel if e.g menu was opened
 
-* exo:
-	* exo-open: startup-notification gets lost
-
-* xfce4-panel/window menu
-	- don't display desktop
-	- menu size
-
 * xfce4-panel/starter
 	- limit to one instance
 
