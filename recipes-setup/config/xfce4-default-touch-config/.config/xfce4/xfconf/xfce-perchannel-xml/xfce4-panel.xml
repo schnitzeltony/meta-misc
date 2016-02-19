@@ -56,6 +56,7 @@
     <property name="plugin-2" type="string" value="clock">
       <property name="mode" type="uint" value="0"/>
       <property name="show-frame" type="bool" value="false"/>
+      <property name="show-seconds" type="bool" value="true"/>
     </property>
     <property name="plugin-4" type="string" value="mixer">
       <property name="sound-card" type="string" value=""/>
