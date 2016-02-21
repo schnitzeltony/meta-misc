@@ -10,6 +10,7 @@ RDEPENDS_${PN} = " \
     hexedit \
     glade3 \
     umbrello \
+    lokalize \
     \
     unzip xz tar bzip2 \
     make cmake \
