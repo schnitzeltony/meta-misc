@@ -19,6 +19,7 @@ RDEPENDS_${PN} = " \
     vice \
     stella \
     mame \
+    dosbox \
     \
     opentyrian \
     d1x-rebirth \
