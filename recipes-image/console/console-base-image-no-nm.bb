@@ -38,6 +38,9 @@ IMAGE_LINGUAS = " \
 # to be removed again later?
 IMAGE_FEATURES += "package-management"
 
+# we have journal
+BAD_RECOMMENDATIONS += "busybox-syslog"
+
 # add some analysing tools
 IMAGE_INSTALL += " \
     ${ROOTFS_PKGMANAGE_BOOTSTRAP} \
