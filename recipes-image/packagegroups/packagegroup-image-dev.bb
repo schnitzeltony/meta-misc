@@ -41,25 +41,21 @@ RDEPENDS_${PN} = " \
     qtquickcontrols-qmlplugins \
     qtsvg-plugins \
     \
-    qtbase-plugins-dbg \
-    qt3d-qmlplugins-dbg \
-    qtconnectivity-qmlplugins-dbg \
-    qtdeclarative-plugins-dbg \
-    qtdeclarative-qmlplugins-dbg \
-    qtenginio-qmlplugins-dbg \
-    qtimageformats-plugins-dbg \
-    qtlocation-plugins-dbg \
-    qtlocation-qmlplugins-dbg \
-    qtmultimedia-plugins-dbg \
-    qtmultimedia-qmlplugins-dbg \
-    qtsensors-plugins-dbg \
-    qtsensors-qmlplugins-dbg \
-    qtsvg-plugins-dbg \
-    qtsystems-qmlplugins-dbg \
-    qttools-plugins-dbg \
-    qtwebsockets-qmlplugins-dbg \
-    qtwebchannel-qmlplugins-dbg \
-    qtquickcontrols-qmlplugins-dbg \
+    qtbase-dbg \
+    qt3d-dbg \
+    qtconnectivity-dbg \
+    qtdeclarative-dbg \
+    qtenginio-dbg \
+    qtimageformats-dbg \
+    qtlocation-dbg \
+    qtmultimedia-dbg \
+    qtsensors-dbg \
+    qtsvg-dbg \
+    qtsystems-dbg \
+    qttools-dbg \
+    qtwebsockets-dbg \
+    qtwebchannel-dbg \
+    qtquickcontrols-dbg \
     \
     wireshark \
     nfs-utils-client \
