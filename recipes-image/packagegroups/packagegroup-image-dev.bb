@@ -22,7 +22,6 @@ RDEPENDS_${PN} = " \
     git git-bash-completion subversion \
     python-shell python-subprocess \
     python python-mako perl php vala lua php json-glib \
-    python-pygtk-demo \
     texinfo gettext \
     patch quilt ncurses dialog \
     man man-pages \
