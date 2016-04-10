@@ -9,4 +9,5 @@ DEPENDS = "gdb-cross-${TARGET_ARCH}"
 
 IMAGE_INSTALL += " \
     packagegroup-image-dev \
+    hawaii-world \
 "
