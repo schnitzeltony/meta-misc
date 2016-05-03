@@ -31,6 +31,11 @@ RDEPENDS_${PN} = " \
     filelight \
     konsole \
     spectacle \
+    \
+    qmmp \
+    drumstick \
+    timidity++ \
+    fluidsynth \
 "
 
 #    epdf
