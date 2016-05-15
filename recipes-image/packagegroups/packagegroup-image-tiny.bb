@@ -8,6 +8,7 @@ RDEPENDS_${PN} = " \
     plymouth plymouth-set-default-theme plymouth-initrd \
     \
     evince \
+    geany \
     \
     strace \
     \
