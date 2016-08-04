@@ -24,6 +24,7 @@ DEPENDS = " \
     qtquickcontrols2 \
 	qtscript \
 	qtsensors \
+    qtserialbus \
 	qtserialport \
 	qtsvg \
 	qtsystems \
