@@ -10,7 +10,6 @@ RDEPENDS_${PN} = " \
     glade3 \
     umbrello \
     lokalize \
-    geany-plugins \
     \
     unzip xz tar bzip2 \
     make cmake \
