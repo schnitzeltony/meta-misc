@@ -18,6 +18,7 @@ IMAGE_INSTALL += " \
     angstrom-packagegroup-boot \
     packagegroup-basic \
     hawaii-world \
+    sddm \
     hicolor-icon-theme \
     strace \
     \
