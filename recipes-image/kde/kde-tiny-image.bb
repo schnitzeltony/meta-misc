@@ -7,6 +7,3 @@ IMAGE_INSTALL += " \
     \
     kde-world \
 "
-
-# reenable graphical target
-IMAGE_FEATURES += "x11-base"
