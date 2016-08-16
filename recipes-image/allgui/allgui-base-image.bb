@@ -30,6 +30,8 @@ IMAGE_INSTALL += " \
     hawaii-world \
     \
     fluxbox \
+    \
+    weston \
 "
 
 # reenable graphical target

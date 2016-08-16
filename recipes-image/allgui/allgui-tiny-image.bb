@@ -14,6 +14,7 @@ IMAGE_INSTALL += " \
     rodent-icon-theme \
     \
     \
+    weston-examples \
 "
 
 # reenable graphical target
