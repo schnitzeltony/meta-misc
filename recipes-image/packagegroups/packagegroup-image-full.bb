@@ -23,7 +23,6 @@ RDEPENDS_${PN} = " \
     gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta \
     ${MACHINE_SPECIFICS_FULL} \
     \
-    firefox \
     \
     gparted \
     \
@@ -32,14 +31,17 @@ RDEPENDS_${PN} = " \
     konsole \
     spectacle \
     \
+    alsa-utils \
     qmmp \
     drumstick \
     timidity++ \
-    fluidsynth \
+    fluidsynth-bin \
+    jack-utils \
+    sox \
+    qsynth qjackctl \
 "
 
-#    epdf
-#    midori
+#    firefox
 #    chromium
 #    menulibre
 #    gursormaker
