@@ -28,7 +28,6 @@ RDEPENDS_${PN} = " \
     chrpath \
     \
     qtbase-tools \
-    qtbase-fonts \
     qtbase-plugins \
     qtbase-examples \
     qtbase-doc \
