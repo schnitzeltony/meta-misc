@@ -10,6 +10,7 @@ RDEPENDS_${PN} = " \
     glade3 \
     umbrello \
     lokalize \
+    gtk-demo gtk+3-demo \
     \
     unzip xz tar bzip2 \
     make cmake \
