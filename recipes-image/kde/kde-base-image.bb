@@ -8,6 +8,7 @@ IMAGE_INSTALL += " \
     \
     sddm \
     \
+    kf5-world \
     plasma-world \
 "
 
