@@ -10,6 +10,7 @@ RDEPENDS_${PN} = " \
     glade3 \
     umbrello \
     lokalize \
+    geany-plugins \
     gtk-demo gtk+3-demo \
     \
     unzip xz tar bzip2 \
@@ -62,5 +63,4 @@ RDEPENDS_${PN} = " \
     qemu \
 "
 
-#    geany-plugins
 #    valgrind
