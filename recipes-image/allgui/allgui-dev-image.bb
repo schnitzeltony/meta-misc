@@ -14,8 +14,4 @@ IMAGE_INSTALL += " \
     \
     plasma-workspace-dbg plasma-workspace-dev \
     libpng12-dev libpng12-dbg \
-    \
-    mesa-demos \
-    glmark2 \
-    eglinfo-x11 \
 "
