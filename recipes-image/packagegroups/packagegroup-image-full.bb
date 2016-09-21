@@ -39,6 +39,7 @@ RDEPENDS_${PN} = " \
     jack-utils \
     sox \
     qsynth qjackctl \
+    mixxx \
 "
 
 #    firefox
