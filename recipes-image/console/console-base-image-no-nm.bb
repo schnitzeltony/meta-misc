@@ -47,4 +47,5 @@ IMAGE_INSTALL += " \
     glibc-utils \
     evtest \
     systemd-analyze less \
+    strace \
 "

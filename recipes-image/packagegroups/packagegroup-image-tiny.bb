@@ -10,8 +10,6 @@ RDEPENDS_${PN} = " \
     evince \
     geany \
     \
-    strace \
-    \
     ntp ntp-utils \
     tzdata \
     dnsmasq \
