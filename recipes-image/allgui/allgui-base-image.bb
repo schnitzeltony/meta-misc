@@ -2,8 +2,6 @@ require ../console/console-base-image-nm.bb
 
 export IMAGE_BASENAME = "allagui-base-image"
 
-CONMANPKGS = "networkmanager"
-
 # currently: plasma / xfce / lxqt
 # not included: gnome / efl
 IMAGE_INSTALL += " \
