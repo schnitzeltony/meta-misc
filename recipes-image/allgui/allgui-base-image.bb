@@ -19,7 +19,7 @@ IMAGE_INSTALL += " \
     angstrom-clearlooks-theme-enable \
     angstrom-gnome-icon-theme-enable \
     packagegroup-xfce-base \
-    xfce4-default-touch-config \
+    xfce4-default-config \
     \
     \
     packagegroup-lxqt-base \

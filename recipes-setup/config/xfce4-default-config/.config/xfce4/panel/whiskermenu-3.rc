@@ -1,21 +1,26 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-web-browser.desktop
-recent=exo-file-manager.desktop,exo-terminal-emulator.desktop
+recent=exo-file-manager.desktop,exo-terminal-emulator.desktop,org.kde.kbounce.desktop,org.kde.katomic.desktop,exo-preferred-applications.desktop,qjackctl.desktop,kolourpaint.desktop,marble.desktop,libreoffice-writer.desktop,xfce-settings-manager.desktop
 button-title=Anwendungen
 button-icon=xfce4-whiskermenu
+button-single-row=false
 show-button-title=false
 show-button-icon=true
 launcher-show-name=true
 launcher-show-description=true
+launcher-show-tooltip=true
 item-icon-size=2
 hover-switch-category=false
 category-icon-size=1
 load-hierarchy=false
+recent-items-max=10
 favorites-in-recent=true
 display-recent-default=false
 position-search-alternate=false
 position-commands-alternate=false
+position-categories-alternate=false
 menu-width=400
 menu-height=500
+menu-opacity=100
 command-settings=xfce4-settings-manager
 show-command-settings=true
 command-lockscreen=xflock4
@@ -26,6 +31,8 @@ command-logout=xfce4-session-logout
 show-command-logout=true
 command-menueditor=menulibre
 show-command-menueditor=true
+command-profile=mugshot
+show-command-profile=true
 search-actions=4
 
 [action0]

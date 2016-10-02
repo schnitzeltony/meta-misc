@@ -15,13 +15,9 @@ IMAGE_INSTALL += " \
     packagegroup-xfce-base \
     packagegroup-image-base \
     \
-    xfce4-default-touch-config \
+    xfce4-default-config \
 "
 
 
 # reenable graphical target
 IMAGE_FEATURES += "x11-base"
-
-#    shared-mime-info
-#    dconf
-
