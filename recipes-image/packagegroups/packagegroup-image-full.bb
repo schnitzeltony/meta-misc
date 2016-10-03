@@ -40,6 +40,11 @@ RDEPENDS_${PN} = " \
     sox \
     qsynth qjackctl \
     mixxx \
+    \
+    gottet \
+    hexalate \
+    peg-e \
+    simsu \
 "
 
 #    firefox
