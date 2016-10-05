@@ -38,7 +38,7 @@ RDEPENDS_${PN} = " \
     fluidsynth-bin \
     jack-utils \
     sox \
-    qsynth qjackctl \
+    qsynth qjackctl a2jmidid \
     mixxx \
     \
     gottet \
