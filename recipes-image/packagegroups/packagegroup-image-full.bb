@@ -23,6 +23,7 @@ RDEPENDS_${PN} = " \
     gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta \
     ${MACHINE_SPECIFICS_FULL} \
     \
+    firefox \
     \
     gparted \
     \
@@ -47,9 +48,6 @@ RDEPENDS_${PN} = " \
     simsu \
 "
 
-#    firefox
 #    chromium
 #    menulibre
 #    gursormaker
-#    cherokee
-#    gateone
