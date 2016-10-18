@@ -46,6 +46,9 @@ RDEPENDS_${PN} = " \
     hexalate \
     peg-e \
     simsu \
+    \
+    mame \
+    dosbox \
 "
 
 #    chromium

@@ -14,12 +14,13 @@ RDEPENDS_${PN} = " \
     freeciv \
     etr \
     openastromenace \
+    gnome-chess \
+    gnome-robots \
+    mog \
     \
     z80 \
     vice \
     stella \
-    mame \
-    dosbox \
     \
     opentyrian \
     d1x-rebirth \
