@@ -3,23 +3,8 @@ TopPrio:
 * remote debug broken -> /usr/src in sysroot?
 * qt-creator compiler cannot be selected
 * gnome-games
-* postinst intecept broken
 
 
-* midori -> meta-browser
-
-* networkmanager / applet:
-	* AP default configuration for fixed IP:
-		1. Setup fixed IP for wlan0 (should be in same net as range below)
-		2. Setup dnsmasq.conf
-			domain-needed
-			bogus-priv
-			bind-dynamic
-			listen-address=<fixed IP above>  OR interface wlan0
-			dhcp-range=interface:wlan0,<start-IP>,<end-IP>
-		3. systemctl restart dnsmasq
-	* AP default configuration for fixed IP:
-		1. Setup shared for wlan0 (TBD)
 
 * lxdm:
 	* mouse hotplug
@@ -37,18 +22,6 @@ TopPrio:
 * xarchiver:
 	* open-with / doubleclick
 	* maintain
-
-* maliit-framework:
-	gtk3
-
-* geany-plugins
-	* fix build
-
-* gtk:
-	* force click in panel if e.g menu was opened
-
-* xfce4-panel/starter
-	- limit to one instance
 
 * gimp: pdf import crashes (check for old poppler patch)
 
