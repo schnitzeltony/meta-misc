@@ -7,8 +7,6 @@ IMAGE_INSTALL += " \
     gnome-bluetooth \
     florence \
     \
-    xdg-user-dirs-gtk \
-    \
     faenza-icon-theme \
     openzone \
     \
