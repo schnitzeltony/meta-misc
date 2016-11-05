@@ -6,6 +6,7 @@ inherit packagegroup
 
 RDEPENDS_${PN} = " \
     plymouth plymouth-set-default-theme plymouth-initrd \
+    xdg-user-dirs \
     \
     evince \
     geany \
