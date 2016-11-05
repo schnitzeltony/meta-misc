@@ -16,6 +16,7 @@ RDEPENDS_${PN} = " \
     abiword-meta \
     gimp \
     fontforge \
+    menulibre \
     \
     mpd \
     parole \
@@ -42,6 +43,9 @@ RDEPENDS_${PN} = " \
     qsynth qjackctl a2jmidid \
     mixxx \
     \
+    \
+    kde-games \
+    \
     gottet \
     hexalate \
     peg-e \
@@ -49,8 +53,16 @@ RDEPENDS_${PN} = " \
     \
     mame \
     dosbox \
+    z80 \
+    vice \
+    stella \
+    opentyrian \
+    d1x-rebirth \
+    \
+    pingus \
+    supertux2 \
+    openastromenace \
 "
 
 #    chromium
-#    menulibre
 #    gursormaker
