@@ -17,6 +17,3 @@ IMAGE_INSTALL += " \
     \
     weston-examples \
 "
-
-# reenable graphical target
-IMAGE_FEATURES += "x11-base"
