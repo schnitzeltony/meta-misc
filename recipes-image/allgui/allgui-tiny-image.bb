@@ -6,10 +6,6 @@ IMAGE_INSTALL += " \
     packagegroup-image-tiny \
     qpdfview \
     \
-    mesa-demos \
-    glmark2 \
-    eglinfo-x11 \
-    \
     \
     kde-world \
     \

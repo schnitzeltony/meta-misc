@@ -31,6 +31,11 @@ IMAGE_INSTALL += " \
     fluxbox \
     \
     weston \
+    \
+    \
+    mesa-demos \
+    glmark2 \
+    eglinfo-x11 \
 "
 
 # reenable graphical target
