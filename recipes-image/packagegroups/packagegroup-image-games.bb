@@ -9,26 +9,15 @@ RDEPENDS_${PN} = " \
     freeciv \
     pingus \
     scummvm \
-    supertux2 \
-    gnome-games \
-    freeciv \
     etr \
     openastromenace \
     gnome-chess \
     gnome-robots \
     mog \
     \
-    z80 \
-    vice \
-    stella \
-    \
-    opentyrian \
-    d1x-rebirth \
-    \
-    kde-games \
-    gottet \
-    hexalate \
+    gnome-games \
+    supertuxkart \
+    wesnoth wesnoth-all-campaigns \
 "
 
-#    supertuxkart
-#    wesnoth wesnoth-all-campaigns
+
