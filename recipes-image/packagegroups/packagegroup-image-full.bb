@@ -52,17 +52,9 @@ RDEPENDS_${PN} = " \
     peg-e \
     simsu \
     \
-    mame \
-    dosbox \
-    z80 \
-    vice \
-    stella \
-    opentyrian \
-    d1x-rebirth \
+    ${@bb.utils.contains('BBFILE_COLLECTIONS', 'meta-retro', 'mame dosbox z80 vice stella opentyrian d1x-rebirth', '', d)} \
     \
-    pingus \
-    supertux2 \
-    openastromenace \
+    ${@bb.utils.contains('BBFILE_COLLECTIONS', 'games-layer', 'pingus supertux2 openastromenace', '', d)} \
 "
 
 #    chromium
