@@ -30,7 +30,7 @@ IMAGE_INSTALL += " \
     \
     fluxbox \
     \
-    weston \
+    weston weston-xwayland \
     \
     \
     mesa-demos \
