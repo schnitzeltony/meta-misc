@@ -1,9 +1,9 @@
 SYSTEMD_UPDATE_STARTSTOP = "disable"
 
 # enable autologin
-do_install_append() {
-	sed -i 	's:^User=.*:User=operator:' ${D}${sysconfdir}/sddm.conf
-}
+#do_install_append() {
+#	sed -i 	's:^User=.*:User=operator:' ${D}${sysconfdir}/sddm.conf
+#}
 
 pkg_preinst_${PN}_append () {
 if [ "x$D" = "x" ]; then
