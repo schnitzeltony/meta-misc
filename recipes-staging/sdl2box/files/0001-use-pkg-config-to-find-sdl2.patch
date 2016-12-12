@@ -1,0 +1,29 @@
+From e5292647329e1044de1af2ce90d84817cab256e8 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Andreas=20M=C3=BCller?= <schnitzeltony@googlemail.com>
+Date: Sat, 10 Dec 2016 00:50:07 +0100
+Subject: [PATCH] use pkg-config to find sdl2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Signed-off-by: Andreas Müller <schnitzeltony@googlemail.com>
+---
+ Makefile | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 0fae70a..6309482 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,6 +1,6 @@
+ # SDL libraries and cflags
+-LDFLAGS:=	$(shell sdl2-config --libs)
+-CFLAGS:=	$(shell sdl2-config --cflags)
++LDFLAGS+=	$(shell pkg-config --libs sdl2)
++CFLAGS:=	$(shell pkg-config --cflags sdl2)
+ 
+ all:
+ 	$(CC) $(CFLAGS) -o sdl2box sdl2box.c $(LDFLAGS)
+-- 
+2.5.5
+
