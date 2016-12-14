@@ -2,6 +2,8 @@ require ../console/console-base-image-nm.bb
 
 export IMAGE_BASENAME = "allagui-base-image"
 
+DEPENDS += "gdb-cross-${TARGET_ARCH}"
+
 # currently: plasma / xfce / lxqt
 # not included: gnome / efl
 IMAGE_INSTALL += " \
@@ -37,6 +39,8 @@ IMAGE_INSTALL += " \
     glmark2 \
     eglinfo-x11 \
     sdl2box \
+    \
+    gdbserver \
 "
 
 # reenable graphical target
