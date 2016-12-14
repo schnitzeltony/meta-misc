@@ -36,6 +36,7 @@ IMAGE_INSTALL += " \
     mesa-demos \
     glmark2 \
     eglinfo-x11 \
+    sdl2box \
 "
 
 # reenable graphical target
