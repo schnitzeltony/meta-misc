@@ -8,6 +8,7 @@ IMAGE_INSTALL += " \
     packagegroup-gnome-xserver-base \
     packagegroup-core-x11-xserver \
     ${XFCE_DM} \
+    network-manager-applet \
     \
     angstrom-clearlooks-theme-enable \
     angstrom-gnome-icon-theme-enable \

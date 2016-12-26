@@ -2,8 +2,6 @@ require ../console/console-base-image-no-nm.bb
 
 export IMAGE_BASENAME = "lxqt-base-image"
 
-CONMANPKGS = "networkmanager"
-
 LXQT_DM ?= "lxdm"
 
 IMAGE_INSTALL += " \
