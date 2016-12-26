@@ -25,6 +25,13 @@
       </property>
       <property name="mode" type="uint" value="2"/>
       <property name="background-alpha" type="uint" value="17"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-color" type="array">
+        <value type="uint" value="2313"/>
+        <value type="uint" value="771"/>
+        <value type="uint" value="771"/>
+        <value type="uint" value="65535"/>
+      </property>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -40,6 +47,7 @@
         <value type="string" value="bluetooth-applet"/>
         <value type="string" value="thunar"/>
         <value type="string" value="bluetooth"/>
+        <value type="string" value="drkonqi"/>
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="size-max" type="uint" value="40"/>
@@ -63,8 +71,8 @@
       <property name="show-seconds" type="bool" value="true"/>
     </property>
     <property name="plugin-4" type="string" value="mixer">
-      <property name="sound-card" type="string" value="bcm2835ALSAAlsamixer"/>
-      <property name="track" type="string" value="PCM"/>
+      <property name="sound-card" type="string" value="sndrpihifiberrydacplusAlsamixer"/>
+      <property name="track" type="string" value="Digital"/>
       <property name="command" type="string" value="xfce4-mixer"/>
     </property>
     <property name="plugin-5" type="string" value="tasklist">
