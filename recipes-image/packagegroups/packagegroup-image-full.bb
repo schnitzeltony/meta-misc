@@ -41,7 +41,7 @@ RDEPENDS_${PN} = " \
     jack-utils \
     sox \
     qsynth qjackctl a2jmidid \
-    qtractor amsynth synthv1 drumkv1 samplv1 hexter whysynth \
+    rosegarden qtractor amsynth synthv1 drumkv1 samplv1 hexter whysynth \
     mixxx \
     \
     \
