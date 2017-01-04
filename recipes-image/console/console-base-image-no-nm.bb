@@ -13,7 +13,6 @@ IMAGE_INSTALL += " \
     ${ROOTFS_PKGMANAGE_BOOTSTRAP} \
     update-alternatives-opkg \
     systemd-analyze \
-    cpufreq-tweaks \
     fixmac \
     glibc-utils \
     evtest \
