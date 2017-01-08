@@ -42,6 +42,7 @@ RDEPENDS_${PN} = " \
     sox \
     qsynth qjackctl a2jmidid \
     muse rosegarden qtractor amsynth synthv1 drumkv1 samplv1 hexter whysynth \
+    polyphone \
     mixxx \
     \
     \
