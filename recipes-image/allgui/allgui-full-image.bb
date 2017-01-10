@@ -5,7 +5,7 @@ export IMAGE_BASENAME = "allgui-full-image"
 IMAGE_INSTALL += " \
     packagegroup-image-full \
     gnome-bluetooth \
-    florence \
+    onboard \
     \
     faenza-icon-theme \
     openzone \
