@@ -18,4 +18,5 @@ RDEPENDS_${PN} = " \
     wireless-tools \
     \
     bash-completion \
+    dconf-editor \
 "
