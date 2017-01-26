@@ -19,6 +19,7 @@ IMAGE_INSTALL += " \
     evtest \
     less \
     strace \
+    nano \
 "
 
 IMAGE_DEV_MANAGER   = "udev"
