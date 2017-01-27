@@ -31,8 +31,6 @@ IMAGE_INSTALL += " \
     \
     hawaii-world \
     \
-    fluxbox \
-    \
     weston weston-xwayland \
     \
     \
