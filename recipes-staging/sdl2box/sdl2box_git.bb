@@ -17,6 +17,9 @@ S = "${WORKDIR}/git"
 
 CLEANBROKEN = "1"
 
+
+LDFLAGS += "-lSDL2"
+
 do_install() {
 	install -d ${D}/${bindir}
 	install -m 0755 ${S}/${PN} ${D}/${bindir}
