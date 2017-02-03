@@ -4,6 +4,11 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/LICENSE;md5=4d92cd373abda3937c2bc47fbc49d
 
 inherit packagegroup
 
+MACHINE_SPECIFICS_TINY = ""
+MACHINE_SPECIFICS_FULL_mx6 = " \
+    teamviewer \
+"
+
 RDEPENDS_${PN} = " \
     plymouth plymouth-set-default-theme plymouth-initrd \
     xdg-user-dirs \
