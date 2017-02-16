@@ -1,7 +1,7 @@
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COREBASE}/LICENSE;md5=4d92cd373abda3937c2bc47fbc49d690"
 
-export IMAGE_BASENAME = "hawaii-base-image"
+export IMAGE_BASENAME = "liri-base-image"
 
 # to be removed again later?
 IMAGE_FEATURES += "package-management"
@@ -17,7 +17,7 @@ IMAGE_INSTALL += " \
     ${ROOTFS_PKGMANAGE_BOOTSTRAP} \
     angstrom-packagegroup-boot \
     packagegroup-basic \
-    hawaii-world \
+    liri-world \
     sddm \
     hicolor-icon-theme \
     strace \
