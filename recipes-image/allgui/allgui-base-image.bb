@@ -29,8 +29,6 @@ IMAGE_INSTALL += " \
     lxqt-default-config \
     \
     \
-    hawaii-world \
-    \
     weston weston-xwayland \
     \
     \
