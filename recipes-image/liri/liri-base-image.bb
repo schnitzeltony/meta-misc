@@ -1,17 +1,9 @@
-LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://${COREBASE}/LICENSE;md5=4d92cd373abda3937c2bc47fbc49d690"
+require ../console/console-base-image-nm.bb
 
 export IMAGE_BASENAME = "liri-base-image"
 
-# to be removed again later?
-IMAGE_FEATURES += "package-management"
-
-IMAGE_DEV_MANAGER   = "udev"
-IMAGE_INIT_MANAGER  = "systemd"
-IMAGE_INITSCRIPTS   = " "
-IMAGE_LOGIN_MANAGER = "busybox shadow"
-
-IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
+# reenable graphical target
+IMAGE_FEATURES += "x11-base"
 
 IMAGE_INSTALL += " \
     ${ROOTFS_PKGMANAGE_BOOTSTRAP} \
@@ -26,7 +18,6 @@ IMAGE_INSTALL += " \
     bash-completion \
     \
     qtbase-tools \
-    qtbase-fonts \
     qtbase-plugins \
     qtdeclarative-tools \
     qtdeclarative-qmlplugins \
