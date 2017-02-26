@@ -38,7 +38,7 @@ RDEPENDS_${PN} = " \
     drumstick \
     timidity++ \
     fluidsynth-bin fluidsynth-dssi \
-    jack-utils \
+    jack-utils patchage \
     sox \
     qsynth qjackctl a2jmidid \
     muse rosegarden qtractor lmms \
