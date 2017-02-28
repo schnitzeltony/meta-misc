@@ -5,8 +5,7 @@ PACKAGECONFIG_DISTRO += " \
     accessibility \
     icu \
     sql-sqlite \
+    gif \
+    gtk \
+    harfbuzz \
 "
-
-# meta-fsl-arm takes care the others don't yet
-#PACKAGECONFIG_GL = "gl"
-PACKAGECONFIG_GL = "gles2"
