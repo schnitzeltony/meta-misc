@@ -6,9 +6,6 @@ export IMAGE_BASENAME = "liri-base-image"
 IMAGE_FEATURES += "x11-base"
 
 IMAGE_INSTALL += " \
-    ${ROOTFS_PKGMANAGE_BOOTSTRAP} \
-    angstrom-packagegroup-boot \
-    packagegroup-basic \
     liri-world \
     sddm \
     hicolor-icon-theme \
@@ -32,14 +29,9 @@ IMAGE_INSTALL += " \
     weston weston-examples \
     \
     operator-user \
-    \
-    cinematicexperience \
 "
 
 
-inherit image
-
 #    weston-init
-#    operator-user
 #    upower udisks
 #    shared-mime-info
