@@ -1,4 +1,4 @@
-require ../console/console-base-image-no-nm.bb
+require ../console/console-base-image-nm.bb
 
 export IMAGE_BASENAME = "lxqt-base-image"
 
