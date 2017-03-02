@@ -26,8 +26,6 @@ IMAGE_INSTALL += " \
     qtwayland-plugins \
     qtwayland-examples qtwayland-tools \
     \
-    weston weston-examples \
-    \
     operator-user \
 "
 
