@@ -34,6 +34,7 @@ RDEPENDS_${PN} = " \
     spectacle \
     \
     alsa-utils \
+    pulseaudio-module-alsa-card \
     qmmp \
     drumstick \
     timidity++ \
