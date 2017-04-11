@@ -19,6 +19,8 @@ RDEPENDS_${PN} = " \
     menulibre \
     \
     mpd \
+    mpv \
+    kodi \
     parole \
     dragon \
     gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta \
