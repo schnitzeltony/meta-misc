@@ -26,7 +26,7 @@ RDEPENDS_${PN} = " \
     gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta \
     ${MACHINE_SPECIFICS_FULL} \
     \
-    firefox \
+    chromium \
     \
     gparted \
     \
@@ -64,5 +64,5 @@ RDEPENDS_${PN} = " \
     ${@bb.utils.contains('BBFILE_COLLECTIONS', 'games-layer', 'pingus supertux2 openastromenace', '', d)} \
 "
 
-#    chromium
+#    firefox 
 #    gursormaker
