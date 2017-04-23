@@ -9,3 +9,5 @@ do_install() {
     install -m 0644 ${WORKDIR}/95-audio-tweaks.conf ${D}${sysconfdir}/security/limits.d/
 
 }
+
+RDEPENDS_${PN} = "pam-plugin-limits"
