@@ -59,8 +59,8 @@ RDEPENDS_${PN} = " \
     wireshark \
     nfs-utils-client \
     lmsensors-sensord lmsensors-sensorsdetect \
-    \
-    qemu \
 "
 
+#    qemu
 #    valgrind
+
