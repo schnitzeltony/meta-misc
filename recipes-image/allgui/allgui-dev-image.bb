@@ -9,6 +9,5 @@ IMAGE_INSTALL += " \
     xfce4-dev-tools \
     libxfce4ui-glade \
     \
-    plasma-workspace-dbg plasma-workspace-dev \
     libpng12-dev libpng12-dbg \
 "
