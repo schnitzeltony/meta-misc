@@ -10,7 +10,6 @@ IMAGE_INSTALL += " \
     packagegroup-boot \
     packagegroup-basic \
     ${ROOTFS_PKGMANAGE} \
-    ${ROOTFS_PKGMANAGE_BOOTSTRAP} \
     update-alternatives-opkg \
     systemd-analyze \
     cpufrequtils \
