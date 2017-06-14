@@ -44,7 +44,7 @@ RDEPENDS_${PN} = " \
     jack-utils patchage \
     sox \
     qsynth qjackctl a2jmidid \
-    muse rosegarden qtractor lmms \
+    ardour5 muse rosegarden qtractor lmms \
     amsynth synthv1 drumkv1 samplv1 hexter whysynth calf dssi-vst \
     helm \
     zynaddsubfx \
