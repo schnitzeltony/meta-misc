@@ -8,6 +8,4 @@ IMAGE_INSTALL += " \
     exo-csource \
     xfce4-dev-tools \
     libxfce4ui-glade \
-    \
-    libpng12-dev libpng12-dbg \
 "
