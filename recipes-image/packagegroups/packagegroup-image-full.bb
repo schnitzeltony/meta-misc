@@ -40,13 +40,14 @@ RDEPENDS_${PN} = " \
     qmmp \
     drumstick \
     timidity++ \
-    fluidsynth-bin fluidsynth-dssi \
+    fluidsynth-bin fluidsynth-dssi fluidplug \
     jack-utils patchage \
     sox \
     qsynth qjackctl a2jmidid \
     ardour5 muse rosegarden qtractor lmms \
     amsynth synthv1 drumkv1 samplv1 hexter whysynth calf dssi-vst \
     helm \
+    distrho-ports \
     zynaddsubfx \
     polyphone \
     mixxx \
