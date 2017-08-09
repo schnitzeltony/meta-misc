@@ -50,6 +50,7 @@ RDEPENDS_${PN} = " \
     carla \
     distrho-ports \
     zynaddsubfx \
+    guitarix \
     polyphone \
     mixxx \
     \
