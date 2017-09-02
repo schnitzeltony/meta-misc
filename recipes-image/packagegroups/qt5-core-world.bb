@@ -1,6 +1,6 @@
 SUMMARY = "All qt5 core - just for build test"
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://${COREBASE}/LICENSE;md5=4d92cd373abda3937c2bc47fbc49d690"
+LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=4d92cd373abda3937c2bc47fbc49d690"
 
 DEPENDS = " \
     nativesdk-qtbase \
