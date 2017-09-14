@@ -29,7 +29,7 @@ userdel -rf ${USERNAME}
 ALLOW_EMPTY_${PN} = "1"
 
 # all those we are member of
-RDEPENDS_${PN} = "polkit-group-rule-datetime polkit-group-rule-network"
+RDEPENDS_${PN} = "polkit-group-rule-datetime polkit-group-rule-network audio-tweaks"
 #pointercal-xinput
 
 RPROVIDES_${PN} += "user-operator"

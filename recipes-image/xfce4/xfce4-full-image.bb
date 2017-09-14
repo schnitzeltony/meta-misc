@@ -6,9 +6,7 @@ IMAGE_INSTALL += " \
     packagegroup-image-full \
     \
     gnome-bluetooth \
-    florence \
-    \
-    xdg-user-dirs-gtk \
+    onboard \
     \
     faenza-icon-theme \
     openzone \

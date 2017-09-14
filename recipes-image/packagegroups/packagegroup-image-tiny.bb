@@ -6,10 +6,10 @@ inherit packagegroup
 
 RDEPENDS_${PN} = " \
     plymouth plymouth-set-default-theme plymouth-initrd \
+    xdg-user-dirs \
     \
     evince \
-    \
-    strace \
+    geany \
     \
     ntp ntp-utils \
     tzdata \
@@ -18,4 +18,5 @@ RDEPENDS_${PN} = " \
     wireless-tools \
     \
     bash-completion \
+    dconf-editor \
 "

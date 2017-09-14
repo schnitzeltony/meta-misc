@@ -5,10 +5,13 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/LICENSE;md5=4d92cd373abda3937c2bc47fbc49d
 inherit packagegroup
 
 RDEPENDS_${PN} = " \
-    geany \
     qt5-creator \
     hexedit \
     glade3 \
+    umbrello \
+    lokalize \
+    geany-plugins \
+    gtk-demo gtk+3-demo \
     \
     unzip xz tar bzip2 \
     make cmake \
@@ -20,7 +23,6 @@ RDEPENDS_${PN} = " \
     git git-bash-completion subversion \
     python-shell python-subprocess \
     python python-mako perl php vala lua php json-glib \
-    python-pygtk-demo \
     texinfo gettext \
     patch quilt ncurses dialog \
     man man-pages \
@@ -28,7 +30,6 @@ RDEPENDS_${PN} = " \
     chrpath \
     \
     qtbase-tools \
-    qtbase-fonts \
     qtbase-plugins \
     qtbase-examples \
     qtbase-doc \
@@ -39,25 +40,21 @@ RDEPENDS_${PN} = " \
     qtquickcontrols-qmlplugins \
     qtsvg-plugins \
     \
-    qtbase-plugins-dbg \
-    qt3d-qmlplugins-dbg \
-    qtconnectivity-qmlplugins-dbg \
-    qtdeclarative-plugins-dbg \
-    qtdeclarative-qmlplugins-dbg \
-    qtenginio-qmlplugins-dbg \
-    qtimageformats-plugins-dbg \
-    qtlocation-plugins-dbg \
-    qtlocation-qmlplugins-dbg \
-    qtmultimedia-plugins-dbg \
-    qtmultimedia-qmlplugins-dbg \
-    qtsensors-plugins-dbg \
-    qtsensors-qmlplugins-dbg \
-    qtsvg-plugins-dbg \
-    qtsystems-qmlplugins-dbg \
-    qttools-plugins-dbg \
-    qtwebsockets-qmlplugins-dbg \
-    qtwebchannel-qmlplugins-dbg \
-    qtquickcontrols-qmlplugins-dbg \
+    qtbase-dbg \
+    qt3d-dbg \
+    qtconnectivity-dbg \
+    qtdeclarative-dbg \
+    qtenginio-dbg \
+    qtimageformats-dbg \
+    qtlocation-dbg \
+    qtmultimedia-dbg \
+    qtsensors-dbg \
+    qtsvg-dbg \
+    qtsystems-dbg \
+    qttools-dbg \
+    qtwebsockets-dbg \
+    qtwebchannel-dbg \
+    qtquickcontrols-dbg \
     \
     wireshark \
     nfs-utils-client \
@@ -66,5 +63,4 @@ RDEPENDS_${PN} = " \
     qemu \
 "
 
-#    geany-plugins
 #    valgrind

@@ -2,14 +2,13 @@ require ../console/console-base-image-nm.bb
 
 export IMAGE_BASENAME = "xfce4-base-image"
 
-IMAGE_LINGUAS = "de-de fr-fr en-gb en-us"
-
 XFCE_DM ?= "lxdm"
 
 IMAGE_INSTALL += " \
     packagegroup-gnome-xserver-base \
     packagegroup-core-x11-xserver \
     ${XFCE_DM} \
+    network-manager-applet \
     \
     angstrom-clearlooks-theme-enable \
     angstrom-gnome-icon-theme-enable \
@@ -17,13 +16,9 @@ IMAGE_INSTALL += " \
     packagegroup-xfce-base \
     packagegroup-image-base \
     \
-    xfce4-default-touch-config \
+    xfce4-default-config \
 "
 
 
 # reenable graphical target
 IMAGE_FEATURES += "x11-base"
-
-#    shared-mime-info
-#    dconf
-
