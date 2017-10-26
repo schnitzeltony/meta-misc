@@ -40,7 +40,7 @@ RDEPENDS_${PN} = " \
     qmmp \
     drumstick \
     timidity++ \
-    fluidsynth-bin fluidsynth-dssi fluidplug \
+    fluidsynth-bin fluidsynth-dssi fluidplug soundfont-collection-meta \
     jack-utils patchage \
     sox \
     qsynth qjackctl a2jmidid \
