@@ -21,6 +21,7 @@
         <value type="int" value="2"/>
         <value type="int" value="4"/>
         <value type="int" value="11"/>
+        <value type="int" value="12"/>
         <value type="int" value="1"/>
         <value type="int" value="7"/>
       </property>
@@ -87,5 +88,6 @@
       <property name="group-policy" type="uint" value="0"/>
     </property>
     <property name="plugin-11" type="string" value="cpufreq"/>
+    <property name="plugin-12" type="string" value="systemload"/>
   </property>
 </channel>
