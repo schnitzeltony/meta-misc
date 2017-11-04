@@ -42,7 +42,7 @@ RDEPENDS_${PN} = " \
     timidity++ \
     fluidsynth-bin fluidsynth-dssi fluidplug soundfont-collection-meta \
     xsynth-dssi \
-    jack-utils patchage \
+    jack-utils patchage gmidimonitor \
     sox \
     qsynth qjackctl a2jmidid \
     ardour5 muse rosegarden qtractor lmms \
