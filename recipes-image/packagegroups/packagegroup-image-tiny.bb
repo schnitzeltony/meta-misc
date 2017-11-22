@@ -7,6 +7,7 @@ inherit packagegroup
 MACHINE_SPECIFICS_TINY = ""
 
 RDEPENDS_${PN} = " \
+    tzdata \
     plymouth plymouth-set-default-theme plymouth-initrd \
     xdg-user-dirs \
     \

@@ -4,11 +4,10 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 inherit packagegroup
 
-MACHINE_SPECIFICS_FULL = ""
-MACHINE_SPECIFICS_FULL_mx6 = "gstreamer1.0-plugins-imx"
-
 RDEPENDS_${PN} = " \
-    tzdata tzdata-misc tzdata-africa \
+    packagegroup-image-music \
+    \
+    tzdata-misc tzdata-africa \
     tzdata-americas tzdata-antarctica tzdata-arctic tzdata-asia \
     tzdata-atlantic tzdata-australia tzdata-europe tzdata-pacific \
     \
@@ -18,14 +17,6 @@ RDEPENDS_${PN} = " \
     fontforge \
     menulibre \
     \
-    mpd \
-    mpv \
-    kodi \
-    parole \
-    dragon \
-    gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta \
-    ${MACHINE_SPECIFICS_FULL} \
-    \
     chromium \
     \
     gparted \
@@ -34,28 +25,6 @@ RDEPENDS_${PN} = " \
     filelight \
     konsole \
     spectacle \
-    \
-    alsa-utils \
-    pulseaudio-module-alsa-card \
-    qmmp \
-    drumstick \
-    timidity++ \
-    fluidsynth-bin fluidsynth-dssi fluidplug soundfont-collection-meta \
-    xsynth-dssi \
-    jack-utils patchage gmidimonitor \
-    sox \
-    qsynth qjackctl a2jmidid \
-    ardour5 muse rosegarden qtractor lmms \
-    amsynth synthv1 drumkv1 samplv1 padthv1 hexter whysynth calf dssi-vst arty-fx \
-    helm \
-    carla \
-    distrho-ports \
-    triceratops-lv2 \
-    zynaddsubfx \
-    guitarix \
-    polyphone \
-    mixxx \
-    \
     \
     kde-games \
     \
