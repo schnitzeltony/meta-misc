@@ -16,6 +16,3 @@ IMAGE_INSTALL += " \
 "
 
 #    devilspie2
-
-# beaglebone
-#IMAGE_INSTALL_append_beaglebone = "beaglebone-getting-started gadget-init"
