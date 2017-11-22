@@ -8,14 +8,6 @@ MACHINE_SPECIFICS_MUSIC = ""
 MACHINE_SPECIFICS_MUSIC_mx6 = "gstreamer1.0-plugins-imx"
 
 RDEPENDS_${PN} = " \
-    mpd \
-    mpv \
-    kodi \
-    parole \
-    dragon \
-    gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta \
-    ${MACHINE_SPECIFICS_MUSIC} \
-    \
     alsa-utils \
     pulseaudio-module-alsa-card \
     qmmp \

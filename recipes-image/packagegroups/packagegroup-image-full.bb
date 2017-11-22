@@ -21,6 +21,14 @@ RDEPENDS_${PN} = " \
     \
     gparted \
     \
+    mpd \
+    mpv \
+    kodi \
+    parole \
+    dragon \
+    gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta \
+    ${MACHINE_SPECIFICS_MUSIC} \
+    \
     ark \
     filelight \
     konsole \
