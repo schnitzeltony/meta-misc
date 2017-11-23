@@ -4,9 +4,6 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 inherit packagegroup
 
-MACHINE_SPECIFICS_MUSIC = ""
-MACHINE_SPECIFICS_MUSIC_mx6 = "gstreamer1.0-plugins-imx"
-
 RDEPENDS_${PN} = " \
     alsa-utils \
     pulseaudio-module-alsa-card \

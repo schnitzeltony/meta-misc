@@ -4,6 +4,9 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 inherit packagegroup
 
+MACHINE_SPECIFICS_FULL = ""
+MACHINE_SPECIFICS_FULL_mx6 = "gstreamer1.0-plugins-imx"
+
 RDEPENDS_${PN} = " \
     packagegroup-image-music \
     \
@@ -27,7 +30,7 @@ RDEPENDS_${PN} = " \
     parole \
     dragon \
     gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta \
-    ${MACHINE_SPECIFICS_MUSIC} \
+    ${MACHINE_SPECIFICS_FULL} \
     \
     ark \
     filelight \
