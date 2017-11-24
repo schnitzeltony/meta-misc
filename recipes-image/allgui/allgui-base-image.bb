@@ -12,10 +12,8 @@ IMAGE_INSTALL += " \
     \
     sddm \
     \
-    \
     kf5-world \
     plasma-world \
-    \
     \
     packagegroup-gnome-xserver-base \
     angstrom-clearlooks-theme-enable \
@@ -24,12 +22,12 @@ IMAGE_INSTALL += " \
     xfce4-default-config \
     network-manager-applet \
     \
-    \
     packagegroup-lxqt-base \
     lxqt-default-config \
     \
-    weston weston-xwayland \
+    lumina \
     \
+    weston weston-xwayland \
     \
     mesa-demos \
     glmark2 \
