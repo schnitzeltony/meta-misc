@@ -16,9 +16,9 @@ RDEPENDS_${PN} = " \
     sox \
     qsynth qjackctl a2jmidid \
     ardour5 muse rosegarden qtractor lmms \
-    amsynth synthv1 drumkv1 samplv1 padthv1 hexter whysynth calf dssi-vst arty-fx \
-    helm \
-    carla \
+    synthv1 drumkv1 samplv1 padthv1 \
+    amsynth helm hexter carla whysynth calf dssi-vst arty-fx \
+    qmidiarp \
     distrho-ports \
     triceratops-lv2 \
     zynaddsubfx \
