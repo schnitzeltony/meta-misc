@@ -21,7 +21,7 @@ RDEPENDS_${PN} = " \
     qmidiarp \
     distrho-ports \
     triceratops-lv2 \
-    zynaddsubfx \
+    yoshimi zynaddsubfx \
     guitarix \
     polyphone \
     mixxx \
