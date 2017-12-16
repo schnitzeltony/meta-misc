@@ -20,7 +20,7 @@ RDEPENDS_${PN} = " \
     fontforge \
     menulibre \
     \
-    chromium \
+    chromium-x11 \
     \
     gparted \
     \
