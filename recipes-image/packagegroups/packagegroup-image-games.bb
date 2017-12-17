@@ -4,20 +4,19 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 inherit packagegroup
 
+# Those listed here are either ugly or nonworking
 RDEPENDS_${PN} = " \
     atanks \
-    freeciv \
-    pingus \
     scummvm \
     etr \
-    openastromenace \
     gnome-chess \
     gnome-robots \
-    mog \
+    supertuxkart \
+    wesnoth-all wesnoth-all-campaigns \
     \
     gnome-games \
-    supertuxkart \
-    wesnoth wesnoth-all-campaigns \
+    mog \
+    openastromenace \
 "
 
 
