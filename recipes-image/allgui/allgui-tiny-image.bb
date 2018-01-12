@@ -14,6 +14,7 @@ IMAGE_INSTALL += " \
     packagegroup-xfce-multimedia \
     rodent-icon-theme \
     gnome-theme-adwaita-dark \
+    adwaita-qt \
     \
     \
     weston-examples \
