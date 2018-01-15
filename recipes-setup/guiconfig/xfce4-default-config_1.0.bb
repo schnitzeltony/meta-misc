@@ -24,4 +24,4 @@ do_install() {
     install -m 0644 ${WORKDIR}/sunrise-sky-blue-sunlight-67832.jpeg ${D}${datadir}/backgrounds/ 
 }
 
-FILES_${PN} += "${datadir}/backgrounds ${datadir}/themes"
+FILES_${PN} += "${datadir}/backgrounds"
