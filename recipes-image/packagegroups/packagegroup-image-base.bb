@@ -14,7 +14,7 @@ RDEPENDS_${PN} = " \
     \
     operator-user \
     \
-    gedit \
+    gedit gtksourceview-classic-light \
     xarchiver \
     shared-mime-info \
     xterm \
