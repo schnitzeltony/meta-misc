@@ -19,6 +19,7 @@ RDEPENDS_${PN} = " \
     dnsmasq \
     bind \
     wireless-tools \
+    devilspie2 \
     \
     bash-completion \
     dconf-editor \

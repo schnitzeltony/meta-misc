@@ -14,5 +14,3 @@ IMAGE_INSTALL += " \
     orage \
     xfce4-orageclock-plugin \
 "
-
-#    devilspie2
