@@ -30,6 +30,7 @@ RDEPENDS_${PN} = " \
     parole \
     dragon \
     gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta \
+    pulseaudio-misc \
     ${MACHINE_SPECIFICS_FULL} \
     \
     ark \
