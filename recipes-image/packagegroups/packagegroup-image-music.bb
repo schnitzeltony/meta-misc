@@ -20,7 +20,7 @@ RDEPENDS_${PN} = " \
     synthv1 synthv1-presets drumkv1 drumkv1-presets samplv1 padthv1 padthv1-presets \
     amsynth helm hexter carla whysynth calf dssi-vst arty-fx mda-lv2 nekobee setbfree \
     qmidiarp infamousplugins hydrogen hydrogen-drumkits \
-    distrho-ports \
+    distrho-ports distrho-ports-presets \
     triceratops-lv2 \
     yoshimi zynaddsubfx \
     guitarix \
