@@ -10,7 +10,7 @@ RDEPENDS_${PN} = " \
     qmmp \
     drumstick \
     timidity++ \
-    fluidsynth-bin fluidsynth-dssi fluidplug soundfont-collection-meta \
+    fluidsynth-bin fluidsynth-dssi soundfont-collection-meta \
     xsynth-dssi \
     jack-utils patchage gmidimonitor \
     sox \
