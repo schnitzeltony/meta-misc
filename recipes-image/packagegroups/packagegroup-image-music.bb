@@ -19,7 +19,7 @@ RDEPENDS_${PN} = " \
     ardour5 muse rosegarden qtractor qtractor-defconfig lmms \
     synthv1 synthv1-presets drumkv1 drumkv1-presets samplv1 padthv1 padthv1-presets \
     amsynth helm hexter carla whysynth calf dssi-vst arty-fx mda-lv2 nekobee \
-    avldrums.lv2 setbfree \
+    avldrums.lv2 meters.lv2 setbfree tuna.lv2 fil4.lv2 \
     qmidiarp infamousplugins hydrogen hydrogen-drumkits \
     distrho-ports distrho-ports-presets \
     triceratops-lv2 \
