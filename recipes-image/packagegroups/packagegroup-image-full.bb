@@ -46,6 +46,7 @@ RDEPENDS_${PN} = " \
     simsu \
     \
     qwt-qt5-examples \
+    gnuplot gnuplot-x11 \
     \
     ${@bb.utils.contains('BBFILE_COLLECTIONS', 'meta-retro', 'mame dosbox z80 vice stella opentyrian d1x-rebirth', '', d)} \
     \
