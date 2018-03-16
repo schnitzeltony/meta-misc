@@ -6,4 +6,5 @@ XFCE_DM = "sddm"
 
 IMAGE_INSTALL += " \
     packagegroup-image-music \
+    libreoffice \
 "
