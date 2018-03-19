@@ -16,8 +16,6 @@ IMAGE_INSTALL += " \
     plasma-world \
     \
     packagegroup-gnome-xserver-base \
-    angstrom-clearlooks-theme-enable \
-    angstrom-gnome-icon-theme-enable \
     packagegroup-xfce-base \
     xfce4-default-config \
     network-manager-applet \

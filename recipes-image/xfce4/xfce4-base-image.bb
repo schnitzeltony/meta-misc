@@ -10,9 +10,6 @@ IMAGE_INSTALL += " \
     ${XFCE_DM} \
     network-manager-applet \
     \
-    angstrom-clearlooks-theme-enable \
-    angstrom-gnome-icon-theme-enable \
-    \
     packagegroup-xfce-base \
     packagegroup-image-base \
     \
