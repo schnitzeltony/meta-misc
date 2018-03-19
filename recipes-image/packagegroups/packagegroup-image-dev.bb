@@ -22,7 +22,7 @@ RDEPENDS_${PN} = " \
     gdb gdbserver \
     git git-bash-completion subversion \
     python-shell python-subprocess \
-    python python-mako perl php vala lua php json-glib \
+    python perl php vala lua php json-glib \
     texinfo gettext \
     patch quilt ncurses dialog \
     man man-pages \
