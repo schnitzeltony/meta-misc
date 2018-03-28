@@ -8,10 +8,7 @@ USERNAME = "operator"
 # space separated groups user shall be member of
 USERGROUPS = "mpd audio video network datetime systemd-journal"
 
-pkg_postinst_${PN}() {
-if [ "x$D" != "x" ]; then
-	exit 1
-fi
+pkg_postinst_ontarget_${PN}() {
 groupadd -f ${USERNAME}
 useradd -m -c Operator -d /home/${USERNAME} -s /bin/bash -k /etc/skel -g ${USERNAME} ${USERNAME}
 passwd -d ${USERNAME}
