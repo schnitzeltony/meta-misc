@@ -12,7 +12,6 @@ RDEPENDS_${PN} = " \
     gnome-chess \
     gnome-robots \
     supertuxkart \
-    wesnoth-all wesnoth-all-campaigns \
     \
     gnome-games \
     mog \
