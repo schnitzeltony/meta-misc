@@ -1,6 +1,6 @@
 require ../console/console-base-image-nm.bb
 
-export IMAGE_BASENAME = "allagui-base-image"
+export IMAGE_BASENAME = "allgui-base-image"
 
 DEPENDS += "gdb-cross-${TARGET_ARCH}"
 
