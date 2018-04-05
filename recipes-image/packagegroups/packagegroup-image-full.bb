@@ -23,6 +23,7 @@ RDEPENDS_${PN} = " \
     chromium-x11 \
     \
     gparted \
+    gnome-system-monitor \
     \
     mpd \
     mpv \
