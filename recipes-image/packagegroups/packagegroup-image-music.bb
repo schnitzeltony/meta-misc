@@ -14,7 +14,7 @@ RDEPENDS_${PN} = " \
     xsynth-dssi \
     jack-utils patchage gmidimonitor \
     sox \
-    qsynth qjackctl qmidinet qmidictl \
+    qsynth qjackctl qjackctl-defconfig qmidinet qmidictl \
     a2jmidid midifilter.lv2 \
     ardour5 muse rosegarden qtractor qtractor-defconfig lmms \
     synthv1 synthv1-presets drumkv1 drumkv1-presets samplv1 padthv1 padthv1-presets \
