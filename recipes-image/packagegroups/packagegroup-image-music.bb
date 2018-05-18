@@ -21,7 +21,7 @@ RDEPENDS_${PN} = " \
     amsynth helm hexter carla whysynth calf dssi-vst arty-fx mda-lv2 nekobee \
     avldrums.lv2 meters.lv2 setbfree tuna.lv2 fil4.lv2 \
     qmidiarp infamousplugins hydrogen hydrogen-drumkits \
-    distrho-ports distrho-ports-presets \
+    distrho-ports distrho-ports-presets dpf-plugins \
     triceratops-lv2 \
     yoshimi zynaddsubfx \
     guitarix \
