@@ -18,7 +18,6 @@ RDEPENDS_${PN} = " \
     tzdata \
     dnsmasq \
     bind \
-    wireless-tools \
     devilspie2 \
     \
     bash-completion \
