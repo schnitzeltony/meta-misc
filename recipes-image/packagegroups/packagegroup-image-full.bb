@@ -27,7 +27,6 @@ RDEPENDS_${PN} = " \
     \
     mpd \
     mpv \
-    kodi \
     parole \
     dragon \
     gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta \
@@ -56,4 +55,5 @@ RDEPENDS_${PN} = " \
 
 #    firefox 
 #    gursormaker
+#    kodi 
 
