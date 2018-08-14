@@ -21,6 +21,5 @@ RDEPENDS_${PN} = " \
     devilspie2 \
     \
     bash-completion \
-    dconf-editor \
     ${MACHINE_SPECIFICS_TINY} \
 "
