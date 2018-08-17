@@ -28,9 +28,6 @@ IMAGE_INSTALL += " \
     weston weston-xwayland \
     \
     mesa-demos \
-    glmark2 \
-    eglinfo-x11 \
-    sdl2box \
     \
     gdbserver \
 "
