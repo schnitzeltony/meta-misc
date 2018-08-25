@@ -6,7 +6,7 @@ SRC_URI = " \
     file://0001-use-pkg-config-to-find-sdl2.patch \
 "
 
-SRCREV= "469a02ee59ffd8b5e40cc2cb85ed8955b146f0c1"
+SRCREV= "196a0a6de050590f0ae79ec0795ba4d424c328ec"
 PV = "0.0.0+git${SRCPV}"
 
 inherit pkgconfig
