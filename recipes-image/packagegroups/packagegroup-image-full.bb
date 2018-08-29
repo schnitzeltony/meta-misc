@@ -37,7 +37,7 @@ RDEPENDS_${PN} = " \
     konsole \
     spectacle \
     \
-    kde-games \
+    kde-apps-world \
     \
     gottet \
     hexalate \
