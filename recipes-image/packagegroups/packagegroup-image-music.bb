@@ -6,7 +6,7 @@ inherit packagegroup
 
 RDEPENDS_${PN} = " \
     meta-qt5-extra-music-world \
-    alsa-utils \
+    alsa-utils alsa-utils-scripts \
     jack-utils \
     pulseaudio-module-alsa-card \
     sox \
