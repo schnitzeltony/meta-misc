@@ -12,5 +12,7 @@ IMAGE_INSTALL += " \
     gnome-theme-adwaita-dark \
     adwaita-qt \
     \
+    packagegroup-kde-apps-tiny \
+    \
     weston-examples \
 "
