@@ -31,7 +31,7 @@ inherit image
 export IMAGE_BASENAME = "console-base-image-no-nm"
 
 # there are important missing I bet
-IMAGE_LINGUAS = " \
+IMAGE_LINGUAS ?= " \
     af-za \
     ar-sa \
     da-dk \
