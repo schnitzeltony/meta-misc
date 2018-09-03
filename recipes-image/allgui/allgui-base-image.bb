@@ -15,10 +15,7 @@ IMAGE_INSTALL += " \
     kf5-world \
     plasma-world \
     \
-    packagegroup-gnome-xserver-base \
     packagegroup-xfce-base \
-    xfce4-default-config \
-    network-manager-applet \
     \
     packagegroup-lxqt-base \
     lxqt-default-config \
