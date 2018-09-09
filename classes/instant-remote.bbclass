@@ -57,3 +57,22 @@ do_copysourcestosysroot() {
         done
     fi
 }
+
+# remove source links
+do_clean[cleandirs] += "${INSTANT_REMOTE_PATH}/usr/src/debug/${PN}"
+
+do_clean_append() {
+    # remove binaries from mainfest
+    manifest = "%s/manifests/%s" % (d.expand("${INSTANT_REMOTE_PATH}"), d.expand("${PN}"))
+    if os.path.isfile(manifest):
+        bb.note("Removing all files from manifest " + manifest)
+        manifestfile = open(manifest, "r")
+        for filetoremove in manifestfile:
+            filetoremove = filetoremove.rstrip()
+            filetoremove = d.expand("${INSTANT_REMOTE_PATH}") + filetoremove
+            if os.path.isfile(filetoremove):
+                os.remove(filetoremove)
+        manifestfile.close()
+
+        os.remove(manifest)
+}
