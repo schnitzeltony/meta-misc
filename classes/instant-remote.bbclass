@@ -31,7 +31,7 @@ do_copysourcestosysroot() {
         rm ${INSTANT_REMOTE_PATH}/manifests/${PN}
     fi
     # add new
-    for pkgdbg in `find ${WORKDIR}/packages-split -maxdepth 1 -name '*-dbg'` ; do
+    for pkgdbg in `find ${WORKDIR}/packages-split -mindepth 1 -maxdepth 1 -type d -name '*-dbg'` ; do
         debug_binaries=
         if [ "${PACKAGE_DEBUG_SPLIT_STYLE}" = "debug-file-directory" ] ; then
             if [ -d $pkgdbg/usr/lib/debug ] ; then
@@ -51,8 +51,19 @@ do_copysourcestosysroot() {
                 filestripped=`echo $file | sed -e 's:\.debug/::'`
             fi
             # keep files in manifest
-	        echo $filestripped >> ${INSTANT_REMOTE_PATH}/manifests/${PN}
 	        echo $file >> ${INSTANT_REMOTE_PATH}/manifests/${PN}
+	        echo $filestripped >> ${INSTANT_REMOTE_PATH}/manifests/${PN}
+	        # check for so-file links
+	        if echo $filestripped | grep -q '\.so'; then
+	            soname=`basename $filestripped`
+                for packsplit in `find ${WORKDIR}/packages-split -mindepth 1 -maxdepth 1 -type d ! -name '*-dbg' ! -name '*-dev' ! -name '*-doc'` ; do
+	                for link in `find $packsplit -lname $soname` ; do
+                        # do 'root' path
+                        link=`echo $link | sed -e 's:'$packsplit'::'`
+	                    echo $link >> ${INSTANT_REMOTE_PATH}/manifests/${PN}
+	                done
+	            done
+	        fi
         done
     done
 
