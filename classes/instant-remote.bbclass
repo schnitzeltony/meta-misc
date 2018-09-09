@@ -32,13 +32,24 @@ do_copysourcestosysroot() {
     fi
     # add new
     for pkgdbg in `find ${WORKDIR}/packages-split -maxdepth 1 -name '*-dbg'` ; do
-        for file in `find $pkgdbg -wholename '*.debug/*'`; do
+        debug_binaries=
+        if [ "${PACKAGE_DEBUG_SPLIT_STYLE}" = "debug-file-directory" ] ; then
+            if [ -d $pkgdbg/usr/lib/debug ] ; then
+                debug_binaries=`find $pkgdbg/usr/lib/debug -name '*.debug'`
+            fi
+        else
+            debug_binaries=`find $pkgdbg -wholename '*.debug/*'`
+        fi
+        for file in $debug_binaries; do
             # do 'root' path
             file=`echo $file | sed -e 's:'$pkgdbg'::'`
 
             # stripped binary (non debug)
-            filestripped=`echo $file | sed -e 's:.debug/::'`
-
+            if [ "${PACKAGE_DEBUG_SPLIT_STYLE}" = "debug-file-directory" ] ; then
+                filestripped=`echo $file | sed -e 's:/usr/lib/debug::' -e 's:\.debug::'`
+            else
+                filestripped=`echo $file | sed -e 's:\.debug/::'`
+            fi
             # keep files in manifest
 	        echo $filestripped >> ${INSTANT_REMOTE_PATH}/manifests/${PN}
 	        echo $file >> ${INSTANT_REMOTE_PATH}/manifests/${PN}
