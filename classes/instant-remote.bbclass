@@ -30,6 +30,15 @@ do_copysourcestosysroot() {
         # remove old manifest
         rm ${INSTANT_REMOTE_PATH}/manifests/${PN}
     fi
+    # get path to library-link once only
+    if [ "${PN}" = "glibc-locale" ] ; then
+        PACK_SPLIT_LIB_LINK_SEARCH_PATH=`find ${WORKDIR}/packages-split -mindepth 1 -maxdepth 1 -type d ! -name '*-dbg' ! -name '*-dev' ! -name '*-staticdev' ! -name '*-doc' ! -name 'glibc*-localedata-*' ! -name 'glibc-charmap-*' ! -name 'locale-base-*'`
+    # other specials go here
+    # elif...
+    else
+        PACK_SPLIT_LIB_LINK_SEARCH_PATH=`find ${WORKDIR}/packages-split -mindepth 1 -maxdepth 1 -type d ! -name '*-dbg' ! -name '*-dev' ! -name '*-staticdev' ! -name '*-doc' ! -name '${PN}*-locale-*'`
+    fi
+    echo "Search so-link in $PACK_SPLIT_LIB_LINK_SEARCH_PATH.."
     # add new
     for pkgdbg in `find ${WORKDIR}/packages-split -mindepth 1 -maxdepth 1 -type d -name '*-dbg'` ; do
         debug_binaries=
@@ -56,7 +65,7 @@ do_copysourcestosysroot() {
 	        # check for so-file links
 	        if echo $filestripped | grep -q '\.so'; then
 	            soname=`basename $filestripped`
-                for packsplit in `find ${WORKDIR}/packages-split -mindepth 1 -maxdepth 1 -type d ! -name '*-dbg' ! -name '*-dev' ! -name '*-doc'` ; do
+                for packsplit in  $PACK_SPLIT_LIB_LINK_SEARCH_PATH; do
 	                for link in `find $packsplit -lname $soname` ; do
                         # do 'root' path
                         link=`echo $link | sed -e 's:'$packsplit'::'`
